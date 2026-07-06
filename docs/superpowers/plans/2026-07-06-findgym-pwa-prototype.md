@@ -25,7 +25,7 @@
 - Create: `manifest.webmanifest` - PWA metadata.
 - Create: `src/styles.css` - Responsive mobile-first visual system.
 - Create: `src/findgym-core.js` - Pure functions for filtering, ranking, comparing, formatting, and report validation.
-- Create: `src/app.js` - Browser state, DOM rendering, interactions, local storage persistence.
+- Create: `src/app.js` - Task 1 creates a non-interactive boot stub; Task 3 replaces it with browser state, DOM rendering, interactions, and local storage persistence.
 - Create: `data/gyms.json` - Seed gyms for Taipei/New Taipei validation.
 - Create: `tests/findgym-core.test.mjs` - Node tests for core behavior.
 - Modify: `README.md` - Add run/test instructions.
@@ -38,6 +38,7 @@
 - Create: `index.html`
 - Create: `manifest.webmanifest`
 - Create: `src/styles.css`
+- Create: `src/app.js`
 - Create: `data/gyms.json`
 - Modify: `README.md`
 
@@ -212,7 +213,11 @@ Add five more records by copying the same shape and changing ids, names, distric
 
 Create `src/styles.css` with variables, shell layout, cards, drawers, filters, and map marker styles. Use fixed dimensions for marker buttons and comparison controls so dynamic labels do not shift layout.
 
-- [ ] **Step 5: Update README**
+- [ ] **Step 5: Create boot stub**
+
+Create `src/app.js` with a non-interactive placeholder render so the shell loads without missing local files. Task 3 replaces this with full app behavior.
+
+- [ ] **Step 6: Update README**
 
 Add commands:
 
@@ -234,16 +239,16 @@ node --test tests/findgym-core.test.mjs
 ```
 ```
 
-- [ ] **Step 6: Verify shell**
+- [ ] **Step 7: Verify shell**
 
 Run: `python3 -m http.server 5173`
 
 Expected: Server starts and `index.html` loads without missing local files.
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 8: Commit**
 
 ```bash
-git add index.html manifest.webmanifest src/styles.css data/gyms.json README.md
+git add index.html manifest.webmanifest src/styles.css src/app.js data/gyms.json README.md docs/superpowers/plans/2026-07-06-findgym-pwa-prototype.md
 git commit -m "feat: scaffold static PWA prototype"
 ```
 
@@ -377,7 +382,7 @@ git commit -m "feat: add gym discovery core logic"
 ### Task 3: Interactive Discovery UI
 
 **Files:**
-- Create: `src/app.js`
+- Modify: `src/app.js`
 - Modify: `src/styles.css`
 
 **Interfaces:**
@@ -526,4 +531,3 @@ Type consistency:
 
 - All UI code consumes functions exported by `src/findgym-core.js`.
 - Seed data field names use camelCase consistently with tests and app code.
-

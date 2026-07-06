@@ -1,0 +1,10 @@
+{
+  "name": "Findgym",
+  "short_name": "Findgym",
+  "description": "Find no-contract and pay-per-use gyms in Taiwan.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f2ea",
+  "theme_color": "#145c55",
+  "icons": []
+}

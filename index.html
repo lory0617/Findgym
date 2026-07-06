@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#145c55" />
+    <title>Findgym</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main id="app" class="app-shell">
+      <section class="topbar" aria-label="Findgym search and filters">
+        <div>
+          <p class="eyebrow">免綁約健身房搜尋</p>
+          <h1>Findgym</h1>
+        </div>
+        <button id="locateButton" class="icon-button" type="button" aria-label="使用目前位置">⌖</button>
+      </section>
+
+      <form id="filterForm" class="filter-panel">
+        <label class="search-field">
+          <span>搜尋</span>
+          <input id="searchInput" name="query" type="search" placeholder="城市、行政區、捷運站或健身房" autocomplete="off" />
+        </label>
+        <div class="filter-grid" aria-label="篩選條件">
+          <label><input name="openNow" type="checkbox" /> 營業中</label>
+          <label><input name="singleEntry" type="checkbox" checked /> 單次收費</label>
+          <label><input name="noContract" type="checkbox" /> 免綁月繳</label>
+          <label><input name="squatRack" type="checkbox" /> 深蹲架</label>
+          <label><input name="shower" type="checkbox" /> 淋浴</label>
+          <label><input name="parking" type="checkbox" /> 停車</label>
+        </div>
+      </form>
+
+      <section class="workspace">
+        <section class="map-section" aria-label="健身房地圖">
+          <div id="mapCanvas" class="map-canvas"></div>
+        </section>
+        <section class="results-section" aria-label="健身房清單">
+          <div class="section-heading">
+            <h2>附近選項</h2>
+            <span id="resultCount"></span>
+          </div>
+          <div id="gymList" class="gym-list"></div>
+        </section>
+      </section>
+
+      <section id="detailPanel" class="drawer" aria-live="polite"></section>
+      <section id="comparePanel" class="drawer drawer-secondary" aria-live="polite"></section>
+      <section id="reportPanel" class="drawer drawer-secondary" aria-live="polite"></section>
+    </main>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

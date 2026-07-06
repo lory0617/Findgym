@@ -13,3 +13,18 @@ The initial product design is documented in:
 
 - `docs/superpowers/specs/2026-07-06-findgym-mvp-design.md`
 
+## Local Prototype
+
+Run a static server from the repo root:
+
+```bash
+python3 -m http.server 5173
+```
+
+Open `http://localhost:5173`.
+
+Run core tests:
+
+```bash
+node --test tests/findgym-core.test.mjs
+```
