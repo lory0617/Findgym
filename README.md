@@ -28,3 +28,7 @@ Run core tests:
 ```bash
 node --test tests/findgym-core.test.mjs
 ```
+
+## Prototype Scope
+
+This prototype uses demonstration gym records. Prices, opening hours, ratings, and facilities must be re-verified before public launch.
