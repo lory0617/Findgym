@@ -203,6 +203,25 @@ h2 {
   white-space: nowrap;
 }
 
+.map-marker.is-selected {
+  background: var(--accent);
+  transform: translate(-50%, -50%) scale(1.08);
+  z-index: 3;
+}
+
+.map-compass {
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  left: 12px;
+  padding: 6px 10px;
+  position: absolute;
+  top: 12px;
+}
+
 .section-heading {
   align-items: center;
   display: flex;
@@ -335,10 +354,48 @@ h2 {
   gap: 12px;
 }
 
+.drawer-title-row {
+  align-items: start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.icon-button-light {
+  background: #eef2f1;
+  color: var(--ink);
+}
+
 .detail-grid,
 .comparison-grid {
   display: grid;
   gap: 10px;
+}
+
+.detail-address {
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.price-card {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: var(--radius);
+  display: grid;
+  gap: 4px;
+  margin: 12px 0;
+  padding: 12px;
+}
+
+.price-card span,
+.price-card small {
+  color: #9a3412;
+}
+
+.price-card strong {
+  color: #7c2d12;
+  font-size: 1.45rem;
 }
 
 .fact-list {
@@ -389,6 +446,34 @@ h2 {
   border-radius: var(--radius);
   color: #166534;
   padding: 10px;
+}
+
+.comparison-table {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: grid;
+  margin-top: 12px;
+  overflow-x: auto;
+}
+
+.comparison-cell {
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  font-size: 0.84rem;
+  line-height: 1.35;
+  min-height: 48px;
+  padding: 10px;
+}
+
+.comparison-heading {
+  background: var(--surface-muted);
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.row-label {
+  color: var(--muted);
+  font-weight: 800;
 }
 
 @media (min-width: 760px) {
