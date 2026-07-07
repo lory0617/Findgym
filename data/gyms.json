@@ -25763,10 +25763,10 @@
     }
   },
   {
-    "id": "newtaipei-gym-14ckm6g",
-    "name": "跨時代健身中心板橋店",
-    "brandName": "",
-    "branchName": "",
+    "id": "newtaipei-fitology-banqiao-fuzhong",
+    "name": "運動學 Fitology 板橋府中店",
+    "brandName": "運動學 Fitology",
+    "branchName": "板橋府中店",
     "city": "新北市",
     "district": "板橋區",
     "address": "新北市板橋區民族路35號B1",
@@ -25774,22 +25774,30 @@
     "longitude": 121.4616913,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": true,
+    "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": false,
+      "supportsSingleEntry": true,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
+      "contractNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告。"
     },
     "pricing": [
       {
-        "type": "other",
+        "type": "single_entry",
+        "amountTwd": null,
+        "unit": "per_entry",
+        "timeLimitMinutes": null,
+        "sourceNote": "Facebook 公開頁描述列三個分館地址；Linkgoods 列單次與分鐘制計費，但未列明金額。",
+        "lastVerifiedAt": "2026-07-07"
+      },
+      {
+        "type": "hourly",
         "amountTwd": null,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
+        "sourceNote": "Facebook 公開頁描述列三個分館地址；Linkgoods 列單次與分鐘制計費，但未列明金額。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -25802,10 +25810,10 @@
       "hasCableMachine": false,
       "hasCardio": false,
       "hasGroupClasses": false,
-      "hasPersonalTraining": false,
+      "hasPersonalTraining": true,
       "hasShower": false,
       "hasLocker": false,
-      "hasParking": true,
+      "hasParking": false,
       "is24Hours": false
     },
     "openingHours": [
@@ -25857,28 +25865,29 @@
       "externalRatingCount": 0,
       "externalSource": "none",
       "summaryTags": [
-        "政府開放資料",
-        "付費開放",
-        "待查證"
+        "官方社群",
+        "單次",
+        "計時收費",
+        "價格待查"
       ]
     },
     "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "government_open_data",
+      "confidenceLevel": "likely",
+      "verificationSource": "official_social_profile",
       "verifiedAt": "2026-07-07"
     },
     "contact": {
-      "phone": "02-29643111",
-      "website": "",
+      "phone": "",
+      "website": "https://linkgoods.com/fitology",
       "mapUrl": ""
     },
     "source": {
-      "sourceId": "sagov-national-sports-facilities",
-      "sourceName": "體育署全國運動場館資訊",
-      "sourceType": "government_open_data",
-      "sourceUrl": "https://data.gov.tw/dataset/22849",
-      "sourceRecordUrl": "https://data.gov.tw/dataset/22849",
-      "sourceLicense": "政府資料開放授權條款-第1版（Open Government Data License, version 1.0）; attribution required; price, hours, and access still require official-source verification",
+      "sourceId": "curated-single-entry-gyms",
+      "sourceName": "Owner-curated single-entry gym research",
+      "sourceType": "manual_research",
+      "sourceUrl": "data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv",
+      "sourceRecordUrl": "https://www.facebook.com/fitologytw/?locale=zh_TW",
+      "sourceLicense": "Owner-verified manual research compiled on 2026-07-07; per-record source URLs recorded; pricing and status require re-verification via official channels before launch",
       "importedAt": "2026-07-07"
     }
   },
@@ -42927,6 +42936,264 @@
       "sourceUrl": "https://data.gov.tw/dataset/22849",
       "sourceRecordUrl": "https://data.gov.tw/dataset/22849",
       "sourceLicense": "政府資料開放授權條款-第1版（Open Government Data License, version 1.0）; attribution required; price, hours, and access still require official-source verification",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-fitology-wenshan",
+    "name": "運動學 Fitology 文山店",
+    "brandName": "運動學 Fitology",
+    "branchName": "文山店",
+    "city": "台北市",
+    "district": "文山區",
+    "address": "台北市文山區興隆路二段252號B1",
+    "latitude": null,
+    "longitude": null,
+    "status": "open",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告。"
+    },
+    "pricing": [
+      {
+        "type": "single_entry",
+        "amountTwd": null,
+        "unit": "per_entry",
+        "timeLimitMinutes": null,
+        "sourceNote": "Facebook 公開頁描述列三個分館地址；Linkgoods 列單次與分鐘制計費，但未列明金額。",
+        "lastVerifiedAt": "2026-07-07"
+      },
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "custom",
+        "timeLimitMinutes": null,
+        "sourceNote": "Facebook 公開頁描述列三個分館地址；Linkgoods 列單次與分鐘制計費，但未列明金額。",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": true,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": false,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": true,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "官方社群",
+        "單次",
+        "計時收費",
+        "價格待查"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "likely",
+      "verificationSource": "official_social_profile",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "https://linkgoods.com/fitology",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "curated-single-entry-gyms",
+      "sourceName": "Owner-curated single-entry gym research",
+      "sourceType": "manual_research",
+      "sourceUrl": "data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv",
+      "sourceRecordUrl": "https://www.facebook.com/fitologytw/?locale=zh_TW",
+      "sourceLicense": "Owner-verified manual research compiled on 2026-07-07; per-record source URLs recorded; pricing and status require re-verification via official channels before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-fitology-ximen",
+    "name": "運動學 Fitology 西門店",
+    "brandName": "運動學 Fitology",
+    "branchName": "西門店",
+    "city": "台北市",
+    "district": "萬華區",
+    "address": "台北市萬華區漢口街二段73號B1",
+    "latitude": null,
+    "longitude": null,
+    "status": "open",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告。"
+    },
+    "pricing": [
+      {
+        "type": "single_entry",
+        "amountTwd": null,
+        "unit": "per_entry",
+        "timeLimitMinutes": null,
+        "sourceNote": "Facebook 公開頁描述列三個分館地址；Linkgoods 列單次與分鐘制計費，但未列明金額。",
+        "lastVerifiedAt": "2026-07-07"
+      },
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "custom",
+        "timeLimitMinutes": null,
+        "sourceNote": "Facebook 公開頁描述列三個分館地址；Linkgoods 列單次與分鐘制計費，但未列明金額。",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": true,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": false,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": true,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "官方社群",
+        "單次",
+        "計時收費",
+        "價格待查"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "likely",
+      "verificationSource": "official_social_profile",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "https://linkgoods.com/fitology",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "curated-single-entry-gyms",
+      "sourceName": "Owner-curated single-entry gym research",
+      "sourceType": "manual_research",
+      "sourceUrl": "data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv",
+      "sourceRecordUrl": "https://www.facebook.com/fitologytw/?locale=zh_TW",
+      "sourceLicense": "Owner-verified manual research compiled on 2026-07-07; per-record source URLs recorded; pricing and status require re-verification via official channels before launch",
       "importedAt": "2026-07-07"
     }
   }

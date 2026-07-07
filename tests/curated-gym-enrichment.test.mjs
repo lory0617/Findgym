@@ -40,6 +40,21 @@ test("parsePricingFromFeeText extracts single-entry, hourly, and monthly prices"
   assert.equal(hourlyWorded[0].amountTwd, 50);
 });
 
+test("parsePricingFromFeeText preserves amountless single-entry and timed pricing mentions", () => {
+  const prices = parsePricingFromFeeText(
+    "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
+    "2026-07-07"
+  );
+
+  assert.deepEqual(
+    prices.map((price) => [price.type, price.amountTwd, price.unit]),
+    [
+      ["single_entry", null, "per_entry"],
+      ["hourly", null, "custom"]
+    ]
+  );
+});
+
 test("enrichGymsFromCurated updates matching gyms with curated pricing and access", () => {
   const csv = `${csvHeader}
 1,2026-07-07,高雄市,大寮區,公立運動中心體適能中心,高雄市運動中心,大寮運動中心,高雄市大寮區進學路151號 （輔英科技大學體育館）,體適能中心50元/小時,是,營運中,官方費率,備註,https://example.org/daliao,保留

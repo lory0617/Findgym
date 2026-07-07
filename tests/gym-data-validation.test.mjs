@@ -246,6 +246,21 @@ test("current default visible data has no unverified source candidates", async (
   assert.deepEqual(unverifiedNames, []);
 });
 
+test("current default single-entry data includes all Fitology branches with timed pricing", async () => {
+  const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
+  const gyms = JSON.parse(raw);
+  const results = filterGyms(gyms, { singleEntry: true }, new Date("2026-07-07T12:00:00+08:00"));
+  const fitology = results.filter((gym) => gym.brandName === "運動學 Fitology");
+
+  assert.deepEqual(
+    fitology.map((gym) => gym.branchName).sort(),
+    ["文山店", "板橋府中店", "西門店"]
+  );
+  assert.equal(fitology.every((gym) => gym.access.supportsSingleEntry), true);
+  assert.equal(fitology.every((gym) => gym.pricing.some((price) => price.type === "single_entry")), true);
+  assert.equal(fitology.every((gym) => gym.pricing.some((price) => price.type === "hourly")), true);
+});
+
 test("current data/gyms.json does not include demo placeholder gyms", async () => {
   const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
   const gyms = JSON.parse(raw);

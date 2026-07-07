@@ -45,51 +45,7 @@
           "免綁約",
           "出發前複核"
         ]
-      },
-      "openingHours": [
-        {
-          "weekday": 0,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        }
-      ]
+      }
     },
     {
       "name": "MYWAY Fitness",
@@ -157,6 +113,22 @@
           "timeLimitMinutes": null,
           "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 980,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -171,51 +143,7 @@
           "免綁約",
           "出發前複核"
         ]
-      },
-      "openingHours": [
-        {
-          "weekday": 0,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        }
-      ]
+      }
     },
     {
       "name": "Refine Fitness 松江南京店",
@@ -236,9 +164,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "other",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場不限時間：平日17:00前150元/次、17:00後350元/次、假日200元/次。",
           "lastVerifiedAt": "2026-07-07"
@@ -359,9 +287,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次：每次95-150元，不限時間/次數；計時：每分鐘0.8-1.3元；免開辦費/入會費/手續費。",
           "lastVerifiedAt": "2026-07-07"
@@ -420,51 +348,7 @@
           "免綁約",
           "出發前複核"
         ]
-      },
-      "openingHours": [
-        {
-          "weekday": 0,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "09:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        }
-      ]
+      }
     },
     {
       "name": "給力健身 TDF Fitness 貳房",
@@ -485,11 +369,60 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "monthly_no_contract",
+          "amountTwd": 999,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中山運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區中山北路二段44巷2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -531,6 +464,145 @@
           "unit": "per_entry",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中正運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "中正區",
+      "address": "臺北市中正區信義路一段1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "More Fit 市府店",
+      "brandName": "More Fit",
+      "branchName": "市府店",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "臺北市信義區基隆路一段139號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/faq/fees",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 980,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "信義運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "臺北市信義區松勤街100號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -595,6 +667,47 @@
       "branchName": "和平店",
       "city": "台北市",
       "district": "信義區",
+      "address": "臺北市信義區和平東路三段333號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "每分鐘1.3元"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "每分鐘1.3元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "體育客 1ST Fitness 和平店",
+      "brandName": "體育客 1ST Fitness",
+      "branchName": "和平店",
+      "city": "台北市",
+      "district": "信義區",
       "address": "臺北市信義區和平東路三段333號",
       "latitude": null,
       "longitude": null,
@@ -608,9 +721,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1.3元；儲值500元送100元。",
           "lastVerifiedAt": "2026-07-07"
@@ -655,6 +768,227 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場不限時間200元；以分計費：離峰1.2元/分鐘、尖峰1.5元/分鐘（平日18:00-22:00），單次最高收取180元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場不限時間200元；以分計費：離峰1.2元/分鐘、尖峰1.5元/分鐘（平日18:00-22:00），單次最高收取180元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "練一下 Gymcube 內湖店",
+      "brandName": "練一下 Gymcube",
+      "branchName": "內湖店",
+      "city": "台北市",
+      "district": "內湖區",
+      "address": "臺北市內湖區成功路三段145號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場200元；分鐘制分店方案略有差異"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；分鐘制分店方案略有差異",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；分鐘制分店方案略有差異",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "內湖運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "內湖區",
+      "address": "臺北市內湖區洲子街12號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "北投運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "北投區",
+      "address": "臺北市北投區石牌路一段39巷100號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "南港運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "南港區",
+      "address": "臺北市南港區玉成街69號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "士林運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "士林區",
+      "address": "臺北市士林區士商路1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -690,9 +1024,17 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "monthly_no_contract",
+          "amountTwd": 999,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
           "lastVerifiedAt": "2026-07-07"
@@ -737,6 +1079,55 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "大同運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "大同區",
+      "address": "臺北市大同區大龍街51號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -775,6 +1166,14 @@
           "type": "single_entry",
           "amountTwd": 150,
           "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元/天，當日不限時間與次數；以分計費：離峰1.1元/分鐘、尖峰1.3元/分鐘（平日17:00-21:00）；最低儲值100元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元/天，當日不限時間與次數；以分計費：離峰1.1元/分鐘、尖峰1.3元/分鐘（平日17:00-21:00）；最低儲值100元。",
           "lastVerifiedAt": "2026-07-07"
@@ -854,11 +1253,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "分鐘制/單次制；公開整理文未列精確價格",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "健身魂 Soulfit 大安店",
+      "brandName": "健身魂 Soulfit",
+      "branchName": "大安店",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "臺北市大安區信義路三段109號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "悠遊卡付費每分鐘1.3元"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "悠遊卡付費每分鐘1.3元",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -959,6 +1399,47 @@
       }
     },
     {
+      "name": "大安運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "臺北市大安區辛亥路三段55號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
       "name": "More Fit 萬芳店",
       "brandName": "More Fit",
       "branchName": "萬芳店",
@@ -983,6 +1464,22 @@
           "timeLimitMinutes": null,
           "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 980,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -997,51 +1494,48 @@
           "免綁約",
           "出發前複核"
         ]
+      }
+    },
+    {
+      "name": "文山運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "文山區",
+      "address": "臺北市文山區興隆路三段222號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
       },
-      "openingHours": [
+      "pricing": [
         {
-          "weekday": 0,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
         }
-      ]
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
     },
     {
       "name": "SelfRoom Workoutplace",
@@ -1062,9 +1556,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "other",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次/計時：1分鐘2元；最低儲值100元起；儲1000元贈500點數。",
           "lastVerifiedAt": "2026-07-07"
@@ -1103,11 +1597,60 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "monthly_no_contract",
+          "amountTwd": 999,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "松山運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "松山區",
+      "address": "臺北市松山區敦化北路1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -1167,6 +1710,129 @@
       }
     },
     {
+      "name": "萬華運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "",
+      "city": "台北市",
+      "district": "萬華區",
+      "address": "臺北市萬華區西寧南路6-1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；各館可能有學生/敬老/回數票，依館內公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "三峽國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "三峽區",
+      "address": "新北市三峽區文化路210巷12號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "三重國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "三重區",
+      "address": "新北市三重區集美街55號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
       "name": "Fitopia 團練",
       "brandName": "Fitopia",
       "branchName": "團練",
@@ -1185,9 +1851,17 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "monthly_no_contract",
+          "amountTwd": 999,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；月費999元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1元；月費999元。",
           "lastVerifiedAt": "2026-07-07"
@@ -1231,6 +1905,55 @@
           "unit": "per_entry",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場200元；以分計費1分鐘1元，進場基本費20點；首儲300元（點數200點+開辦費100元）或首儲500元（無開辦費）。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；以分計費1分鐘1元，進場基本費20點；首儲300元（點數200點+開辦費100元）或首儲500元（無開辦費）。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中和國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區錦和路350-2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -1290,6 +2013,129 @@
       }
     },
     {
+      "name": "五股國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "五股區",
+      "address": "新北市五股區成泰路三段296號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "New Power GYM 新力量健身俱樂部",
+      "brandName": "New Power GYM",
+      "branchName": "新力量健身俱樂部",
+      "city": "新北市",
+      "district": "土城區",
+      "address": "新北市土城區立德路135巷2-3號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/NewPowerGYM",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次/計時：1分鐘1元；首次需300元製卡費；儲值1000贈100、3000贈300、5000贈800。"
+      },
+      "pricing": [
+        {
+          "type": "other",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次/計時：1分鐘1元；首次需300元製卡費；儲值1000贈100、3000贈300、5000贈800。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "土城國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "土城區",
+      "address": "新北市土城區金城路二段247-1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
       "name": "More Fit 七張店",
       "brandName": "More Fit",
       "branchName": "七張店",
@@ -1314,6 +2160,22 @@
           "timeLimitMinutes": null,
           "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 980,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1328,51 +2190,97 @@
           "免綁約",
           "出發前複核"
         ]
+      }
+    },
+    {
+      "name": "新店國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區北新路一段88巷12號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
       },
-      "openingHours": [
+      "pricing": [
         {
-          "weekday": 0,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
         }
-      ]
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Go走吧運動 主館",
+      "brandName": "Go走吧運動",
+      "branchName": "主館",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區裕民街128號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/98gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。"
+      },
+      "pricing": [
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 1000,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
     },
     {
       "name": "Go走吧運動 新莊二館",
@@ -1393,11 +2301,60 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "monthly_no_contract",
+          "amountTwd": 1000,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "新莊國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區公園路11號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -1434,9 +2391,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1.3元；儲值500元送100元。",
           "lastVerifiedAt": "2026-07-07"
@@ -1481,6 +2438,22 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場100元不限時間；以分計費1分鐘1元，最低儲值1000元（一年內用完）；月費999元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 999,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場100元不限時間；以分計費1分鐘1元，最低儲值1000元（一年內用完）；月費999元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場100元不限時間；以分計費1分鐘1元，最低儲值1000元（一年內用完）；月費999元。",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1522,6 +2495,22 @@
           "timeLimitMinutes": null,
           "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 980,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1536,51 +2525,130 @@
           "免綁約",
           "出發前複核"
         ]
+      }
+    },
+    {
+      "name": "板橋國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區智樂路6號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
       },
-      "openingHours": [
+      "pricing": [
         {
-          "weekday": 0,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "07:00",
-          "closesAt": "23:00",
-          "isClosed": false
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
         }
-      ]
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "林口國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "林口區",
+      "address": "新北市林口區文化二路二段299號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "樹林國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "樹林區",
+      "address": "新北市樹林區中正路188-6號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
     },
     {
       "name": "三健客 3Musclers 永和店",
@@ -1604,6 +2672,14 @@
           "type": "single_entry",
           "amountTwd": 150,
           "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元或每分鐘1.2元",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元或每分鐘1.2元",
           "lastVerifiedAt": "2026-07-07"
@@ -1642,11 +2718,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "每分鐘1元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "永和國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區永利路250號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -1683,9 +2800,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "每分鐘1.2元",
           "lastVerifiedAt": "2026-07-07"
@@ -1730,6 +2847,137 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場300元不限時間；以分計費1分鐘1元；首次會員開辦費200元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元不限時間；以分計費1分鐘1元；首次會員開辦費200元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "汐止國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "汐止區",
+      "address": "新北市汐止區汐科路321號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "泰山國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "泰山區",
+      "address": "新北市泰山區全興路167號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "淡水國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "淡水區",
+      "address": "新北市淡水區中山北路二段381巷2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1771,6 +3019,96 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場：一小時50元；月費888元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 888,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場：一小時50元；月費888元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "蘆洲國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區長樂路235-1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "鶯歌國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "",
+      "city": "新北市",
+      "district": "鶯歌區",
+      "address": "新北市鶯歌區館前路250號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票常見50元/小時；學生票常見40元/小時；敬老票常見25元/小時；依各館公告",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1806,11 +3144,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1元；辦卡費100元；首次儲值1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "基隆市國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "基隆市",
+      "district": "仁愛區",
+      "address": "基隆市仁愛區獅球路8-1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -1853,6 +3232,14 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1888,11 +3275,339 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "以分計費：1分鐘1元；辦卡費100元；首次儲值1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中壢國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區三光路350號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中大國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區中大路300號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "八德國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "八德區",
+      "address": "桃園市八德區廣福路230號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "平鎮國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "平鎮區",
+      "address": "桃園市平鎮區中庸路18號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "南平國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區南平路22號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "桃園國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區中山東路233號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "超核心 Hypercore 桃園中正藝文館",
+      "brandName": "超核心 Hypercore",
+      "branchName": "桃園中正藝文館",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區中正路1247號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/HypercoreFitnessZhonghey",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場200元；單次入場+InBody 300元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；單次入場+InBody 300元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "蘆竹國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "蘆竹區",
+      "address": "桃園市蘆竹區仁愛路一段49號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房通常採單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -1935,6 +3650,55 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元；以分計費：全日1分鐘1元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；以分計費：全日1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "竹光國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "新竹市",
+      "district": "北區",
+      "address": "新竹市北區竹光路325號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -1973,6 +3737,14 @@
           "type": "single_entry",
           "amountTwd": 150,
           "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；月費單月1050元、三個月900元/月。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 1050,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元；月費單月1050元、三個月900元/月。",
           "lastVerifiedAt": "2026-07-07"
@@ -2017,6 +3789,186 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場158元/次；以分計費：1分鐘1元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場158元/次；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "新竹市愛運動健身中心",
+      "brandName": "iSport Gym HsinChu",
+      "branchName": "",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區公道五路二段469號4樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/isportgym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場140元；以分計費：1.3元/分；單月1300元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 140,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場140元；以分計費：1.3元/分；單月1300元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場140元；以分計費：1.3元/分；單月1300元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "新科國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區光復路一段89巷90號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "竹北國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市莊敬南路18號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "竹東全民運動館",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "新竹縣",
+      "district": "竹東鎮",
+      "address": "新竹縣竹東鎮至善路51號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -2052,9 +4004,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "other",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場不限時：平日08:30-17:30為80元/次；平日17:30-22:30與假日100元/次。",
           "lastVerifiedAt": "2026-07-07"
@@ -2093,9 +4045,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2134,9 +4086,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2198,6 +4150,47 @@
       }
     },
     {
+      "name": "北區國民運動中心",
+      "brandName": "臺中市國民運動中心",
+      "branchName": "",
+      "city": "台中市",
+      "district": "北區",
+      "address": "臺中市北區崇德路一段55號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
       "name": "ONCE Fitness 單次健身 東山店",
       "brandName": "ONCE Fitness 單次健身",
       "branchName": "東山店",
@@ -2216,9 +4209,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2257,9 +4250,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "other",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單張券200元；10張1800元；50張6800元；100張9800元；單次進場不限時間，所有中力場館通用。",
           "lastVerifiedAt": "2026-07-07"
@@ -2318,51 +4311,48 @@
           "免綁約",
           "出發前複核"
         ]
+      }
+    },
+    {
+      "name": "南屯國民運動中心",
+      "brandName": "臺中市國民運動中心",
+      "branchName": "",
+      "city": "台中市",
+      "district": "南屯區",
+      "address": "臺中市南屯區黎明路一段998號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）"
       },
-      "openingHours": [
+      "pricing": [
         {
-          "weekday": 0,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）",
+          "lastVerifiedAt": "2026-07-07"
         }
-      ]
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
     },
     {
       "name": "GYMneration 健身時代",
@@ -2386,6 +4376,14 @@
           "type": "single_entry",
           "amountTwd": 150,
           "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次150元，不限時間與入場次數；月費600元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 600,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "單次150元，不限時間與入場次數；月費600元。",
           "lastVerifiedAt": "2026-07-07"
@@ -2465,9 +4463,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2506,11 +4504,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "other",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單張券200元；10張1800元；50張6800元；100張9800元；單次進場不限時間，所有中力場館通用。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "大里國民運動中心",
+      "brandName": "臺中市國民運動中心",
+      "branchName": "",
+      "city": "台中市",
+      "district": "大里區",
+      "address": "臺中市大里區國光路一段258號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -2547,9 +4586,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2588,9 +4627,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2629,11 +4668,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "other",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單張券200元；10張券1800元；50張券6800元；100張券9800元；單次進場不限時間，所有中力場館通用。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "潭子國民暨兒童運動中心",
+      "brandName": "臺中市國民運動中心",
+      "branchName": "",
+      "city": "台中市",
+      "district": "潭子區",
+      "address": "臺中市潭子區勝利路140號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -2690,51 +4770,7 @@
           "免綁約",
           "出發前複核"
         ]
-      },
-      "openingHours": [
-        {
-          "weekday": 0,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        }
-      ]
+      }
     },
     {
       "name": "COASTLINE 科士力訓練",
@@ -2758,6 +4794,14 @@
           "type": "single_entry",
           "amountTwd": 150,
           "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元，不限時間；月費800元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 800,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元，不限時間；月費800元。",
           "lastVerifiedAt": "2026-07-07"
@@ -2802,6 +4846,22 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場：單日300元；月費單月1200元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "daily",
+          "amountTwd": 300,
+          "unit": "per_day",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場：單日300元；月費單月1200元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 1200,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場：單日300元；月費單月1200元。",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -2837,9 +4897,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -2878,9 +4938,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次/計時：每分鐘1元。",
           "lastVerifiedAt": "2026-07-07"
@@ -2939,51 +4999,7 @@
           "免綁約",
           "出發前複核"
         ]
-      },
-      "openingHours": [
-        {
-          "weekday": 0,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "08:00",
-          "closesAt": "23:00",
-          "isClosed": false
-        }
-      ]
+      }
     },
     {
       "name": "ONCE Fitness 單次健身 東海店",
@@ -3004,9 +5020,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -3051,6 +5067,14 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -3086,11 +5110,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": null,
-          "unit": "per_entry",
+          "unit": "custom",
           "timeLimitMinutes": null,
           "sourceNote": "單次/計時：每分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "朝馬國民運動中心",
+      "brandName": "臺中市國民運動中心",
+      "branchName": "",
+      "city": "台中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區朝貴路199號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -3127,11 +5192,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "和美全民運動館",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "彰化縣",
+      "district": "和美鎮",
+      "address": "彰化縣和美鎮西興路321號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -3168,9 +5274,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -3215,6 +5321,55 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "彰南國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "彰化縣",
+      "district": "員林市",
+      "address": "彰化縣員林市員林大道二段235號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -3250,11 +5405,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "彰北國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "彰化縣",
+      "district": "彰化市",
+      "address": "彰化縣彰化市建國東路2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -3291,9 +5487,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -3332,9 +5528,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -3373,9 +5569,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
           "lastVerifiedAt": "2026-07-07"
@@ -3461,6 +5657,14 @@
           "timeLimitMinutes": null,
           "sourceNote": "單次入場150元不限時間；月費1099元不限時間/次數。",
           "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 1099,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元不限時間；月費1099元不限時間/次數。",
+          "lastVerifiedAt": "2026-07-07"
         }
       ],
       "facilities": {
@@ -3496,11 +5700,52 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
+          "type": "hourly",
           "amountTwd": 50,
-          "unit": "per_entry",
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Abs Gym Abs健身俱樂部",
+      "brandName": "Abs Gym",
+      "branchName": "Abs健身俱樂部",
+      "city": "雲林縣",
+      "district": "斗六市",
+      "address": "雲林縣斗六市西平路77號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/AbsGymDoiliu",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場200元；單周400元；單月1300元；雙月2000元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；單周400元；單月1300元；雙月2000元。",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -3542,6 +5787,55 @@
           "unit": "per_entry",
           "timeLimitMinutes": null,
           "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "雲林國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "雲林縣",
+      "district": "斗六市",
+      "address": "雲林縣斗六市莊敬路353號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -3624,6 +5918,47 @@
           "unit": "per_entry",
           "timeLimitMinutes": null,
           "sourceNote": "單次200元/次；打卡優惠150元/次；套票1000元/10次、2000元/21次。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "嘉義市國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "嘉義市",
+      "district": "東區",
+      "address": "嘉義市東區彌陀路327巷15號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -3765,6 +6100,47 @@
       }
     },
     {
+      "name": "永華國民運動中心",
+      "brandName": "臺南市國民運動中心",
+      "branchName": "",
+      "city": "台南市",
+      "district": "中西區",
+      "address": "臺南市中西區中華西路二段30號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告"
+      },
+      "pricing": [
+        {
+          "type": "other",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
       "name": "健身肌地 Fitness Base",
       "brandName": "Fitness Base",
       "branchName": "",
@@ -3865,9 +6241,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
@@ -3885,51 +6261,7 @@
           "免綁約",
           "出發前複核"
         ]
-      },
-      "openingHours": [
-        {
-          "weekday": 0,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 1,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 2,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 3,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 4,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 5,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        },
-        {
-          "weekday": 6,
-          "opensAt": "06:00",
-          "closesAt": "22:00",
-          "isClosed": false
-        }
-      ]
+      }
     },
     {
       "name": "前鎮運動中心",
@@ -3950,9 +6282,9 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
@@ -3991,9 +6323,50 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "岡山運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "岡山區",
+      "address": "高雄市岡山區中山南路169號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
@@ -4073,9 +6446,50 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "楠仔坑運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "楠梓區",
+      "address": "高雄市楠梓區旗楠路168號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
@@ -4114,9 +6528,50 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "苓雅運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區中正一路96號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
           "timeLimitMinutes": null,
           "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
           "lastVerifiedAt": "2026-07-07"
@@ -4155,11 +6610,93 @@
       },
       "pricing": [
         {
-          "type": "single_entry",
-          "amountTwd": null,
-          "unit": "per_entry",
+          "type": "monthly_no_contract",
+          "amountTwd": 1300,
+          "unit": "per_month",
           "timeLimitMinutes": null,
           "sourceNote": "單日不限次數與時間300元；打卡分享半價；月費1300元不綁約。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "鳳山國民運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "鳳山區",
+      "address": "高雄市鳳山區光華路68號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "鳳山運動園區",
+      "brandName": "鳳山運動園區",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "鳳山區",
+      "address": "高雄市鳳山區光華路68號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/FengshanSportsPark",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "健身房單次50元/時。"
+      },
+      "pricing": [
+        {
+          "type": "other",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "健身房單次50元/時。",
           "lastVerifiedAt": "2026-07-07"
         }
       ],
@@ -4196,11 +6733,371 @@
       },
       "pricing": [
         {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "鼓山運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "鼓山區",
+      "address": "高雄市鼓山區桃子園路1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "屏東市國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "屏東縣",
+      "district": "屏東市",
+      "address": "屏東縣屏東市勝利東路50號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "宜蘭國民運動中心",
+      "brandName": "各縣市公立運動中心",
+      "branchName": "",
+      "city": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "宜蘭縣宜蘭市公園路66號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Lifting Tribes 体能部落",
+      "brandName": "Lifting Tribes",
+      "branchName": "体能部落",
+      "city": "花蓮縣",
+      "district": "吉安鄉",
+      "address": "花蓮縣吉安鄉吉安路一段252-1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/LiftingTribes",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "自主訓練平日15:00-17:30，2小時30分鐘200元；請先向粉絲頁詢問是否正常營業。"
+      },
+      "pricing": [
+        {
+          "type": "other",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "自主訓練平日15:00-17:30，2小時30分鐘200元；請先向粉絲頁詢問是否正常營業。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Sunshine Fitness 陽光健身中心花蓮館",
+      "brandName": "Sunshine Fitness",
+      "branchName": "陽光健身中心花蓮館",
+      "city": "花蓮縣",
+      "district": "花蓮市",
+      "address": "花蓮縣花蓮市國聯二路39號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/SunshineFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元；31天月費男980元/女880元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；31天月費男980元/女880元。",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "monthly_no_contract",
+          "amountTwd": 980,
+          "unit": "per_month",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；31天月費男980元/女880元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "運動學 Fitology 文山店",
+      "brandName": "運動學 Fitology",
+      "branchName": "文山店",
+      "city": "台北市",
+      "district": "文山區",
+      "address": "台北市文山區興隆路二段252號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.facebook.com/fitologytw/?locale=zh_TW",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告"
+      },
+      "pricing": [
+        {
           "type": "single_entry",
           "amountTwd": null,
           "unit": "per_entry",
           "timeLimitMinutes": null,
-          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "sourceNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "運動學 Fitology 西門店",
+      "brandName": "運動學 Fitology",
+      "branchName": "西門店",
+      "city": "台北市",
+      "district": "萬華區",
+      "address": "台北市萬華區漢口街二段73號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.facebook.com/fitologytw/?locale=zh_TW",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "運動學 Fitology 板橋府中店",
+      "brandName": "運動學 Fitology",
+      "branchName": "板橋府中店",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區民族路35號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.facebook.com/fitologytw/?locale=zh_TW",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
+          "lastVerifiedAt": "2026-07-07"
+        },
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "custom",
+          "timeLimitMinutes": null,
+          "sourceNote": "官方社群與 Linkgoods 標示單次、分鐘制計費、月費、年費；實際金額需洽官方 LINE 或館方公告",
           "lastVerifiedAt": "2026-07-07"
         }
       ],

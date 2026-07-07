@@ -169,6 +169,17 @@ export function parsePricingFromFeeText(feeText, verifiedAt) {
     prices.push({ type: "monthly_no_contract", amountTwd: Number(monthly[1]), unit: "per_month", ...basePrice });
   }
 
+  if (
+    !prices.some((price) => price.type === "single_entry" || price.type === "daily") &&
+    /單次(?:入場|通行券|計費)?(?:[；;，,、\s]|$)/.test(text)
+  ) {
+    prices.push({ type: "single_entry", amountTwd: null, unit: "per_entry", ...basePrice });
+  }
+
+  if (!prices.some((price) => price.type === "hourly") && /分鐘制|分鐘計費|計時收費|以分計費|每分鐘/.test(text)) {
+    prices.push({ type: "hourly", amountTwd: null, unit: "custom", ...basePrice });
+  }
+
   if (prices.length === 0) {
     prices.push({ type: "other", amountTwd: null, unit: "custom", ...basePrice });
   }
