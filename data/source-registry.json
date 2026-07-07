@@ -1,0 +1,34 @@
+[
+  {
+    "sourceId": "gymnomad-research-only",
+    "sourceName": "Gymnomad Taiwan",
+    "sourceUrl": "https://www.gymnomadtw.com/search",
+    "status": "research_only",
+    "importAllowed": false,
+    "reason": "Use for product and UI research only unless written authorization is obtained."
+  },
+  {
+    "sourceId": "google-maps-blocked",
+    "sourceName": "Google Maps and Google Places",
+    "sourceUrl": "https://maps.google.com",
+    "status": "blocked",
+    "importAllowed": false,
+    "reason": "Do not copy, scrape, cache, or bulk-import place listing data into Findgym."
+  },
+  {
+    "sourceId": "government-open-data",
+    "sourceName": "Government open data",
+    "sourceUrl": "https://data.gov.tw",
+    "status": "allowed_with_attribution",
+    "importAllowed": true,
+    "reason": "Allowed when the dataset license permits reuse and the imported package records attribution."
+  },
+  {
+    "sourceId": "official-venue-pages",
+    "sourceName": "Official venue and sports center pages",
+    "sourceUrl": "https://example.gov.tw/sports-centers",
+    "status": "allowed_with_manual_review",
+    "importAllowed": true,
+    "reason": "Allowed as source-backed manual research or official venue data; verify price, hours, and facilities before launch."
+  }
+]
