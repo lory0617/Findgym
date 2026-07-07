@@ -29,6 +29,12 @@ Run core tests:
 node --test tests/findgym-core.test.mjs
 ```
 
+Validate gym data:
+
+```bash
+node scripts/validate-data.mjs data/gyms.json
+```
+
 ## Prototype Scope
 
 This prototype uses demonstration gym records. Prices, opening hours, ratings, and facilities must be re-verified before public launch.

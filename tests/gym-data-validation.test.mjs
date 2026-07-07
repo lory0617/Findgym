@@ -1,7 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { execFile } from "node:child_process";
 import { readFile } from "node:fs/promises";
+import { promisify } from "node:util";
 import { summarizeGymDataset, validateGymDataset, validateGymRecord } from "../src/gym-data-validation.js";
+
+const execFileAsync = promisify(execFile);
 
 const validGym = {
   id: "taipei-test-gym",
@@ -137,4 +141,11 @@ test("current data/gyms.json is structurally valid", async () => {
   const result = validateGymDataset(gyms);
   assert.equal(result.valid, true);
   assert.equal(result.errors.length, 0);
+});
+
+test("validation CLI prints a summary for the current dataset", async () => {
+  const { stdout } = await execFileAsync("node", ["scripts/validate-data.mjs", "data/gyms.json"]);
+  assert.equal(stdout.includes("Findgym data validation"), true);
+  assert.equal(stdout.includes("Total gyms: 6"), true);
+  assert.equal(stdout.includes("Blocking errors: 0"), true);
 });
