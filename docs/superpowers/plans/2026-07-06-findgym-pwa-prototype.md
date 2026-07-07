@@ -8,6 +8,25 @@
 
 **Tech Stack:** HTML, CSS, vanilla JavaScript ES modules, Web App Manifest, Node.js built-in `node:test` and `assert`.
 
+## Execution Status
+
+Implemented on branch `codex/pwa-prototype`.
+
+- Task 1 completed: static PWA shell, manifest, responsive CSS, boot path, seed data, and README run/test instructions.
+- Task 2 completed: core filtering, ranking, pricing, comparison, and report validation logic with seven Node tests.
+- Task 3 completed: interactive discovery UI with map markers, result cards, filters, detail drawer, compare drawer, and localStorage-backed report flow.
+- Task 4 completed with documented caveat: desktop layout and browser interactions were verified through the in-app browser, and core/static checks passed. A true automated mobile viewport run was attempted through the in-app browser viewport override and local Chrome/Playwright; the in-app override still reported a 1280px viewport, and local Chrome automation was blocked by host permissions. Mobile readiness is covered by the mobile-first CSS constraints and should receive one manual device pass before public launch.
+
+Verification evidence:
+
+- `node --test tests/findgym-core.test.mjs` - 7 pass, 0 fail.
+- `node --check src/app.js` - pass.
+- `node --check src/findgym-core.js` - pass.
+- `python3 -m json.tool data/gyms.json` - pass.
+- `python3 -m json.tool manifest.webmanifest` - pass.
+- Local resource checks returned 200 for `index.html`, `src/app.js`, `src/findgym-core.js`, `data/gyms.json`, `assets/icon.svg`, and `manifest.webmanifest`.
+- Desktop browser checks found 6 gym cards, 6 map markers, no console errors, no horizontal overflow, and working detail, comparison, search, and report flows.
+
 ## Global Constraints
 
 - Build a mobile-first PWA prototype first; do not add native app tooling.
