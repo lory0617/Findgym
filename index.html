@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#145c55" />
+    <title>Findgym</title>
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main id="app" class="app-shell">
+      <section class="topbar" aria-label="Findgym search and filters">
+        <div>
+          <p class="eyebrow">免綁約健身房搜尋</p>
+          <h1>Findgym</h1>
+        </div>
+        <nav class="main-nav" aria-label="主要導覽">
+          <a href="#filterForm">找健身房</a>
+          <a href="#comparePanel">找比較</a>
+          <a href="#reportPanel">資料回報</a>
+        </nav>
+        <div class="topbar-actions">
+          <button class="secondary-button compact-button" type="button" data-action="open-report">新增據點</button>
+          <button id="locateButton" class="icon-button" type="button" aria-label="使用目前位置">⌖</button>
+        </div>
+      </section>
+
+      <form id="filterForm" class="filter-panel">
+        <label class="search-field">
+          <span>搜尋</span>
+          <input id="searchInput" name="query" type="search" placeholder="城市、行政區、捷運站或健身房" autocomplete="off" />
+        </label>
+        <label class="select-field">
+          <span>地區</span>
+          <select id="citySelect" name="city">
+            <option value="">全台灣</option>
+            <option value="台北市">台北市</option>
+            <option value="新北市">新北市</option>
+            <option value="桃園市">桃園市</option>
+            <option value="台中市">台中市</option>
+            <option value="台南市">台南市</option>
+            <option value="高雄市">高雄市</option>
+            <option value="基隆市">基隆市</option>
+            <option value="新竹市">新竹市</option>
+            <option value="嘉義市">嘉義市</option>
+            <option value="新竹縣">新竹縣</option>
+            <option value="苗栗縣">苗栗縣</option>
+            <option value="彰化縣">彰化縣</option>
+            <option value="南投縣">南投縣</option>
+            <option value="雲林縣">雲林縣</option>
+            <option value="嘉義縣">嘉義縣</option>
+            <option value="屏東縣">屏東縣</option>
+            <option value="宜蘭縣">宜蘭縣</option>
+            <option value="花蓮縣">花蓮縣</option>
+            <option value="台東縣">台東縣</option>
+            <option value="澎湖縣">澎湖縣</option>
+          </select>
+        </label>
+        <details class="service-menu">
+          <summary>服務項目</summary>
+          <div class="filter-grid" aria-label="篩選條件">
+            <label><input name="openNow" type="checkbox" /> 營業中</label>
+            <label><input name="singleEntry" type="checkbox" checked /> 單次入場</label>
+            <label><input name="hourly" type="checkbox" /> 以時計費</label>
+            <label><input name="noContract" type="checkbox" /> 免綁月繳</label>
+            <label><input name="is24Hours" type="checkbox" /> 24 小時</label>
+            <label><input name="squatRack" type="checkbox" /> 深蹲架</label>
+            <label><input name="shower" type="checkbox" /> 淋浴</label>
+            <label><input name="parking" type="checkbox" /> 停車</label>
+          </div>
+        </details>
+      </form>
+
+      <section id="dataStatus" class="data-status" aria-live="polite"></section>
+
+      <section class="workspace">
+        <section class="results-section" aria-label="健身房清單">
+          <div class="section-heading">
+            <h2>搜尋結果</h2>
+            <span id="resultCount"></span>
+          </div>
+          <div id="gymList" class="gym-list"></div>
+        </section>
+        <section class="map-section" aria-label="健身房地圖">
+          <div id="mapCanvas" class="map-canvas"></div>
+        </section>
+      </section>
+
+      <section id="detailPanel" class="drawer" aria-live="polite"></section>
+      <section id="comparePanel" class="drawer drawer-secondary" aria-live="polite"></section>
+      <section id="reportPanel" class="drawer drawer-secondary" aria-live="polite"></section>
+    </main>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

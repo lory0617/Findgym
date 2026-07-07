@@ -1,0 +1,61 @@
+{
+  "sourceId": "sample-official-sports-center",
+  "sourceName": "Sample official sports center source",
+  "sourceType": "official_venue",
+  "sourceUrl": "https://example.gov.tw/sports-centers",
+  "sourceLicense": "Sample only; replace with actual source license before import",
+  "fetchedAt": "2026-07-07",
+  "records": [
+    {
+      "name": "臺北市範例運動中心",
+      "brandName": "臺北市運動中心",
+      "branchName": "範例",
+      "city": "台北市",
+      "district": "中正區",
+      "address": "台北市中正區範例路1號",
+      "latitude": 25.03,
+      "longitude": 121.52,
+      "phone": "02-1234-5678",
+      "website": "https://example.gov.tw/sports-centers/sample",
+      "sourceRecordUrl": "https://example.gov.tw/sports-centers/sample",
+      "access": {
+        "supportsSingleEntry": true
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": 50,
+          "unit": "per_hour",
+          "timeLimitMinutes": 60,
+          "sourceNote": "Sample source row",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true,
+        "hasSquatRack": true,
+        "hasShower": true
+      },
+      "openingHours": [
+        { "weekday": 1, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false },
+        { "weekday": 2, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false },
+        { "weekday": 3, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false },
+        { "weekday": 4, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false },
+        { "weekday": 5, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false },
+        { "weekday": 6, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false },
+        { "weekday": 0, "opensAt": "06:00", "closesAt": "22:00", "isClosed": false }
+      ]
+    },
+    {
+      "name": "World Gym 範例店",
+      "brandName": "World Gym",
+      "branchName": "範例",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "台北市信義區範例路99號",
+      "latitude": 25.04,
+      "longitude": 121.56,
+      "sourceRecordUrl": "https://example.gov.tw/sports-centers/world-gym-sample"
+    }
+  ]
+}

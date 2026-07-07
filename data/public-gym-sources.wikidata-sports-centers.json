@@ -1,0 +1,244 @@
+{
+  "sourceId": "wikidata-taiwan-sports-centers",
+  "sourceName": "Wikidata Taiwan sports center seed",
+  "sourceType": "open_knowledge_base",
+  "sourceUrl": "https://query.wikidata.org/",
+  "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
+  "fetchedAt": "2026-07-07",
+  "records": [
+    {
+      "name": "中山運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "中山",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "台北市中山區中山北路二段44巷2號",
+      "latitude": 25.05488889,
+      "longitude": 121.52138889,
+      "website": "https://cssc.cyc.org.tw/",
+      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10875378",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "信義運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "信義",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "台北市信義區松勤街100號",
+      "latitude": 25.0317,
+      "longitude": 121.5668,
+      "website": "https://xysc.teamxports.com/",
+      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10888039",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "南港運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "南港",
+      "city": "台北市",
+      "district": "南港區",
+      "address": "台北市南港區玉成街69號",
+      "latitude": 25.04904,
+      "longitude": 121.58055,
+      "website": "https://ngsc.cyc.org.tw/",
+      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10908517",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "大同運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "大同",
+      "city": "台北市",
+      "district": "大同區",
+      "address": "台北市大同區大龍街51號",
+      "latitude": 25.06486111,
+      "longitude": 121.51613889,
+      "website": "http://www.dtsc-wdyg.com.tw/",
+      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10934204",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "宜蘭國民運動中心",
+      "brandName": "宜蘭縣國民運動中心",
+      "branchName": "宜蘭",
+      "city": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "宜蘭縣宜蘭市公園路66號",
+      "latitude": 24.738936,
+      "longitude": 121.755786,
+      "website": "https://yilansports.com.tw/",
+      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q48896688",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "松山運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "松山",
+      "city": "台北市",
+      "district": "松山區",
+      "address": "台北市松山區敦化北路1號",
+      "latitude": 25.04861111,
+      "longitude": 121.55022222,
+      "website": "http://sssc.com.tw/",
+      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q11104381",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    }
+  ]
+}
