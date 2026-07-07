@@ -1,0 +1,3782 @@
+{
+  "sourceId": "curated-single-entry-gyms",
+  "sourceName": "Owner-curated single-entry gym research",
+  "sourceType": "manual_research",
+  "sourceUrl": "data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv",
+  "sourceLicense": "Owner-verified manual research compiled on 2026-07-07; per-record source URLs recorded; pricing and status require re-verification via official channels before launch",
+  "fetchedAt": "2026-07-07",
+  "records": [
+    {
+      "name": "BEING fit 松江門市",
+      "brandName": "BEING fit",
+      "branchName": "松江門市",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區松江路237號2F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.beingfit.com.tw/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "免綁約；單次計費150元（部分 LINE 門市頁顯示首小時100元、之後每半小時40元，依門市公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "免綁約；單次計費150元（部分 LINE 門市頁顯示首小時100元、之後每半小時40元，依門市公告）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "MYWAY Fitness",
+      "brandName": "MYWAY Fitness",
+      "branchName": "",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區復興南路一段2號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/mywayfitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場350元；計時：平日16:00-23:00為1.8元/分，其餘時間1.5元/分；首次入會費100元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 350,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場350元；計時：平日16:00-23:00為1.8元/分，其餘時間1.5元/分；首次入會費100元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "More Fit 松江店",
+      "brandName": "More Fit",
+      "branchName": "松江店",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區南京東路二段125號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/faq/fees",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Refine Fitness 松江南京店",
+      "brandName": "Refine Fitness",
+      "branchName": "松江南京店",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "台北市中山區南京東路二段97號B1F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/RefineFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場不限時間：平日17:00前150元/次、17:00後350元/次、假日200元/次。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場不限時間：平日17:00前150元/次、17:00後350元/次、假日200元/次。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "STEPX FITNESS 南京店",
+      "brandName": "STEPX FITNESS",
+      "branchName": "南京店",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區南京東路二段8號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場250元"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 250,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場250元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "初力體能 Chip In Fitness",
+      "brandName": "初力體能 Chip In Fitness",
+      "branchName": "初力體能",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "台北市中山區北安路608巷5弄20-1號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ChipInFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場100元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 100,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場100元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "台北運動健身中心 Taipei Fitness Gym 民生店",
+      "brandName": "台北運動健身中心 Taipei Fitness Gym",
+      "branchName": "民生店",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區民生東路一段29號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/Taipei-Fitness-Gym-Mingshen",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次：每次95-150元，不限時間/次數；計時：每分鐘0.8-1.3元；免開辦費/入會費/手續費。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：每次95-150元，不限時間/次數；計時：每分鐘0.8-1.3元；免開辦費/入會費/手續費。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "植健身 Fit Plant Gym 中山",
+      "brandName": "植健身 Fit Plant Gym",
+      "branchName": "中山",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區中山北路一段33巷25號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.fitplantgym.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "早鳥09:00-16:59單次100元；全日09:00-23:00單次150元；中山店無分鐘計時"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 100,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "早鳥09:00-16:59單次100元；全日09:00-23:00單次150元；中山店無分鐘計時",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "給力健身 TDF Fitness 貳房",
+      "brandName": "給力健身 TDF Fitness",
+      "branchName": "貳房",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "臺北市中山區林森北路381號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/TourdeforceFitness2",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ISPORTS 愛健身俱樂部 仁愛店",
+      "brandName": "ISPORTS 愛健身俱樂部",
+      "branchName": "仁愛店",
+      "city": "台北市",
+      "district": "中正區",
+      "address": "臺北市中正區仁愛路一段38號1樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "超核心 Hypercore 信義松仁館",
+      "brandName": "超核心 Hypercore",
+      "branchName": "信義松仁館",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "臺北市信義區松仁路89號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場300元"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 300,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "體育客 1ST Fitness 和平店",
+      "brandName": "體育客 1ST Fitness",
+      "branchName": "和平店",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "臺北市信義區和平東路三段333號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/1STFitness-heping",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1.3元；儲值500元送100元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.3元；儲值500元送100元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "練一下 GymCube 文德店",
+      "brandName": "練一下 GymCube",
+      "branchName": "文德店",
+      "city": "台北市",
+      "district": "內湖區",
+      "address": "台北市內湖區文德路108號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/GymCube-wende",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場不限時間200元；以分計費：離峰1.2元/分鐘、尖峰1.5元/分鐘（平日18:00-22:00），單次最高收取180元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場不限時間200元；以分計費：離峰1.2元/分鐘、尖峰1.5元/分鐘（平日18:00-22:00），單次最高收取180元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "給力健身 TDF Fitness 參房",
+      "brandName": "給力健身 TDF Fitness",
+      "branchName": "參房",
+      "city": "台北市",
+      "district": "大同區",
+      "address": "臺北市大同區南京西路76號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/TourdeforceFitness3",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "自由重量健身俱樂部 FW Fitness 北門館",
+      "brandName": "自由重量健身俱樂部 FW Fitness",
+      "branchName": "北門館",
+      "city": "台北市",
+      "district": "大同區",
+      "address": "臺北市大同區鄭州路119號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/FWFitness-taipei",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 300,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Enjoy Fit 享練",
+      "brandName": "Enjoy Fit 享練",
+      "branchName": "享練",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "台北市大安區和平東路一段91號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/EnjoyFit",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元/天，當日不限時間與次數；以分計費：離峰1.1元/分鐘、尖峰1.3元/分鐘（平日17:00-21:00）；最低儲值100元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元/天，當日不限時間與次數；以分計費：離峰1.1元/分鐘、尖峰1.3元/分鐘（平日17:00-21:00）；最低儲值100元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Evolution Fitness 進化論",
+      "brandName": "Evolution Fitness",
+      "branchName": "進化論",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "臺北市大安區復興南路一段380號B1,B2",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/EvolutionFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場：150元一日通行券，單日無限次數入場；App線上購買。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場：150元一日通行券，單日無限次數入場；App線上購買。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "健身星球 光復星球",
+      "brandName": "健身星球",
+      "branchName": "光復星球",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "臺北市大安區光復南路549號1F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "分鐘制/單次制；公開整理文未列精確價格"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制/單次制；公開整理文未列精確價格",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "安心練工作室",
+      "brandName": "安心練工作室",
+      "branchName": "",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "台北市大安區信義路二段186號6樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ACTrainingStudio",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場300元，不限時間，沒有其他費用。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 300,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元，不限時間，沒有其他費用。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "植健身 Fit Plant Gym 敦南",
+      "brandName": "植健身 Fit Plant Gym",
+      "branchName": "敦南",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "臺北市大安區敦化南路二段59號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.fitplantgym.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次全日200元；分鐘計時尖峰2.0元/分鐘、離峰1.5元/分鐘；尖峰週一至週五11:00-14:00、17:00-22:00"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次全日200元；分鐘計時尖峰2.0元/分鐘、離峰1.5元/分鐘；尖峰週一至週五11:00-14:00、17:00-22:00",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "More Fit 萬芳店",
+      "brandName": "More Fit",
+      "branchName": "萬芳店",
+      "city": "台北市",
+      "district": "文山區",
+      "address": "臺北市文山區興隆路三段71號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/faq/fees",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "SelfRoom Workoutplace",
+      "brandName": "SelfRoom Workoutplace",
+      "branchName": "",
+      "city": "台北市",
+      "district": "松山區",
+      "address": "臺北市松山區市民大道六段131號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/srwp",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次/計時：1分鐘2元；最低儲值100元起；儲1000元贈500點數。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次/計時：1分鐘2元；最低儲值100元起；儲1000元贈500點數。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "給力健身 TDF Fitness 大房",
+      "brandName": "給力健身 TDF Fitness",
+      "branchName": "大房",
+      "city": "台北市",
+      "district": "松山區",
+      "address": "臺北市松山區民生東路三段128號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/TourdeforceFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.5元；首次APP開通手續費200元；月費999元可通館。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "阿基里斯",
+      "brandName": "阿基里斯",
+      "branchName": "",
+      "city": "台北市",
+      "district": "松山區",
+      "address": "台北市松山區民生東路四段45號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/achilles",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場60元/60分鐘、90元/90分鐘；另有月費方案。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 60,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場60元/60分鐘、90元/90分鐘；另有月費方案。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Fitopia 團練",
+      "brandName": "Fitopia",
+      "branchName": "團練",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區景平路690號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/Fitopia",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1元；月費999元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；月費999元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "城市健身 CityFitness 中和景安店",
+      "brandName": "城市健身 CityFitness",
+      "branchName": "中和景安店",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區復興路268號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/cityfitness-zhonghe-jingan",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場200元；以分計費1分鐘1元，進場基本費20點；首儲300元（點數200點+開辦費100元）或首儲500元（無開辦費）。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；以分計費1分鐘1元，進場基本費20點；首儲300元（點數200點+開辦費100元）或首儲500元（無開辦費）。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "超核心 Hypercore 中和中山館",
+      "brandName": "超核心 Hypercore",
+      "branchName": "中和中山館",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區中山路二段122號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/HypercoreFitnessZhonghe",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場200元；單次入場+InBody 300元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場200元；單次入場+InBody 300元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "More Fit 七張店",
+      "brandName": "More Fit",
+      "branchName": "七張店",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區北新路二段128號4F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/faq/fees",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Go走吧運動 新莊二館",
+      "brandName": "Go走吧運動",
+      "branchName": "新莊二館",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區中正路347巷10號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/gogym982",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；首次需付入會費100元；月費1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "體育客 1ST Fitness 輔大店",
+      "brandName": "體育客 1ST Fitness",
+      "branchName": "輔大店",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區後港一路179號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/1STFitness-FJCU",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1.3元；儲值500元送100元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1.3元；儲值500元送100元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "77健身俱樂部",
+      "brandName": "77健身俱樂部",
+      "branchName": "",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區四川路二段123號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/Double7Fitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場100元不限時間；以分計費1分鐘1元，最低儲值1000元（一年內用完）；月費999元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 100,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場100元不限時間；以分計費1分鐘1元，最低儲值1000元（一年內用完）；月費999元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "More Fit 江翠店",
+      "brandName": "More Fit",
+      "branchName": "江翠店",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區雙十路三段31號3F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/faq/fees",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "分鐘制：1分鐘1.2點起；單次通行券：200元/次；月訂閱980元/月（免長約）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "三健客 3Musclers 永和店",
+      "brandName": "三健客 3Musclers",
+      "branchName": "永和店",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區民權路80號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元或每分鐘1.2元"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元或每分鐘1.2元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "怪獸運動中心 永和店",
+      "brandName": "怪獸運動中心",
+      "branchName": "永和店",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區中和路339號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "每分鐘1元"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "每分鐘1元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "麥克叔叔 Fitness 永和店",
+      "brandName": "麥克叔叔 Fitness",
+      "branchName": "永和店",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區中正路316號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://morefit.com.tw/tw/news-detail/single-entry-gym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "每分鐘1.2元"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "每分鐘1.2元",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "HOWKIND Fitness 好客健身房 汐止",
+      "brandName": "HOWKIND Fitness 好客健身房",
+      "branchName": "汐止",
+      "city": "新北市",
+      "district": "汐止區",
+      "address": "新北市汐止區新台五路一段208號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/howkind",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場300元不限時間；以分計費1分鐘1元；首次會員開辦費200元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 300,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元不限時間；以分計費1分鐘1元；首次會員開辦費200元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "動一下 Gravity Gym 蘆洲中原路",
+      "brandName": "動一下 Gravity Gym",
+      "branchName": "蘆洲中原路",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區中原路5巷9號一樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/gravitygymluzhou2",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場：一小時50元；月費888元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場：一小時50元；月費888元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ARES 愛力士健身中心 車站館",
+      "brandName": "ARES 愛力士健身中心",
+      "branchName": "車站館",
+      "city": "基隆市",
+      "district": "中山區",
+      "address": "基隆市中山區中山一路16-1號3樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/aresfitness-station",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1元；辦卡費100元；首次儲值1000元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；辦卡費100元；首次儲值1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "自由重量健身俱樂部 FW Fitness 基隆館",
+      "brandName": "自由重量健身俱樂部 FW Fitness",
+      "branchName": "基隆館",
+      "city": "基隆市",
+      "district": "仁愛區",
+      "address": "基隆市仁愛區愛三路62號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/FWFitness-keelung",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 300,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場300元；以分計費：1分鐘1點；加值100元=80點、500元=450點、1000元=1100點。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ARES 愛力士健身中心 微笑館",
+      "brandName": "ARES 愛力士健身中心",
+      "branchName": "微笑館",
+      "city": "基隆市",
+      "district": "信義區",
+      "address": "基隆市信義區孝東路92號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/aresfitness-smile",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "以分計費：1分鐘1元；辦卡費100元；首次儲值1000元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "以分計費：1分鐘1元；辦卡費100元；首次儲值1000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "舒適圈健身中心",
+      "brandName": "Cozy Fitness",
+      "branchName": "",
+      "city": "桃園市",
+      "district": "龜山區",
+      "address": "桃園市龜山區文化二路52巷65號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/CozyFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元；以分計費：全日1分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；以分計費：全日1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "B.Sport新竹健身房",
+      "brandName": "BRÍO SPORT",
+      "branchName": "",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區食品路27號B1-2",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/Bsport",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元；月費單月1050元、三個月900元/月。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；月費單月1050元、三個月900元/月。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "K gym 2.0 Studio",
+      "brandName": "K gym 2.0 Studio",
+      "branchName": "K gym 2.0",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區光復路一段270號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/Kgym2.0Studio",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場158元/次；以分計費：1分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 158,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場158元/次；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "BeStart Fitness 開動體能訓練站",
+      "brandName": "BeStart Fitness",
+      "branchName": "開動體能訓練站",
+      "city": "台中市",
+      "district": "北區",
+      "address": "臺中市北區漢口路四段35號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/BeStartFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場不限時：平日08:30-17:30為80元/次；平日17:30-22:30與假日100元/次。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場不限時：平日08:30-17:30為80元/次；平日17:30-22:30與假日100元/次。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 中清店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "中清店",
+      "city": "台中市",
+      "district": "北區",
+      "address": "臺中市北區中清路一段100號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 崇德旗艦店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "崇德旗艦店",
+      "city": "台中市",
+      "district": "北區",
+      "address": "臺中市北區崇德路一段631號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Strong Fitness 史壯健身Strong",
+      "brandName": "Strong Fitness",
+      "branchName": "史壯健身Strong",
+      "city": "台中市",
+      "district": "北區",
+      "address": "臺中市北區陝西路47號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/StrongFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場100元，不限時間；月會籍599元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 100,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場100元，不限時間；月會籍599元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 東山店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "東山店",
+      "city": "台中市",
+      "district": "北屯區",
+      "address": "臺中市北屯區東山路一段50-18號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中力健身 Central Power Gym 中力健身中心學府館",
+      "brandName": "中力健身 Central Power Gym",
+      "branchName": "中力健身中心學府館",
+      "city": "台中市",
+      "district": "南區",
+      "address": "臺中市南區學府路135巷6號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/CPG-SF",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單張券200元；10張1800元；50張6800元；100張9800元；單次進場不限時間，所有中力場館通用。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單張券200元；10張1800元；50張6800元；100張9800元；單次進場不限時間，所有中力場館通用。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "長春國民暨兒童運動中心",
+      "brandName": "臺中市國民運動中心",
+      "branchName": "",
+      "city": "台中市",
+      "district": "南區",
+      "address": "臺中市南區合作街46號/正義街99號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心單次全票50元/60分鐘；75元/90分鐘；100元/120分鐘（北區官方費率；其他館依公告）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "GYMneration 健身時代",
+      "brandName": "GYMneration",
+      "branchName": "",
+      "city": "台中市",
+      "district": "大里區",
+      "address": "臺中市大里區爽文路1128號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/GYMneration",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次150元，不限時間與入場次數；月費600元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次150元，不限時間與入場次數；月費600元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "MORE身活訓練特區 MORE Active Training Zone",
+      "brandName": "MORE身活訓練特區",
+      "branchName": "MORE Active Training Zone",
+      "city": "台中市",
+      "district": "大里區",
+      "address": "台中市大里區國光路二段405-2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/MOREActieTrainingZone",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次150元不限時；另有訂閱制不綁約699/888元，設定費500元首月收取。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次150元不限時；另有訂閱制不綁約699/888元，設定費500元首月收取。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 仁化店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "仁化店",
+      "city": "台中市",
+      "district": "大里區",
+      "address": "臺中市大里區仁化路585號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中力健身 Central Power Gym 中力健身中心大里館",
+      "brandName": "中力健身 Central Power Gym",
+      "branchName": "中力健身中心大里館",
+      "city": "台中市",
+      "district": "大里區",
+      "address": "臺中市大里區科技路176號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/CPG-Dali",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單張券200元；10張1800元；50張6800元；100張9800元；單次進場不限時間，所有中力場館通用。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單張券200元；10張1800元；50張6800元；100張9800元；單次進場不限時間，所有中力場館通用。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 太平店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "太平店",
+      "city": "台中市",
+      "district": "太平區",
+      "address": "臺中市太平區振福路599號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 沙鹿旗艦店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "沙鹿旗艦店",
+      "city": "台中市",
+      "district": "沙鹿區",
+      "address": "臺中市沙鹿區鎮南路二段358號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "中力健身 Central Power Gym 沙鹿館",
+      "brandName": "中力健身 Central Power Gym",
+      "branchName": "沙鹿館",
+      "city": "台中市",
+      "district": "沙鹿區",
+      "address": "臺中市沙鹿區北中六街139號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/CPG-Shalu",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單張券200元；10張券1800元；50張券6800元；100張券9800元；單次進場不限時間，所有中力場館通用。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單張券200元；10張券1800元；50張券6800元；100張券9800元；單次進場不限時間，所有中力場館通用。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "BEING fit 超億門市",
+      "brandName": "BEING fit",
+      "branchName": "超億門市",
+      "city": "台中市",
+      "district": "西區",
+      "address": "臺中市西區公益路126號2F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.beingfit.com.tw/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "免綁約；單次計費150元（部分 LINE 門市頁顯示首小時100元、之後每半小時40元，依門市公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "免綁約；單次計費150元（部分 LINE 門市頁顯示首小時100元、之後每半小時40元，依門市公告）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "COASTLINE 科士力訓練",
+      "brandName": "COASTLINE",
+      "branchName": "科士力訓練",
+      "city": "台中市",
+      "district": "西區",
+      "address": "臺中市西區民生路195號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/COASTLINE",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元，不限時間；月費800元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元，不限時間；月費800元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "HOUSE TRAINING Studio 好事運動工作室",
+      "brandName": "HOUSE TRAINING Studio",
+      "branchName": "好事運動工作室",
+      "city": "台中市",
+      "district": "西區",
+      "address": "臺中市西區民權路219號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/housetraining",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場：單日300元；月費單月1200元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 300,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場：單日300元；月費單月1200元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 精誠店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "精誠店",
+      "city": "台中市",
+      "district": "西區",
+      "address": "臺中市西區精誠23街30號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "啟動健身房 Ation Fitness 啟動健身房五權館",
+      "brandName": "啟動健身房 Ation Fitness",
+      "branchName": "啟動健身房五權館",
+      "city": "台中市",
+      "district": "西區",
+      "address": "臺中市西區五權路2-3號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ationfitness_wuquan",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次/計時：每分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次/計時：每分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "BEING fit 歐風門市",
+      "brandName": "BEING fit",
+      "branchName": "歐風門市",
+      "city": "台中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區市政北七路175-2號2F",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.beingfit.com.tw/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "免綁約；單次計費150元（部分 LINE 門市頁顯示首小時100元、之後每半小時40元，依門市公告）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "免綁約；單次計費150元（部分 LINE 門市頁顯示首小時100元、之後每半小時40元，依門市公告）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 東海店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "東海店",
+      "city": "台中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區福順路829號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "OmegaFit 奧美伽智能健身台中福科館",
+      "brandName": "OmegaFit",
+      "branchName": "奧美伽智能健身台中福科館",
+      "city": "台中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區福康路89號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/OmegaFit-FuKe",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "啟動健身房 Ation Fitness 啟動健身房中科館",
+      "brandName": "啟動健身房 Ation Fitness",
+      "branchName": "啟動健身房中科館",
+      "city": "台中市",
+      "district": "西屯區",
+      "address": "臺中市西屯區西屯路三段166-57號B1",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ationfitness_zhongke",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次/計時：每分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次/計時：每分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 豐原旗艦店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "豐原旗艦店",
+      "city": "台中市",
+      "district": "豐原區",
+      "address": "臺中市豐原區豐勢路一段139號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 員林店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "員林店",
+      "city": "彰化縣",
+      "district": "員林市",
+      "address": "彰化縣員林市育英路2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "OmegaFit 奧美伽智能健身彰化員林館",
+      "brandName": "OmegaFit",
+      "branchName": "奧美伽智能健身彰化員林館",
+      "city": "彰化縣",
+      "district": "員林市",
+      "address": "彰化縣員林市員林大道一段42號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/OmegaFit-Yuanlin",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 彰化店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "彰化店",
+      "city": "彰化縣",
+      "district": "彰化市",
+      "address": "彰化縣彰化市中正路二段117號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 溪湖旗艦店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "溪湖旗艦店",
+      "city": "彰化縣",
+      "district": "溪湖鎮",
+      "address": "彰化縣溪湖鎮民生街9號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 鹿港店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "鹿港店",
+      "city": "彰化縣",
+      "district": "福興鄉",
+      "address": "彰化縣福興鄉彰鹿路七段654號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 秀水店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "秀水店",
+      "city": "彰化縣",
+      "district": "秀水鄉",
+      "address": "彰化縣秀水鄉彰水路一段22號2樓&3樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Ape Strength 猿力運動空間",
+      "brandName": "Ape Strength",
+      "branchName": "猿力運動空間",
+      "city": "南投縣",
+      "district": "埔里鎮",
+      "address": "南投縣埔里鎮中正路633號2樓",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/apestrength",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元不限時間；半年5000元、一年8000元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元不限時間；半年5000元、一年8000元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Hulk fitness space 浩克運動空間",
+      "brandName": "Hulk fitness space",
+      "branchName": "浩克運動空間",
+      "city": "南投縣",
+      "district": "埔里鎮",
+      "address": "南投縣埔里鎮東榮路209號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/hulkfitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元不限時間；月費1099元不限時間/次數。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元不限時間；月費1099元不限時間/次數。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "ONCE Fitness 單次健身 草屯旗艦店",
+      "brandName": "ONCE Fitness 單次健身",
+      "branchName": "草屯旗艦店",
+      "city": "南投縣",
+      "district": "草屯鎮",
+      "address": "南投縣草屯鎮博愛路339號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://once-fitness.com/",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次健身50元/小時；包月/包年可選；不用綁約、免入會費",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "OmegaFit 奧美伽智能健身雲林斗六店",
+      "brandName": "OmegaFit",
+      "branchName": "奧美伽智能健身雲林斗六店",
+      "city": "雲林縣",
+      "district": "斗六市",
+      "address": "雲林縣斗六市六合街61號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/OmegaFit-Douliu",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次：尖峰150元（17:00-22:00），其餘時段100元；以分計費：1分鐘1元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "歐格瑪健身中心 Oghma Fitness Club 嘉義店",
+      "brandName": "歐格瑪健身中心 Oghma Fitness Club",
+      "branchName": "嘉義店",
+      "city": "嘉義市",
+      "district": "西區",
+      "address": "嘉義市康樂街107號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ofcchiayi",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場250元；首次五星評論優惠價200元；10次套票1800元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 250,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場250元；首次五星評論優惠價200元；10次套票1800元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "阿姆斯壯健身房",
+      "brandName": "Armstrong Fitness",
+      "branchName": "",
+      "city": "嘉義市",
+      "district": "東區",
+      "address": "嘉義市東區成仁街176號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ArmstrongFitness",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次200元/次；打卡優惠150元/次；套票1000元/10次、2000元/21次。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次200元/次；打卡優惠150元/次；套票1000元/10次、2000元/21次。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Rock In Fitness Studio 石中健經國店",
+      "brandName": "Rock In Fitness Studio",
+      "branchName": "石中健經國店",
+      "city": "嘉義市",
+      "district": "西區",
+      "address": "嘉義市西區仁愛路220號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/rockinfitness-JingGuo",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次200元，館內不限時間；出場後再入場需重新計費。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 200,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次200元，館內不限時間；出場後再入場需重新計費。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "海力克斯運動健身中心",
+      "brandName": "Helix Fitness",
+      "branchName": "",
+      "city": "嘉義縣",
+      "district": "朴子市",
+      "address": "嘉義縣朴子市大葛里大糠榔1318號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/hfcy",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場150元；三個月會期3200元、六個月5400元、一年9700元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 150,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場150元；三個月會期3200元、六個月5400元、一年9700元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "歐格瑪健身中心 Oghma Fitness Club 朴子店",
+      "brandName": "歐格瑪健身中心 Oghma Fitness Club",
+      "branchName": "朴子店",
+      "city": "嘉義縣",
+      "district": "朴子市",
+      "address": "嘉義縣朴子市市東路109之7號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/ofcPuzi",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場250元；月費請聯繫洽詢。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 250,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場250元；月費請聯繫洽詢。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "健身肌地 Fitness Base",
+      "brandName": "Fitness Base",
+      "branchName": "",
+      "city": "台南市",
+      "district": "善化區",
+      "address": "臺南市善化區文化路2號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/fitnessbase",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場260元；打卡250元；一個月1300元（2019 FB資訊）。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 260,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場260元；打卡250元；一個月1300元（2019 FB資訊）。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Quality Musclebuilder 優質健身崇明館",
+      "brandName": "Quality Musclebuilder",
+      "branchName": "優質健身崇明館",
+      "city": "台南市",
+      "district": "東區",
+      "address": "臺南市東區崇明路589-7號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/qm_cm",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單次入場50元；單月800元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 50,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單次入場50元；單月800元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "前金運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "前金區",
+      "address": "高雄市前金區大同二路61號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "前鎮運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "前鎮區",
+      "address": "高雄市前鎮區班超路63號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "大寮運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "大寮區",
+      "address": "高雄市大寮區進學路151號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Muku Gym慕谷健身房",
+      "brandName": "Muku Gym",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "左營區",
+      "address": "高雄市左營區新庄仔路395號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/MukuGym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "會員單次100元不限時間，未滿60分鐘50元；非會員100元/時；10張票券1500元；早鳥會員單次50元。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": 100,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "會員單次100元不限時間，未滿60分鐘50元；非會員100元/時；10張票券1500元；早鳥會員單次50元。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "左營運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "左營區",
+      "address": "高雄市左營區世運大道100號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "美濃運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "美濃區",
+      "address": "高雄市美濃區中正路一段191號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "Rocks Gym 洛克健身",
+      "brandName": "Rocks Gym",
+      "branchName": "洛克健身",
+      "city": "高雄市",
+      "district": "鳳山區",
+      "address": "高雄市鳳山區維新路126號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://www.gymnomadtw.com/gym/RocksGym",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "單日不限次數與時間300元；打卡分享半價；月費1300元不綁約。"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "單日不限次數與時間300元；打卡分享半價；月費1300元不綁約。",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    },
+    {
+      "name": "鹽埕運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "",
+      "city": "高雄市",
+      "district": "鹽埕區",
+      "address": "高雄市鹽埕區新樂街46號",
+      "latitude": null,
+      "longitude": null,
+      "status": "open",
+      "phone": "",
+      "website": "",
+      "sourceRecordUrl": "https://zh.wikipedia.org/zh-tw/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）"
+      },
+      "pricing": [
+        {
+          "type": "single_entry",
+          "amountTwd": null,
+          "unit": "per_entry",
+          "timeLimitMinutes": null,
+          "sourceNote": "體適能中心/健身房單次或小時計費；實際價格依館方公告（常見全票50元/小時）",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasFreeWeights": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "人工查核",
+          "免綁約",
+          "出發前複核"
+        ]
+      }
+    }
+  ]
+}

@@ -57,6 +57,32 @@ node scripts/import-public-gyms.mjs data/public-gym-sources.wikipedia-sports-cen
 node scripts/merge-import-candidates.mjs data/gyms.json data/import-candidates/wikipedia-sports-centers.candidates.json --output data/gyms.json
 ```
 
+Build the Sports Administration (體育署) national sports facility package from the data.gov.tw CSV (dataset 22849), import candidates, and merge them into the app dataset:
+
+```bash
+node scripts/build-sagov-gyms.mjs /path/to/sagov-venues.csv --output data/public-gym-sources.sagov-gyms.json --existing data/gyms.json --fetched-at YYYY-MM-DD
+node scripts/import-public-gyms.mjs data/public-gym-sources.sagov-gyms.json --output data/import-candidates/sagov-gyms.candidates.json
+node scripts/merge-import-candidates.mjs data/gyms.json data/import-candidates/sagov-gyms.candidates.json --output data/gyms.json
+```
+
+Build the owner-curated single-entry gym package from the research CSV, import candidates, and merge them into the app dataset:
+
+```bash
+node scripts/build-curated-gyms.mjs data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv --output data/public-gym-sources.curated-gyms.json --existing data/gyms.json --fetched-at YYYY-MM-DD
+node scripts/import-public-gyms.mjs data/public-gym-sources.curated-gyms.json --output data/import-candidates/curated-gyms.candidates.json
+node scripts/merge-import-candidates.mjs data/gyms.json data/import-candidates/curated-gyms.candidates.json --output data/gyms.json
+```
+
+Re-apply curated pricing and access details onto venues already in the dataset (safe to re-run; matches by name and normalized address):
+
+```bash
+node scripts/enrich-gyms-from-curated.mjs data/gyms.json data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv --output data/gyms.json --fetched-at YYYY-MM-DD
+```
+
+## Map
+
+The map view uses [Leaflet](https://leafletjs.com/) (vendored at `assets/vendor/leaflet/`, v1.9.4) with OpenStreetMap standard tiles. Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), licensed under ODbL; the attribution control must stay visible. For production traffic, switch to a commercial tile provider or self-hosted tiles per the [OSM tile usage policy](https://operations.osmfoundation.org/policies/tiles/).
+
 ## Prototype Scope
 
 This prototype uses demonstration and source-backed candidate gym records. Prices, opening hours, ratings, and facilities must be re-verified before public launch.

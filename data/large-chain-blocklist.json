@@ -5,7 +5,7 @@
   },
   {
     "label": "Fitness Factory",
-    "terms": ["fitness factory", "健身工廠"]
+    "terms": ["fitness factory", "健身工廠", "柏文健康"]
   },
   {
     "label": "Anytime Fitness",
@@ -13,10 +13,18 @@
   },
   {
     "label": "True Fitness",
-    "terms": ["true fitness", "全真健身"]
+    "terms": ["true fitness", "true yoga", "trueyoga", "全真健身", "全真概念", "全真瑜珈"]
   },
   {
     "label": "Curves",
     "terms": ["curves", "可爾姿"]
+  },
+  {
+    "label": "BEING sport",
+    "terms": ["being sport", "統一健身俱樂部", "統一健康俱樂部", "統一佳佳"]
+  },
+  {
+    "label": "Genghis Khan Fitness",
+    "terms": ["成吉思汗健身"]
   }
 ]

@@ -315,3 +315,15 @@ function confidenceLabel(value) {
     }[value] ?? "尚未驗證"
   );
 }
+
+export function paginateItems(items, page = 1, pageSize = 10) {
+  const list = Array.isArray(items) ? items : [];
+  const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
+  const safePage = Math.min(Math.max(1, Number(page) || 1), totalPages);
+
+  return {
+    page: safePage,
+    totalPages,
+    pageItems: list.slice((safePage - 1) * pageSize, safePage * pageSize)
+  };
+}

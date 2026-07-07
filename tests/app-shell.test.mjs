@@ -29,3 +29,20 @@ test("app card formatter does not render null price amounts", async () => {
   assert.equal(app.includes("price.amountTwd === null || price.amountTwd === undefined"), true);
   assert.equal(app.includes('return "價格待查證";'), true);
 });
+
+test("gym list paginates ten cards per page with pager controls", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("PAGE_SIZE = 10"), true);
+  assert.equal(app.includes("paginateItems"), true);
+  assert.equal(app.includes('data-action="set-page"'), true);
+  assert.equal(app.includes("上一頁"), true);
+  assert.equal(app.includes("下一頁"), true);
+});
+
+test("gym cards show the verified fee text from the access contract note", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("price-note"), true);
+  assert.equal(app.includes("access?.contractNote"), true);
+});

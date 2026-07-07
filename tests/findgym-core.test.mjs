@@ -7,6 +7,7 @@ import {
   hasCoordinates,
   isGymOpenNow,
   normalizeQuery,
+  paginateItems,
   rankGyms,
   validateReport
 } from "../src/findgym-core.js";
@@ -116,4 +117,27 @@ test("validateReport requires type and submitted value", () => {
     errors: []
   });
   assert.equal(validateReport({ gymId: "a" }).valid, false);
+});
+
+test("paginateItems slices items into pages and clamps the requested page", () => {
+  const items = Array.from({ length: 23 }, (_, index) => index + 1);
+
+  const first = paginateItems(items, 1, 10);
+  assert.deepEqual(first.pageItems, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+  assert.equal(first.page, 1);
+  assert.equal(first.totalPages, 3);
+
+  const last = paginateItems(items, 3, 10);
+  assert.deepEqual(last.pageItems, [21, 22, 23]);
+
+  const clampedHigh = paginateItems(items, 99, 10);
+  assert.equal(clampedHigh.page, 3);
+  assert.deepEqual(clampedHigh.pageItems, [21, 22, 23]);
+
+  const clampedLow = paginateItems(items, 0, 10);
+  assert.equal(clampedLow.page, 1);
+
+  const empty = paginateItems([], 1, 10);
+  assert.deepEqual(empty.pageItems, []);
+  assert.equal(empty.totalPages, 1);
 });

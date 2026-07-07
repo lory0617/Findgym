@@ -40,6 +40,22 @@
     "reason": "Allowed as an open knowledge base seed. Candidate venue rows still require official-source verification for price, hours, and facilities."
   },
   {
+    "sourceId": "sagov-national-sports-facilities",
+    "sourceName": "體育署全國運動場館資訊",
+    "sourceUrl": "https://data.gov.tw/dataset/22849",
+    "status": "allowed_with_attribution",
+    "importAllowed": true,
+    "reason": "政府資料開放授權條款-第1版. National sports facility survey covering gyms and fitness centers nationwide; price, hours, and access still require official-source verification before launch."
+  },
+  {
+    "sourceId": "curated-single-entry-gyms",
+    "sourceName": "Owner-curated single-entry gym research",
+    "sourceUrl": "data/research/taiwan_single_or_minute_gyms_no_big_chains_v3_2026-07-07.csv",
+    "status": "allowed_as_manual_research",
+    "importAllowed": true,
+    "reason": "Owner-verified manual research list of single-entry and per-minute gyms (2026-07-07). Rows citing GymNomad pages were explicitly approved for import by the owner on 2026-07-07; pricing and status still require official-channel re-verification before launch."
+  },
+  {
     "sourceId": "wikipedia-taiwan-sports-centers",
     "sourceName": "Wikipedia Taiwan sports center list seed",
     "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",

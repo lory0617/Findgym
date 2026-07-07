@@ -4,9 +4,12 @@ import {
   getBestFlexiblePrice,
   hasCoordinates,
   isGymOpenNow,
+  paginateItems,
   rankGyms,
   validateReport
 } from "./findgym-core.js";
+
+const PAGE_SIZE = 10;
 import { buildDatasetStatus } from "./gym-data-validation.js";
 
 const elements = {
@@ -14,6 +17,7 @@ const elements = {
   filterForm: document.querySelector("#filterForm"),
   gymList: document.querySelector("#gymList"),
   mapCanvas: document.querySelector("#mapCanvas"),
+  mapNotice: document.querySelector("#mapNotice"),
   resultCount: document.querySelector("#resultCount"),
   detailPanel: document.querySelector("#detailPanel"),
   comparePanel: document.querySelector("#comparePanel"),
@@ -21,10 +25,17 @@ const elements = {
   locateButton: document.querySelector("#locateButton")
 };
 
+const mapView = {
+  map: null,
+  markerLayer: null,
+  lastBoundsSignature: ""
+};
+
 const state = {
   gyms: [],
   dataStatus: null,
   filteredGyms: [],
+  page: 1,
   selectedGymId: null,
   reportGymId: null,
   compareIds: [],
@@ -125,6 +136,12 @@ function handleDocumentClick(event) {
 
   const { action, gymId } = actionButton.dataset;
 
+  if (action === "set-page") {
+    state.page = Number(actionButton.dataset.page);
+    renderList();
+    elements.gymList?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   if (action === "open-detail") {
     state.selectedGymId = gymId;
     renderApp();
@@ -193,6 +210,7 @@ function updateFilteredGyms() {
   const now = new Date();
   const filtered = filterGyms(state.gyms, state.filters, now);
   state.filteredGyms = rankGyms(filtered, state.userLocation, now);
+  state.page = 1;
 
   if (state.selectedGymId && !state.filteredGyms.some((gym) => gym.id === state.selectedGymId)) {
     state.selectedGymId = null;
@@ -229,46 +247,74 @@ function renderDataStatus() {
 }
 
 function renderMap() {
-  if (!elements.mapCanvas) {
+  if (!elements.mapCanvas || typeof L === "undefined") {
     return;
   }
 
-  if (state.filteredGyms.length === 0) {
-    elements.mapCanvas.innerHTML = '<p class="map-empty">沒有符合條件的健身房</p>';
-    return;
+  if (!mapView.map) {
+    mapView.map = L.map(elements.mapCanvas).setView([23.7, 120.96], 7);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors'
+    }).addTo(mapView.map);
+    mapView.markerLayer = L.layerGroup().addTo(mapView.map);
   }
 
   const mappableGyms = state.filteredGyms.filter(hasCoordinates);
 
+  renderMapNotice(mappableGyms.length, state.filteredGyms.length);
+  mapView.markerLayer.clearLayers();
+
   if (mappableGyms.length === 0) {
-    elements.mapCanvas.innerHTML = '<p class="map-empty">符合條件的據點尚待補座標</p>';
+    mapView.lastBoundsSignature = "";
     return;
   }
 
-  const bounds = getBounds(mappableGyms);
-  const markers = mappableGyms
-    .map((gym) => {
-      const point = projectGym(gym, bounds);
-      const price = getBestFlexiblePrice(gym);
-      const label = price?.amountTwd === null || price?.amountTwd === undefined ? "待查" : price ? `NT$${price.amountTwd}` : "查看";
-      return `
-        <button
-          class="map-marker ${gym.id === state.selectedGymId ? "is-selected" : ""}"
-          type="button"
-          style="left:${point.x}%;top:${point.y}%"
-          data-action="open-detail"
-          data-gym-id="${escapeHtml(gym.id)}"
-          aria-label="查看 ${escapeHtml(gym.name)}"
-          title="${escapeHtml(gym.name)}"
-        >${escapeHtml(label)}</button>
-      `;
-    })
-    .join("");
+  mappableGyms.forEach((gym) => {
+    const price = getBestFlexiblePrice(gym);
+    const priceLabel = price?.amountTwd === null || price?.amountTwd === undefined ? "價格待查證" : `NT$${price.amountTwd}`;
+    const marker = L.marker([gym.latitude, gym.longitude], { title: gym.name });
 
-  elements.mapCanvas.innerHTML = `
-    <div class="map-compass">可定位據點 ${mappableGyms.length} / ${state.filteredGyms.length}</div>
-    ${markers}
-  `;
+    marker.bindPopup(`
+      <strong>${escapeHtml(gym.name)}</strong><br />
+      ${escapeHtml(gym.district)}・${escapeHtml(priceLabel)}<br />
+      <button class="map-popup-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
+    `);
+    marker.on("click", () => {
+      state.selectedGymId = gym.id;
+      renderList();
+      renderDetail();
+    });
+    marker.addTo(mapView.markerLayer);
+  });
+
+  const boundsSignature = mappableGyms
+    .map((gym) => gym.id)
+    .sort()
+    .join("|");
+
+  if (boundsSignature !== mapView.lastBoundsSignature) {
+    mapView.lastBoundsSignature = boundsSignature;
+    const bounds = L.latLngBounds(mappableGyms.map((gym) => [gym.latitude, gym.longitude]));
+    mapView.map.fitBounds(bounds, { padding: [28, 28], maxZoom: 15 });
+  }
+}
+
+function renderMapNotice(mappableCount, totalCount) {
+  if (!elements.mapNotice) {
+    return;
+  }
+
+  if (totalCount === 0) {
+    elements.mapNotice.textContent = "沒有符合條件的健身房";
+  } else if (mappableCount === 0) {
+    elements.mapNotice.textContent = "符合條件的據點尚待補座標";
+  } else {
+    elements.mapNotice.textContent = `可定位據點 ${mappableCount} / ${totalCount}`;
+  }
+
+  elements.mapNotice.hidden = false;
 }
 
 function renderList() {
@@ -283,7 +329,44 @@ function renderList() {
     return;
   }
 
-  elements.gymList.innerHTML = state.filteredGyms.map(renderGymCard).join("");
+  const { page, totalPages, pageItems } = paginateItems(state.filteredGyms, state.page, PAGE_SIZE);
+  state.page = page;
+
+  elements.gymList.innerHTML = `
+    ${pageItems.map(renderGymCard).join("")}
+    ${renderPagination(page, totalPages)}
+  `;
+}
+
+function renderPagination(page, totalPages) {
+  if (totalPages <= 1) {
+    return "";
+  }
+
+  const windowSize = 5;
+  const windowStart = Math.max(1, Math.min(page - Math.floor(windowSize / 2), totalPages - windowSize + 1));
+  const pageNumbers = Array.from({ length: Math.min(windowSize, totalPages) }, (_, index) => windowStart + index);
+
+  return `
+    <nav class="pagination" aria-label="搜尋結果分頁">
+      <button class="page-button" type="button" data-action="set-page" data-page="${page - 1}" ${page <= 1 ? "disabled" : ""}>上一頁</button>
+      ${pageNumbers
+        .map(
+          (pageNumber) => `
+            <button
+              class="page-button ${pageNumber === page ? "is-current" : ""}"
+              type="button"
+              data-action="set-page"
+              data-page="${pageNumber}"
+              ${pageNumber === page ? 'aria-current="page"' : ""}
+            >${pageNumber}</button>
+          `
+        )
+        .join("")}
+      <button class="page-button" type="button" data-action="set-page" data-page="${page + 1}" ${page >= totalPages ? "disabled" : ""}>下一頁</button>
+      <span class="page-status">第 ${page} / ${totalPages} 頁</span>
+    </nav>
+  `;
 }
 
 function renderGymCard(gym) {
@@ -311,6 +394,7 @@ function renderGymCard(gym) {
           ${renderServiceTags(gym)}
           ${price ? `<span>#${escapeHtml(formatPrice(price))}</span>` : "<span>#價格待查</span>"}
         </div>
+        ${gym.access?.contractNote ? `<p class="price-note">${escapeHtml(gym.access.contractNote)}</p>` : ""}
         <div class="card-actions">
           <button class="primary-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
           <button class="secondary-button" type="button" data-action="toggle-compare" data-gym-id="${escapeHtml(gym.id)}">
@@ -487,8 +571,9 @@ function renderLoadError(error) {
     elements.gymList.innerHTML = `<p class="empty-state">資料載入失敗：${message}</p>`;
   }
 
-  if (elements.mapCanvas) {
-    elements.mapCanvas.innerHTML = '<p class="map-empty">無法載入地圖資料</p>';
+  if (elements.mapNotice) {
+    elements.mapNotice.textContent = "無法載入地圖資料";
+    elements.mapNotice.hidden = false;
   }
 }
 
@@ -615,30 +700,6 @@ function confidenceLabel(value) {
   );
 }
 
-function getBounds(gyms) {
-  const latitudes = gyms.map((gym) => gym.latitude).filter(Number.isFinite);
-  const longitudes = gyms.map((gym) => gym.longitude).filter(Number.isFinite);
-
-  return {
-    minLat: Math.min(...latitudes),
-    maxLat: Math.max(...latitudes),
-    minLng: Math.min(...longitudes),
-    maxLng: Math.max(...longitudes)
-  };
-}
-
-function projectGym(gym, bounds) {
-  const latSpan = bounds.maxLat - bounds.minLat || 0.01;
-  const lngSpan = bounds.maxLng - bounds.minLng || 0.01;
-  const x = 8 + ((gym.longitude - bounds.minLng) / lngSpan) * 84;
-  const y = 8 + ((bounds.maxLat - gym.latitude) / latSpan) * 84;
-
-  return {
-    x: clamp(x, 8, 92),
-    y: clamp(y, 8, 92)
-  };
-}
-
 function distanceKm(from, to) {
   if (!from || !Number.isFinite(to.latitude) || !Number.isFinite(to.longitude)) {
     return null;
@@ -674,10 +735,6 @@ function getStoredReports() {
   } catch {
     return [];
   }
-}
-
-function clamp(value, min, max) {
-  return Math.max(min, Math.min(max, value));
 }
 
 function toRadians(value) {
