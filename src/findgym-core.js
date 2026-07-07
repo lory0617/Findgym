@@ -67,6 +67,10 @@ export function filterGyms(gyms, filters = {}, now = new Date()) {
       return false;
     }
 
+    if (filters.city && gym.city !== filters.city) {
+      return false;
+    }
+
     if (filters.openNow && !isGymOpenNow(gym, now)) {
       return false;
     }
@@ -76,6 +80,14 @@ export function filterGyms(gyms, filters = {}, now = new Date()) {
     }
 
     if (filters.noContract && !gym.access?.supportsNoContractMonthly) {
+      return false;
+    }
+
+    if (filters.hourly && !hasPricingType(gym, "hourly")) {
+      return false;
+    }
+
+    if (filters.is24Hours && !gym.facilities?.is24Hours) {
       return false;
     }
 
@@ -165,6 +177,10 @@ export function validateReport(input) {
 
 function searchableText(gym) {
   return normalizeQuery([gym.name, gym.brandName, gym.branchName, gym.city, gym.district, gym.address].filter(Boolean).join(" "));
+}
+
+function hasPricingType(gym, type) {
+  return Array.isArray(gym.pricing) && gym.pricing.some((price) => price.type === type);
 }
 
 function scoreGym(gym, userLocation, now) {

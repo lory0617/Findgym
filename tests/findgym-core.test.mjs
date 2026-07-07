@@ -65,6 +65,21 @@ test("filterGyms applies query, default hidden exclusion, and facility filters",
   assert.deepEqual(result.map((gym) => gym.id), ["a"]);
 });
 
+test("filterGyms applies city, hourly pricing, and 24-hour service filters", () => {
+  const result = filterGyms(
+    [
+      gyms[0],
+      {
+        ...gyms[1],
+        pricing: [...gyms[1].pricing, { type: "hourly", amountTwd: 1, unit: "per_hour", lastVerifiedAt: "2026-07-06" }]
+      }
+    ],
+    { city: "新北市", hourly: true, is24Hours: true, includeHidden: true },
+    new Date("2026-07-06T12:00:00+08:00")
+  );
+  assert.deepEqual(result.map((gym) => gym.id), ["b"]);
+});
+
 test("rankGyms puts nearby verified flexible gyms first", () => {
   const result = rankGyms(gyms, { latitude: 25.03, longitude: 121.52 }, new Date("2026-07-06T12:00:00+08:00"));
   assert.equal(result[0].id, "a");

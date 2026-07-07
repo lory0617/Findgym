@@ -31,9 +31,12 @@ const state = {
   userLocation: { latitude: 25.0478, longitude: 121.517 },
   filters: {
     query: "",
+    city: "",
     openNow: false,
     singleEntry: true,
+    hourly: false,
     noContract: false,
+    is24Hours: false,
     squatRack: false,
     shower: false,
     parking: false
@@ -72,9 +75,12 @@ function handleFilterChange() {
   const formData = new FormData(elements.filterForm);
   state.filters = {
     query: String(formData.get("query") ?? ""),
+    city: String(formData.get("city") ?? ""),
     openNow: formData.has("openNow"),
     singleEntry: formData.has("singleEntry"),
+    hourly: formData.has("hourly"),
     noContract: formData.has("noContract"),
+    is24Hours: formData.has("is24Hours"),
     squatRack: formData.has("squatRack"),
     shower: formData.has("shower"),
     parking: formData.has("parking")
@@ -280,27 +286,30 @@ function renderGymCard(gym) {
 
   return `
     <article class="gym-card">
-      <div class="gym-card-header">
-        <div>
-          <h3>${escapeHtml(gym.name)}</h3>
-          <p class="meta">${escapeHtml(gym.city)}${escapeHtml(gym.district)} · ${distance}</p>
+      <div class="gym-thumb" aria-hidden="true">
+        <img src="./assets/icon.svg" alt="" />
+      </div>
+      <div class="gym-card-body">
+        <div class="gym-card-header">
+          <div>
+            <h3>${escapeHtml(gym.name)}</h3>
+            <p class="meta">營業時間：${escapeHtml(formatTodayHours(gym))}</p>
+            <p class="meta">${escapeHtml(gym.city)}${escapeHtml(gym.district)} · ${distance}</p>
+          </div>
+          <span class="chip ${open ? "chip-strong" : "chip-warn"}">${open ? "營業中" : "未營業"}</span>
         </div>
-        <span class="chip ${open ? "chip-strong" : "chip-warn"}">${open ? "營業中" : "未營業"}</span>
-      </div>
-      <div class="chip-row">
-        ${renderAccessChips(gym)}
-        ${price ? `<span class="chip chip-strong">${escapeHtml(formatPrice(price))}</span>` : '<span class="chip chip-warn">價格待查</span>'}
-        ${gym.facilities?.is24Hours ? '<span class="chip">24 小時</span>' : ""}
-        ${gym.facilities?.hasSquatRack ? '<span class="chip">深蹲架</span>' : ""}
-        ${gym.facilities?.hasShower ? '<span class="chip">淋浴</span>' : ""}
-      </div>
-      <p class="meta">${escapeHtml(gym.address)}</p>
-      <div class="card-actions">
-        <button class="primary-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
-        <button class="secondary-button" type="button" data-action="toggle-compare" data-gym-id="${escapeHtml(gym.id)}">
-          ${compared ? "移出比較" : "加入比較"}
-        </button>
-        <button class="text-button" type="button" data-action="open-report" data-gym-id="${escapeHtml(gym.id)}">回報</button>
+        <p class="meta">${escapeHtml(gym.address)}</p>
+        <div class="service-tags">
+          ${renderServiceTags(gym)}
+          ${price ? `<span>#${escapeHtml(formatPrice(price))}</span>` : "<span>#價格待查</span>"}
+        </div>
+        <div class="card-actions">
+          <button class="primary-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
+          <button class="secondary-button" type="button" data-action="toggle-compare" data-gym-id="${escapeHtml(gym.id)}">
+            ${compared ? "移出比較" : "加入比較"}
+          </button>
+          <button class="text-button" type="button" data-action="open-report" data-gym-id="${escapeHtml(gym.id)}">回報</button>
+        </div>
       </div>
     </article>
   `;
@@ -509,6 +518,30 @@ function renderAccessChips(gym) {
   }
 
   return chips.length ? chips.join("") : '<span class="chip chip-warn">彈性入場待確認</span>';
+}
+
+function renderServiceTags(gym) {
+  const tags = [];
+
+  if (gym.access?.supportsSingleEntry) tags.push("單次入場");
+  if (gym.pricing?.some((price) => price.type === "hourly")) tags.push("以時計費");
+  if (gym.access?.supportsNoContractMonthly) tags.push("免綁月繳");
+  if (gym.facilities?.is24Hours) tags.push("24小時");
+  if (gym.facilities?.hasSquatRack) tags.push("深蹲架");
+  if (gym.facilities?.hasShower) tags.push("淋浴");
+  if (gym.facilities?.hasParking) tags.push("停車");
+
+  return tags.map((tag) => `<span>#${escapeHtml(tag)}</span>`).join("");
+}
+
+function formatTodayHours(gym) {
+  const today = gym.openingHours?.find((entry) => Number(entry.weekday) === new Date().getDay());
+
+  if (!today || today.isClosed) {
+    return "今日未營業";
+  }
+
+  return `${today.opensAt} - ${today.closesAt}`;
 }
 
 function renderFact(label, value) {
