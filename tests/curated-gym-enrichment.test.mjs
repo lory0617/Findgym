@@ -54,7 +54,8 @@ test("enrichGymsFromCurated updates matching gyms with curated pricing and acces
       district: "大寮區",
       address: "高雄市大寮區進學路151號",
       access: { supportsSingleEntry: true, contractNote: "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。" },
-      pricing: [{ type: "single_entry", amountTwd: null, unit: "per_entry", timeLimitMinutes: null, sourceNote: "價格需查證", lastVerifiedAt: "2026-07-07" }]
+      pricing: [{ type: "single_entry", amountTwd: null, unit: "per_entry", timeLimitMinutes: null, sourceNote: "價格需查證", lastVerifiedAt: "2026-07-07" }],
+      verification: { confidenceLevel: "unverified", verificationSource: "government_open_data", verifiedAt: "2026-07-07" }
     },
     {
       id: "tp-1",
@@ -63,7 +64,8 @@ test("enrichGymsFromCurated updates matching gyms with curated pricing and acces
       district: "信義區",
       address: "台北市信義區和平東路3段333號B1",
       access: { supportsSingleEntry: true, contractNote: "待查" },
-      pricing: [{ type: "single_entry", amountTwd: null, unit: "per_entry", timeLimitMinutes: null, sourceNote: "價格需查證", lastVerifiedAt: "2026-07-07" }]
+      pricing: [{ type: "single_entry", amountTwd: null, unit: "per_entry", timeLimitMinutes: null, sourceNote: "價格需查證", lastVerifiedAt: "2026-07-07" }],
+      verification: { confidenceLevel: "unverified", verificationSource: "government_open_data", verifiedAt: "2026-07-07" }
     }
   ];
 
@@ -78,10 +80,41 @@ test("enrichGymsFromCurated updates matching gyms with curated pricing and acces
   assert.equal(daliao.pricing[0].amountTwd, 50);
   assert.equal(daliao.access.contractNote, "體適能中心50元/小時");
   assert.equal(daliao.access.supportsSingleEntry, true);
+  assert.equal(daliao.verification.confidenceLevel, "verified");
+  assert.equal(daliao.verification.verificationSource, "manual_research");
 
   const tiyuke = result.gyms.find((gym) => gym.id === "tp-1");
   assert.equal(tiyuke.pricing[0].amountTwd, 300);
   assert.equal(tiyuke.pricing[0].sourceNote, "單次入場300元");
+  assert.equal(tiyuke.verification.confidenceLevel, "verified");
+});
+
+test("enrichGymsFromCurated hides curated membership-only matches", () => {
+  const csv = `${csvHeader}
+1,2026-07-07,臺北市,中山區,飯店附設健身房,大倉久和大飯店附設健身房,大倉久和大飯店附設健身房,臺北市中山區南京東路一段9號,大倉健身俱樂部採會員制：個人卡一年會籍入會費NT$100000+月費NT$5000；未公開單次入場費用；住客免費使用,否,營運中,官方明確,會員制,https://example.org/okura,排除
+`;
+  const gyms = [
+    {
+      id: "tp-okura",
+      name: "大倉久和大飯店附設健身房",
+      city: "台北市",
+      district: "中山區",
+      address: "台北市中山區南京東路一段9號",
+      isHiddenByDefault: false,
+      access: { supportsSingleEntry: true, supportsNoContractMonthly: true, supportsTrial: true, contractNote: "政府運動設施普查標示付費對外開放" },
+      pricing: [{ type: "single_entry", amountTwd: null, unit: "per_entry", timeLimitMinutes: null, sourceNote: "價格需查證", lastVerifiedAt: "2026-07-07" }]
+    }
+  ];
+
+  const result = enrichGymsFromCurated(gyms, csv, { fetchedAt: "2026-07-07" });
+
+  assert.equal(result.enriched.length, 1);
+  assert.equal(result.gyms[0].isHiddenByDefault, true);
+  assert.equal(result.gyms[0].access.supportsSingleEntry, false);
+  assert.equal(result.gyms[0].access.supportsNoContractMonthly, false);
+  assert.equal(result.gyms[0].access.supportsTrial, false);
+  assert.equal(result.gyms[0].pricing[0].type, "other");
+  assert.equal(result.gyms[0].pricing[0].amountTwd, null);
 });
 
 test("enrich CLI updates the dataset file in place", async () => {

@@ -13,20 +13,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -133,20 +133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -253,20 +253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -373,20 +373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -493,20 +493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -613,20 +613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -733,20 +733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -853,20 +853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -973,20 +973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1093,20 +1093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1213,20 +1213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1333,20 +1333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1453,20 +1453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1573,20 +1573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1693,20 +1693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1813,20 +1813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -1933,20 +1933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2053,20 +2053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2173,20 +2173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2293,20 +2293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2413,20 +2413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2533,20 +2533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2653,20 +2653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2773,20 +2773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -2893,20 +2893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3013,20 +3013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3133,20 +3133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3240,126 +3240,6 @@
     }
   },
   {
-    "id": "taipei-gym-bzg5ec",
-    "name": "大倉久和大飯店附設健身房",
-    "brandName": "",
-    "branchName": "",
-    "city": "台北市",
-    "district": "中山區",
-    "address": "臺北市中山區南京東路1段9號",
-    "latitude": 25.05248777,
-    "longitude": 121.5232375,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
-    },
-    "pricing": [
-      {
-        "type": "single_entry",
-        "amountTwd": null,
-        "unit": "per_entry",
-        "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": false,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": true,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "政府開放資料",
-        "付費開放",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "government_open_data",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "02-21815123",
-      "website": "http://www.okurataipei.com.tw/zh-tw",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "sagov-national-sports-facilities",
-      "sourceName": "體育署全國運動場館資訊",
-      "sourceType": "government_open_data",
-      "sourceUrl": "https://data.gov.tw/dataset/22849",
-      "sourceRecordUrl": "https://data.gov.tw/dataset/22849",
-      "sourceLicense": "政府資料開放授權條款-第1版（Open Government Data License, version 1.0）; attribution required; price, hours, and access still require official-source verification",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
     "id": "taipei-gym-733ux5",
     "name": "北安國中多功能場地",
     "brandName": "",
@@ -3373,20 +3253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3493,20 +3373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3613,20 +3493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3733,20 +3613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3853,20 +3733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -3973,20 +3853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4093,20 +3973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4213,20 +4093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4333,20 +4213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4453,20 +4333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4573,20 +4453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4693,20 +4573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4813,20 +4693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -4933,20 +4813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5053,20 +4933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5173,20 +5053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5293,20 +5173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5413,20 +5293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5533,20 +5413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5653,20 +5533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5773,20 +5653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5893,20 +5773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6013,20 +5893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6133,20 +6013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6253,20 +6133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6373,20 +6253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6493,20 +6373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6613,20 +6493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6733,20 +6613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6853,20 +6733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -6973,20 +6853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7093,20 +6973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7213,20 +7093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7333,20 +7213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7453,20 +7333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7573,20 +7453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7693,20 +7573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7813,20 +7693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -7933,20 +7813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8053,20 +7933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8173,20 +8053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8293,20 +8173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8413,20 +8293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8533,20 +8413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8653,20 +8533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8773,20 +8653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -8893,20 +8773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9013,20 +8893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9133,20 +9013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9253,20 +9133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9373,20 +9253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9493,20 +9373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9613,20 +9493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9733,20 +9613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9853,20 +9733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -9973,20 +9853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10093,20 +9973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10213,20 +10093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10333,20 +10213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10453,20 +10333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10573,20 +10453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10693,20 +10573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10813,20 +10693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -10933,20 +10813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11053,20 +10933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11173,20 +11053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11293,20 +11173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11413,20 +11293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11533,20 +11413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11653,20 +11533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11773,20 +11653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -11893,20 +11773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12013,20 +11893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12133,20 +12013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12253,20 +12133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12373,20 +12253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12493,20 +12373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12613,20 +12493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12733,20 +12613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12853,20 +12733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -12973,20 +12853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13093,20 +12973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13213,20 +13093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13333,7 +13213,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -13346,7 +13226,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13453,20 +13333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13573,20 +13453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13680,126 +13560,6 @@
     }
   },
   {
-    "id": "hsinchucounty-gym-3zgiwx",
-    "name": "新竹喜來登大飯店健身中心",
-    "brandName": "",
-    "branchName": "",
-    "city": "新竹縣",
-    "district": "竹北市",
-    "address": "新竹縣竹北市光明六路東一段265號",
-    "latitude": 24.82018843,
-    "longitude": 121.0281587,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
-    },
-    "pricing": [
-      {
-        "type": "single_entry",
-        "amountTwd": null,
-        "unit": "per_entry",
-        "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": false,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": true,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "政府開放資料",
-        "付費開放",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "government_open_data",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "03-6206085",
-      "website": "https://www.sheraton-hsinchu.com/zh-tw/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "sagov-national-sports-facilities",
-      "sourceName": "體育署全國運動場館資訊",
-      "sourceType": "government_open_data",
-      "sourceUrl": "https://data.gov.tw/dataset/22849",
-      "sourceRecordUrl": "https://data.gov.tw/dataset/22849",
-      "sourceLicense": "政府資料開放授權條款-第1版（Open Government Data License, version 1.0）; attribution required; price, hours, and access still require official-source verification",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
     "id": "hsinchucounty-gym-18v2ff",
     "name": "台元運動健身中心",
     "brandName": "",
@@ -13813,20 +13573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -13933,20 +13693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14053,7 +13813,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -14066,7 +13826,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14173,20 +13933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14293,20 +14053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14413,20 +14173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14533,20 +14293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14653,20 +14413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14773,20 +14533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -14893,20 +14653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15013,20 +14773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15133,20 +14893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15253,20 +15013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15373,20 +15133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15493,20 +15253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15613,20 +15373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15733,20 +15493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15853,20 +15613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -15973,20 +15733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16093,20 +15853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16213,20 +15973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16333,20 +16093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16453,20 +16213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16573,20 +16333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16693,20 +16453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16813,20 +16573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -16933,20 +16693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17053,20 +16813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17173,20 +16933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17293,20 +17053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17413,20 +17173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17533,20 +17293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17653,20 +17413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17773,20 +17533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -17893,20 +17653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18013,7 +17773,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -18026,7 +17786,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18133,20 +17893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18253,20 +18013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18373,20 +18133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18493,20 +18253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18613,20 +18373,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18733,20 +18493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18853,20 +18613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -18973,20 +18733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19093,20 +18853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19213,20 +18973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19333,20 +19093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19453,20 +19213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19573,20 +19333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19693,20 +19453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19813,20 +19573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -19933,20 +19693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20053,20 +19813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20173,20 +19933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20293,7 +20053,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -20306,7 +20066,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20413,20 +20173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20533,20 +20293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20653,20 +20413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20773,20 +20533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -20893,7 +20653,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -20906,7 +20666,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21013,20 +20773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21133,20 +20893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21253,20 +21013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21373,20 +21133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21493,20 +21253,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21613,7 +21373,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -21626,7 +21386,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21733,20 +21493,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21853,20 +21613,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -21973,20 +21733,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22093,20 +21853,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22213,20 +21973,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22333,20 +22093,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22453,20 +22213,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22573,20 +22333,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22693,20 +22453,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22813,20 +22573,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -22933,20 +22693,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23053,20 +22813,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23173,20 +22933,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23293,20 +23053,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23413,20 +23173,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23533,20 +23293,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23653,20 +23413,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23773,20 +23533,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -23893,20 +23653,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24013,20 +23773,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24133,20 +23893,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24253,20 +24013,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24373,20 +24133,20 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+      "contractNote": "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     "pricing": [
       {
-        "type": "single_entry",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_entry",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24493,7 +24253,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -24506,7 +24266,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24613,7 +24373,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -24626,7 +24386,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24733,7 +24493,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -24746,7 +24506,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -24853,7 +24613,7 @@
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
@@ -24866,7 +24626,7 @@
         "amountTwd": 0,
         "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        "sourceNote": "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],

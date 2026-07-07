@@ -17,6 +17,7 @@ const sampleCsv = `﻿${csvHeader}
 63000,中正區,臺北市中正運動中心,健身房(含重量訓練室),臺北市政府體育局,王小明,02-23456789,https://example.org/zhongzheng,國民運動中心（名稱具有運動中心）,[100]臺北市中正區信義路一段1號,25.0375,121.5199,健身房(含重量訓練室),付費對外開放使用,一二三四五六日,付費對外場地租借,NULL,平面停車場,介紹文字,未曾在本場地舉辦運動賽事,NULL,107,1000
 10002,宜蘭市,宜蘭鐵人健身房,健身房(含重量訓練室),民營場館填報帳號,李店長,03-9876543,NULL,綜合功能型運動場館（非前三項運動場館型態，且運動場館內含兩種以上運動設施）,[260]宜蘭縣宜蘭市中山路100號,24.7570,121.7530,健身房(含重量訓練室),付費對外開放使用,一二三四五六,付費對外場地租借,"備註,含逗號",無停車場,NULL,未曾在本場地舉辦運動賽事,NULL,105,200
 10014,臺東市,臺東大學體適能中心,體適能中心,國立臺東大學,張老師,089-318855,http://www.nttu.edu.tw/,單一功能型運動場館（非前三項運動場館型態，且運動場館 僅含一項運動設施）,[950]臺東縣臺東市大學路二段369號,22.7480,121.1280,體適能中心,免費對外開放使用,一二三四五,不開放對外場地租借,NULL,無停車場,NULL,未曾在本場地舉辦運動賽事,NULL,100,150
+63000,中山區,大倉久和大飯店附設健身房,健身房(含重量訓練室),大倉久和大飯店,陳經理,02-25231111,https://example.org/okura,單一功能型運動場館（非前三項運動場館型態，且運動場館 僅含一項運動設施）,[104]臺北市中山區南京東路一段9號,25.0520,121.5230,健身房(含重量訓練室),付費對外開放使用,一二三四五六日,付費對外場地租借,NULL,無停車場,NULL,未曾在本場地舉辦運動賽事,NULL,101,120
 63000,士林區,某高中重訓室,健身房(含重量訓練室),某高中,趙主任,02-11112222,NULL,單一功能型運動場館（非前三項運動場館型態，且運動場館 僅含一項運動設施）,[111]臺北市士林區測試路9號,25.1000,121.5200,健身房(含重量訓練室),不對外開放使用,一二三四五,不開放對外場地租借,NULL,無停車場,NULL,未曾在本場地舉辦運動賽事,NULL,99,80
 63000,大安區,某大學籃球館,籃球場,某大學,錢組長,02-33334444,NULL,單一功能型運動場館（非前三項運動場館型態，且運動場館 僅含一項運動設施）,[106]臺北市大安區測試路1號,25.0260,121.5430,籃球場,付費對外開放使用,一二三四五六日,付費對外場地租借,NULL,無停車場,NULL,未曾在本場地舉辦運動賽事,NULL,98,900
 10002,宜蘭市,宜蘭鐵人健身房,健身房(含重量訓練室),民營場館填報帳號,李店長,03-9876543,NULL,綜合功能型運動場館（非前三項運動場館型態，且運動場館內含兩種以上運動設施）,[260]宜蘭縣宜蘭市中山路100號,24.7570,121.7530,健身房(含重量訓練室),付費對外開放使用,一二三四五六,付費對外場地租借,NULL,無停車場,NULL,未曾在本場地舉辦運動賽事,NULL,105,200
@@ -44,6 +45,7 @@ test("buildSagovGymSourcePackage keeps public-open gym rows and maps county code
   const skippedReasons = result.skipped.map((row) => row.reason);
   assert.equal(skippedReasons.includes("not_public_open"), true);
   assert.equal(skippedReasons.includes("not_gym_category"), true);
+  assert.equal(skippedReasons.includes("likely_guest_or_member_only"), true);
   assert.equal(skippedReasons.includes("duplicate_source_row"), true);
 
   const taipei = result.sourcePackage.records[0];
@@ -56,8 +58,9 @@ test("buildSagovGymSourcePackage keeps public-open gym rows and maps county code
   assert.equal(taipei.website, "https://example.org/zhongzheng");
   assert.equal(taipei.facilities.hasFreeWeights, true);
   assert.equal(taipei.facilities.hasParking, true);
-  assert.equal(taipei.access.supportsSingleEntry, true);
+  assert.equal(taipei.access.supportsSingleEntry, false);
   assert.equal(taipei.pricing[0].amountTwd, null);
+  assert.equal(taipei.pricing[0].type, "other");
 
   const yilan = result.sourcePackage.records[1];
   assert.equal(yilan.city, "宜蘭縣");

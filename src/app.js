@@ -2,8 +2,8 @@ import {
   buildComparisonRows,
   filterGyms,
   getBestFlexiblePrice,
+  getGymOpenStatus,
   hasCoordinates,
-  isGymOpenNow,
   paginateItems,
   rankGyms,
   validateReport
@@ -371,7 +371,6 @@ function renderPagination(page, totalPages) {
 
 function renderGymCard(gym) {
   const price = getBestFlexiblePrice(gym);
-  const open = isGymOpenNow(gym);
   const compared = state.compareIds.includes(gym.id);
   const distance = formatDistance(distanceKm(state.userLocation, gym));
 
@@ -387,7 +386,7 @@ function renderGymCard(gym) {
             <p class="meta">營業時間：${escapeHtml(formatTodayHours(gym))}</p>
             <p class="meta">${escapeHtml(gym.city)}${escapeHtml(gym.district)} · ${distance}</p>
           </div>
-          <span class="chip ${open ? "chip-strong" : "chip-warn"}">${open ? "營業中" : "未營業"}</span>
+          ${renderOpenStatusChip(gym)}
         </div>
         <p class="meta">${escapeHtml(gym.address)}</p>
         <div class="service-tags">
@@ -437,7 +436,7 @@ function renderDetail() {
         <div>
           <div class="chip-row">
             ${renderAccessChips(gym)}
-            <span class="chip ${isGymOpenNow(gym) ? "chip-strong" : "chip-warn"}">${isGymOpenNow(gym) ? "目前營業中" : "目前未營業"}</span>
+            ${renderOpenStatusChip(gym, { includeCurrently: true })}
             <span class="chip">${escapeHtml(confidenceLabel(gym.verification?.confidenceLevel))}</span>
           </div>
           <p class="detail-address">${escapeHtml(gym.address)}</p>
@@ -628,6 +627,10 @@ function renderServiceTags(gym) {
 }
 
 function formatTodayHours(gym) {
+  if (getGymOpenStatus(gym) === "unknown") {
+    return "營業時間待查";
+  }
+
   const today = gym.openingHours?.find((entry) => Number(entry.weekday) === new Date().getDay());
 
   if (!today || today.isClosed) {
@@ -635,6 +638,21 @@ function formatTodayHours(gym) {
   }
 
   return `${today.opensAt} - ${today.closesAt}`;
+}
+
+function renderOpenStatusChip(gym, options = {}) {
+  const status = getGymOpenStatus(gym);
+  const includeCurrently = options.includeCurrently === true;
+
+  if (status === "open") {
+    return `<span class="chip chip-strong">${includeCurrently ? "目前營業中" : "營業中"}</span>`;
+  }
+
+  if (status === "closed") {
+    return `<span class="chip chip-warn">${includeCurrently ? "目前未營業" : "未營業"}</span>`;
+  }
+
+  return '<span class="chip">營業時間待查</span>';
 }
 
 function renderFact(label, value) {

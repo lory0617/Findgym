@@ -42,6 +42,11 @@ export function buildCuratedGymSourcePackage(csvText, options = {}) {
       return;
     }
 
+    if (!isNoContractRow(row)) {
+      skipped.push({ index, name, reason: "not_flexible_access" });
+      return;
+    }
+
     const rowKey = `${normalizeVenueText(name)}|${normalizeVenueText(address)}`;
 
     if (seenRowKeys.has(rowKey)) {
@@ -79,7 +84,7 @@ export function buildCuratedGymSourcePackage(csvText, options = {}) {
 
 function buildRecord(row, { name, brand, branch, address, fetchedAt }) {
   const feeText = String(row["收費方式"] ?? "").trim();
-  const noContract = String(row["免綁約"] ?? "").trim() === "是";
+  const noContract = isNoContractRow(row);
   const verifiedAt = String(row["資料查核日"] ?? "").trim() || fetchedAt;
 
   return {
@@ -205,16 +210,45 @@ export function enrichGymsFromCurated(gyms, csvText, options = {}) {
     const feeText = String(row["收費方式"] ?? "").trim();
     const verifiedAt = String(row["資料查核日"] ?? "").trim() || fetchedAt;
 
+    const noContract = isNoContractRow(row);
+
     gym.pricing = parsePricingFromFeeText(feeText, verifiedAt);
     gym.access = {
       ...gym.access,
-      supportsSingleEntry: String(row["免綁約"] ?? "").trim() === "是" ? true : gym.access?.supportsSingleEntry ?? false,
+      supportsSingleEntry: noContract,
+      supportsNoContractMonthly: noContract ? gym.access?.supportsNoContractMonthly ?? false : false,
+      supportsTrial: noContract ? gym.access?.supportsTrial ?? false : false,
       contractNote: feeText || gym.access?.contractNote || ""
     };
+    gym.verification = {
+      ...gym.verification,
+      confidenceLevel: confidenceFromCuratedRow(row, noContract),
+      verificationSource: "manual_research",
+      verifiedAt
+    };
+
+    if (!noContract) {
+      gym.isHiddenByDefault = true;
+    }
+
     enriched.push({ id: gym.id, name: gym.name });
   });
 
   return { gyms, enriched, unmatched };
+}
+
+function isNoContractRow(row) {
+  return String(row?.["免綁約"] ?? "").trim() === "是";
+}
+
+function confidenceFromCuratedRow(row, noContract) {
+  const clarity = String(row?.["收費明確度"] ?? "").trim();
+
+  if (/官方明確|官方.*費率|官方多館費率明確|北區官方費率明確/.test(clarity)) {
+    return "verified";
+  }
+
+  return noContract ? "likely" : "stale";
 }
 
 function findMatch(row, { nameIndex, addressIndex, shortAddressIndex }) {

@@ -124,6 +124,11 @@ export function buildSagovGymSourcePackage(rows, options = {}) {
       return;
     }
 
+    if (isLikelyGuestOrMemberOnly(row, name)) {
+      skipped.push({ index, name, reason: "likely_guest_or_member_only" });
+      return;
+    }
+
     const city = COUNTY_CODES[Number(row["縣市"])];
 
     if (!city) {
@@ -181,18 +186,18 @@ function buildRecord(row, { name, category, openness, city, address, fetchedAt }
     website: cleanValue(row["場館官方網站"]),
     sourceRecordUrl: SOURCE_URL,
     access: {
-      supportsSingleEntry: true,
+      supportsSingleEntry: false,
       contractNote: isFree
         ? "政府運動設施普查標示免費對外開放；開放對象與時段需以官方管道複查。"
-        : "政府運動設施普查標示付費對外開放；單次入場方式與價格需以官方管道複查。"
+        : "政府運動設施普查標示付費對外開放；尚未確認是否可免綁約單次入場。"
     },
     pricing: [
       {
-        type: isFree ? "other" : "single_entry",
+        type: "other",
         amountTwd: isFree ? 0 : null,
-        unit: isFree ? "custom" : "per_entry",
+        unit: "custom",
         timeLimitMinutes: null,
-        sourceNote: "體育署全國運動場館資訊普查資料；價格需以官方管道查證。",
+        sourceNote: "體育署全國運動場館資訊普查資料；彈性入場與價格需以官方管道查證。",
         lastVerifiedAt: fetchedAt
       }
     ],
@@ -207,6 +212,23 @@ function buildRecord(row, { name, category, openness, city, address, fetchedAt }
       summaryTags: ["政府開放資料", isFree ? "免費開放" : "付費開放", "待查證"]
     }
   };
+}
+
+function isLikelyGuestOrMemberOnly(row, name) {
+  const text = normalizeVenueText(
+    [
+      name,
+      row["場館隸屬機關"],
+      row["場館實際管理人姓名"],
+      row["場館隸屬機關屬性"],
+      row["地址"],
+      row["運動場館介紹"]
+    ].join(" ")
+  );
+  const looksLikeHotelFacility = /(飯店|酒店|旅館|旅店|商旅).*(健身|體適能)|(健身|體適能).*(飯店|酒店|旅館|旅店|商旅)/.test(text);
+  const looksLikeMemberClub = /(會員制|會員俱樂部|住客|房客|住宿).*(健身|體適能)|(健身|體適能).*(會員制|會員俱樂部|住客|房客|住宿)/.test(text);
+
+  return looksLikeHotelFacility || looksLikeMemberClub;
 }
 
 function toCoordinate(value) {

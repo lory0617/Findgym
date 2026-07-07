@@ -4,6 +4,7 @@ import {
   buildComparisonRows,
   filterGyms,
   getBestFlexiblePrice,
+  getGymOpenStatus,
   hasCoordinates,
   isGymOpenNow,
   normalizeQuery,
@@ -54,6 +55,18 @@ test("isGymOpenNow checks weekday hours", () => {
   assert.equal(isGymOpenNow(gyms[0], new Date("2026-07-06T23:00:00+08:00")), false);
 });
 
+test("getGymOpenStatus distinguishes unknown hours from closed hours", () => {
+  const unknownHours = {
+    ...gyms[0],
+    openingHours: [0, 1, 2, 3, 4, 5, 6].map((weekday) => ({ weekday, opensAt: "00:00", closesAt: "00:00", isClosed: true }))
+  };
+
+  assert.equal(getGymOpenStatus(gyms[0], new Date("2026-07-06T12:00:00+08:00")), "open");
+  assert.equal(getGymOpenStatus(gyms[0], new Date("2026-07-06T23:00:00+08:00")), "closed");
+  assert.equal(getGymOpenStatus(unknownHours, new Date("2026-07-06T12:00:00+08:00")), "unknown");
+  assert.equal(isGymOpenNow(unknownHours, new Date("2026-07-06T12:00:00+08:00")), false);
+});
+
 test("getBestFlexiblePrice prefers single entry before monthly", () => {
   assert.deepEqual(getBestFlexiblePrice(gyms[0]), gyms[0].pricing[0]);
 });
@@ -97,6 +110,18 @@ test("buildComparisonRows exposes decision fields", () => {
   const rows = buildComparisonRows([gyms[0], gyms[1]]);
   assert.equal(rows[0].label, "彈性入場");
   assert.equal(rows.some((row) => row.label === "資料可信度"), true);
+});
+
+test("buildComparisonRows labels unknown opening hours as pending verification", () => {
+  const rows = buildComparisonRows([
+    {
+      ...gyms[0],
+      openingHours: [0, 1, 2, 3, 4, 5, 6].map((weekday) => ({ weekday, opensAt: "00:00", closesAt: "00:00", isClosed: true }))
+    }
+  ]);
+
+  const statusRow = rows.find((row) => row.label === "營業狀態");
+  assert.deepEqual(statusRow.values, ["營業時間待查"]);
 });
 
 test("buildComparisonRows describes unknown flexible prices without showing zero", () => {

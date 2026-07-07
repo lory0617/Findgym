@@ -13,12 +13,21 @@ export function normalizeQuery(value) {
     .replaceAll("臺", "台");
 }
 
-export function isGymOpenNow(gym, now = new Date()) {
+export function getGymOpenStatus(gym, now = new Date()) {
   const hours = Array.isArray(gym?.openingHours) ? gym.openingHours : [];
+
+  if (hasUnknownOpeningHours(hours)) {
+    return "unknown";
+  }
+
   const today = hours.find((entry) => Number(entry.weekday) === now.getDay());
 
-  if (!today || today.isClosed) {
-    return false;
+  if (!today) {
+    return "unknown";
+  }
+
+  if (today.isClosed) {
+    return "closed";
   }
 
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
@@ -26,14 +35,31 @@ export function isGymOpenNow(gym, now = new Date()) {
   const closesAt = timeToMinutes(today.closesAt);
 
   if (opensAt === null || closesAt === null) {
-    return false;
+    return "unknown";
   }
 
   if (opensAt <= closesAt) {
-    return currentMinutes >= opensAt && currentMinutes < closesAt;
+    return currentMinutes >= opensAt && currentMinutes < closesAt ? "open" : "closed";
   }
 
-  return currentMinutes >= opensAt || currentMinutes < closesAt;
+  return currentMinutes >= opensAt || currentMinutes < closesAt ? "open" : "closed";
+}
+
+export function isGymOpenNow(gym, now = new Date()) {
+  return getGymOpenStatus(gym, now) === "open";
+}
+
+export function hasUnknownOpeningHours(openingHours) {
+  const hours = Array.isArray(openingHours) ? openingHours : [];
+
+  if (hours.length === 0) {
+    return true;
+  }
+
+  return (
+    hours.length === 7 &&
+    hours.every((entry) => entry?.isClosed === true && entry?.opensAt === "00:00" && entry?.closesAt === "00:00")
+  );
 }
 
 export function getBestFlexiblePrice(gym) {
@@ -127,7 +153,7 @@ export function buildComparisonRows(gyms) {
     },
     {
       label: "營業狀態",
-      values: gyms.map((gym) => (isGymOpenNow(gym) ? "目前營業中" : "目前未營業"))
+      values: gyms.map((gym) => formatOpenStatus(gym))
     },
     {
       label: "重訓設備",
@@ -281,6 +307,20 @@ function formatPrice(price) {
     }[price.unit] ?? "方案";
 
   return `NT$${price.amountTwd}/${unitLabel}`;
+}
+
+function formatOpenStatus(gym) {
+  const status = getGymOpenStatus(gym);
+
+  if (status === "open") {
+    return "目前營業中";
+  }
+
+  if (status === "closed") {
+    return "目前未營業";
+  }
+
+  return "營業時間待查";
 }
 
 function formatStrengthFacilities(gym) {
