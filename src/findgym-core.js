@@ -279,7 +279,7 @@ function formatAccess(gym) {
   }
 
   if (gym.access?.supportsNoContractMonthly) {
-    labels.push("免綁月繳");
+    labels.push("不用綁約");
   }
 
   if (gym.access?.supportsTrial) {

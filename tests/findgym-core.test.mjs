@@ -109,6 +109,7 @@ test("hasCoordinates only accepts gyms with finite latitude and longitude", () =
 test("buildComparisonRows exposes decision fields", () => {
   const rows = buildComparisonRows([gyms[0], gyms[1]]);
   assert.equal(rows[0].label, "彈性入場");
+  assert.deepEqual(rows[0].values, ["單次", "不用綁約"]);
   assert.equal(rows.some((row) => row.label === "資料可信度"), true);
 });
 

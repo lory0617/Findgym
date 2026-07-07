@@ -665,7 +665,7 @@ function renderServiceTags(gym) {
   const tags = [];
 
   if (gym.access?.supportsSingleEntry) tags.push("單次入場");
-  if (gym.pricing?.some((price) => price.type === "hourly")) tags.push("小時計費");
+  if (gym.pricing?.some((price) => price.type === "hourly")) tags.push("計時收費");
   if (gym.pricing?.some((price) => price.type === "daily")) tags.push("日票");
   if (gym.access?.supportsNoContractMonthly) tags.push("不用綁約");
   if (gym.facilities?.is24Hours) tags.push("24小時");
@@ -746,7 +746,7 @@ function summarizeEntryTypes(gym) {
   const labels = [];
 
   if (gym.access?.supportsSingleEntry) labels.push("單次入場");
-  if (gym.pricing?.some((price) => price.type === "hourly")) labels.push("小時計費");
+  if (gym.pricing?.some((price) => price.type === "hourly")) labels.push("計時收費");
   if (gym.pricing?.some((price) => price.type === "daily")) labels.push("日票");
   if (gym.access?.supportsNoContractMonthly) labels.push("不用綁約");
   if (gym.access?.requiresReservation) labels.push("需預約");

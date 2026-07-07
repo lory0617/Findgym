@@ -14,8 +14,13 @@ test("app shell includes directory-style navigation and search controls", async 
   assert.equal(html.includes("找健身房"), true);
   assert.equal(html.includes("找比較"), true);
   assert.equal(html.includes('name="city"'), true);
-  assert.equal(html.includes("服務項目"), true);
+  assert.equal(html.includes("入場與設施篩選"), true);
+  assert.equal(html.includes("服務項目"), false);
   assert.equal(html.includes('name="hourly"'), true);
+  assert.equal(html.includes("計時收費"), true);
+  assert.equal(html.includes("以時計費"), false);
+  assert.equal(html.includes('name="noContract"'), false);
+  assert.equal(html.includes("免綁月繳"), false);
   assert.equal(html.includes('name="is24Hours"'), true);
 });
 
@@ -53,4 +58,11 @@ test("source badges explain unverified records without implying user review work
   assert.equal(app.includes("待官方查證"), true);
   assert.equal(app.includes("尚未以官方來源確認"), true);
   assert.equal(app.includes("sourceHelpText"), true);
+});
+
+test("app uses clear timed-pricing labels in visible gym summaries", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("計時收費"), true);
+  assert.equal(app.includes("小時計費"), false);
 });
