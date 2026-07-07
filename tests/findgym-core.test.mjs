@@ -91,6 +91,18 @@ test("buildComparisonRows exposes decision fields", () => {
   assert.equal(rows.some((row) => row.label === "資料可信度"), true);
 });
 
+test("buildComparisonRows describes unknown flexible prices without showing zero", () => {
+  const rows = buildComparisonRows([
+    {
+      ...gyms[0],
+      pricing: [{ type: "hourly", amountTwd: null, unit: "per_hour", lastVerifiedAt: "2026-07-07" }]
+    }
+  ]);
+
+  const priceRow = rows.find((row) => row.label === "最低彈性價格");
+  assert.deepEqual(priceRow.values, ["價格待查證"]);
+});
+
 test("validateReport requires type and submitted value", () => {
   assert.deepEqual(validateReport({ gymId: "a", reportType: "wrong_price", submittedValue: "單次 100" }), {
     valid: true,

@@ -49,7 +49,7 @@ async function init() {
   bindEvents();
 
   try {
-    const response = await fetch("./data/gyms.json");
+    const response = await fetch("./data/gyms.json", { cache: "no-store" });
 
     if (!response.ok) {
       throw new Error(`Failed to load gyms: ${response.status}`);
@@ -242,7 +242,7 @@ function renderMap() {
     .map((gym) => {
       const point = projectGym(gym, bounds);
       const price = getBestFlexiblePrice(gym);
-      const label = price ? `NT$${price.amountTwd}` : "查看";
+      const label = price?.amountTwd === null || price?.amountTwd === undefined ? "待查" : price ? `NT$${price.amountTwd}` : "查看";
       return `
         <button
           class="map-marker ${gym.id === state.selectedGymId ? "is-selected" : ""}"
@@ -579,6 +579,10 @@ function formatRating(gym) {
 function formatPrice(price) {
   if (!price) {
     return "價格待查";
+  }
+
+  if (price.amountTwd === null || price.amountTwd === undefined) {
+    return "價格待查證";
   }
 
   const unit =

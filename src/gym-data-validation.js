@@ -181,8 +181,8 @@ function validatePricing(pricing, path, errors) {
     validateEnum(price.type, PRICE_TYPES, `${pricePath}.type`, "price type", errors);
     validateEnum(price.unit, PRICE_UNITS, `${pricePath}.unit`, "price unit", errors);
 
-    if (!Number.isFinite(price.amountTwd) || price.amountTwd < 0) {
-      errors.push(issue(`${pricePath}.amountTwd`, "amountTwd must be a non-negative number"));
+    if (price.amountTwd !== null && (!Number.isFinite(price.amountTwd) || price.amountTwd < 0)) {
+      errors.push(issue(`${pricePath}.amountTwd`, "amountTwd must be a non-negative number or null"));
     }
 
     if (

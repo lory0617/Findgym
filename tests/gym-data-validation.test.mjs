@@ -116,6 +116,24 @@ test("validateGymDataset warns for unverified records without blocking the datas
   assert.equal(result.warnings.some((issue) => issue.message.includes("unverified")), true);
 });
 
+test("validateGymRecord accepts unknown price amount for source-backed candidates", () => {
+  const candidate = {
+    ...validGym,
+    pricing: [
+      {
+        ...validGym.pricing[0],
+        type: "hourly",
+        amountTwd: null,
+        unit: "per_hour",
+        sourceNote: "官方來源待查證"
+      }
+    ]
+  };
+
+  const result = validateGymRecord(candidate, 0);
+  assert.deepEqual(result.errors, []);
+});
+
 test("summarizeGymDataset counts access, city, and confidence coverage", () => {
   const summary = summarizeGymDataset([
     validGym,
@@ -167,6 +185,6 @@ test("current data/gyms.json is structurally valid", async () => {
 test("validation CLI prints a summary for the current dataset", async () => {
   const { stdout } = await execFileAsync("node", ["scripts/validate-data.mjs", "data/gyms.json"]);
   assert.equal(stdout.includes("Findgym data validation"), true);
-  assert.equal(stdout.includes("Total gyms: 6"), true);
+  assert.equal(stdout.includes("Total gyms: 12"), true);
   assert.equal(stdout.includes("Blocking errors: 0"), true);
 });

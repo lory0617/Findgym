@@ -1,5 +1,6 @@
 const ALLOWED_SOURCE_TYPES = new Set([
   "government_open_data",
+  "open_knowledge_base",
   "official_venue",
   "venue_submission",
   "licensed_partner",
@@ -235,7 +236,7 @@ function normalizePricing(pricing, fetchedAt) {
 
   return pricing.map((price) => ({
     type: price.type || "other",
-    amountTwd: Number.isFinite(price.amountTwd) ? price.amountTwd : 0,
+    amountTwd: price.amountTwd === null ? null : Number.isFinite(price.amountTwd) ? price.amountTwd : 0,
     unit: price.unit || "custom",
     timeLimitMinutes: price.timeLimitMinutes ?? null,
     sourceNote: price.sourceNote || "來源資料匯入，需人工查證。",

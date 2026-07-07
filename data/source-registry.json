@@ -30,5 +30,13 @@
     "status": "allowed_with_manual_review",
     "importAllowed": true,
     "reason": "Allowed as source-backed manual research or official venue data; verify price, hours, and facilities before launch."
+  },
+  {
+    "sourceId": "wikidata-taiwan-sports-centers",
+    "sourceName": "Wikidata Taiwan sports center seed",
+    "sourceUrl": "https://query.wikidata.org/",
+    "status": "allowed_as_seed",
+    "importAllowed": true,
+    "reason": "Allowed as an open knowledge base seed. Candidate venue rows still require official-source verification for price, hours, and facilities."
   }
 ]

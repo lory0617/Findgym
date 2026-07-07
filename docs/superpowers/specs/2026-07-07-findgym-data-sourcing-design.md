@@ -9,6 +9,7 @@ Build a compliant data intake path for expanding Findgym beyond demo records wit
 Findgym can use these source classes for import candidates:
 
 - `government_open_data`: public government datasets whose license permits reuse with attribution.
+- `open_knowledge_base`: open knowledge bases such as Wikidata when their license permits reuse.
 - `official_venue`: an individual gym, sports center, city sports bureau, or venue operator official page.
 - `venue_submission`: data submitted by the venue through a form or partner workflow.
 - `licensed_partner`: third-party directory data only after written permission.
@@ -74,3 +75,9 @@ Automated verification covers:
 - existing dataset validation
 
 Manual verification remains required before public launch because prices, hours, and facilities can change frequently.
+
+## First Seed Batch
+
+The first source-backed expansion uses Wikidata as a seed for Taiwan sports centers. The converter accepts only rows that include venue name, address, district/city, and coordinates. Incomplete rows are skipped and must be completed from official venue or government pages before import.
+
+Wikidata seed rows are imported with `amountTwd: null` for hourly pricing. This marks the venue as a likely single-entry or timed public sports-center candidate without displaying a false price.

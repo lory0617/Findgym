@@ -146,6 +146,36 @@ test("normalizeSourcePackage builds schema-valid candidates and rejects large ch
   assert.equal(validateGymDataset(result.candidates).valid, true);
 });
 
+test("normalizeSourcePackage preserves null price amounts for pending verification", () => {
+  const result = normalizeSourcePackage(
+    {
+      ...sourcePackage,
+      records: [
+        {
+          ...sourcePackage.records[0],
+          pricing: [
+            {
+              type: "hourly",
+              amountTwd: null,
+              unit: "per_hour",
+              timeLimitMinutes: null,
+              sourceNote: "待查證",
+              lastVerifiedAt: "2026-07-07"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      chainPatterns,
+      importedAt: "2026-07-07"
+    }
+  );
+
+  assert.equal(result.candidates[0].pricing[0].amountTwd, null);
+  assert.equal(validateGymDataset(result.candidates).valid, true);
+});
+
 test("import CLI writes candidates without large chain rows", async () => {
   const tempDir = await mkdtemp(join(tmpdir(), "findgym-import-"));
   const sourcePath = join(tempDir, "source.json");

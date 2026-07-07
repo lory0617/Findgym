@@ -264,6 +264,10 @@ function formatPrice(price) {
     return "未提供";
   }
 
+  if (price.amountTwd === null || price.amountTwd === undefined) {
+    return "價格待查證";
+  }
+
   const unitLabel =
     {
       per_entry: "次",

@@ -41,9 +41,17 @@ Import candidate gyms from an allowed public or authorized source package:
 node scripts/import-public-gyms.mjs data/public-gym-sources.sample.json --output /tmp/findgym-import-candidates.json
 ```
 
+Build the Wikidata public sports-center seed package, import candidates, and merge them into the app dataset:
+
+```bash
+node scripts/build-wikidata-sports-centers.mjs /path/to/wikidata-sparql.json --output data/public-gym-sources.wikidata-sports-centers.json
+node scripts/import-public-gyms.mjs data/public-gym-sources.wikidata-sports-centers.json --output data/import-candidates/wikidata-sports-centers.candidates.json
+node scripts/merge-import-candidates.mjs data/gyms.json data/import-candidates/wikidata-sports-centers.candidates.json --output data/gyms.json
+```
+
 ## Prototype Scope
 
-This prototype uses demonstration gym records. Prices, opening hours, ratings, and facilities must be re-verified before public launch.
+This prototype uses demonstration and source-backed candidate gym records. Prices, opening hours, ratings, and facilities must be re-verified before public launch.
 
 ## Data Sourcing Policy
 
@@ -54,6 +62,7 @@ Findgym should expand coverage from sources that are safe to reuse:
 - venue-submitted data
 - licensed partner feeds with a written authorization reference
 - manual research backed by an allowed `sourceUrl`
+- open knowledge bases such as Wikidata when their license allows reuse
 
 Do not import Google Maps, Google Places, Gymnomad, or another competitor directory as raw venue data unless a written license explicitly permits it. Gymnomad is useful for product research and UI benchmarking, but its directory data is blocked from import by default.
 
