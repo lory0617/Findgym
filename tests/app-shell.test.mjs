@@ -46,3 +46,11 @@ test("gym cards show the verified fee text from the access contract note", async
   assert.equal(app.includes("price-note"), true);
   assert.equal(app.includes("access?.contractNote"), true);
 });
+
+test("source badges explain unverified records without implying user review work", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("待官方查證"), true);
+  assert.equal(app.includes("尚未以官方來源確認"), true);
+  assert.equal(app.includes("sourceHelpText"), true);
+});

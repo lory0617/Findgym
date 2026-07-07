@@ -717,7 +717,7 @@ function renderSourceChip(gym) {
       stale: "tag"
     }[level] ?? "tag tag-warning";
 
-  return `<span class="${className}">${escapeHtml(sourceLabel(gym))}</span>`;
+  return `<span class="${className}" title="${escapeAttribute(sourceHelpText(gym))}">${escapeHtml(sourceLabel(gym))}</span>`;
 }
 
 function renderFact(label, value) {
@@ -816,7 +816,30 @@ function sourceLabel(gym) {
     return "待更新";
   }
 
-  return "需複核";
+  return "待官方查證";
+}
+
+function sourceHelpText(gym) {
+  const level = gym.verification?.confidenceLevel;
+  const sourceName = gym.source?.sourceName ?? "";
+
+  if (level === "verified") {
+    return "已用官方或明確來源核對主要資訊。";
+  }
+
+  if (sourceName.toLowerCase().includes("gymnomad")) {
+    return "聚合資料，正式使用前仍應以官方公告確認。";
+  }
+
+  if (level === "likely") {
+    return "已有整理來源，但價格、營業時間或入場條件仍可能變動。";
+  }
+
+  if (level === "stale") {
+    return "資料可能過期，需要重新查證。";
+  }
+
+  return "場館可能存在，但單次入場、價格、營業時間或條件尚未以官方來源確認。";
 }
 
 function distanceKm(from, to) {
