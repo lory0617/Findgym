@@ -683,7 +683,7 @@
     "address": "台北市中山區中山北路二段44巷2號",
     "latitude": 25.05488889,
     "longitude": 121.52138889,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -722,45 +722,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -803,7 +803,7 @@
     "address": "台北市信義區松勤街100號",
     "latitude": 25.0317,
     "longitude": 121.5668,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -842,45 +842,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -923,7 +923,7 @@
     "address": "台北市南港區玉成街69號",
     "latitude": 25.04904,
     "longitude": 121.58055,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -962,45 +962,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1043,7 +1043,7 @@
     "address": "台北市大同區大龍街51號",
     "latitude": 25.06486111,
     "longitude": 121.51613889,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1082,45 +1082,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1163,7 +1163,7 @@
     "address": "宜蘭縣宜蘭市公園路66號",
     "latitude": 24.738936,
     "longitude": 121.755786,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1202,45 +1202,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1283,7 +1283,7 @@
     "address": "台北市松山區敦化北路1號",
     "latitude": 25.04861111,
     "longitude": 121.55022222,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1322,45 +1322,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1403,7 +1403,7 @@
     "address": "台北市北投區石牌路一段39巷100號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1442,45 +1442,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1523,7 +1523,7 @@
     "address": "台北市士林區士商路一號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1562,45 +1562,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1643,7 +1643,7 @@
     "address": "台北市內湖區洲子街12號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1682,45 +1682,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1763,7 +1763,7 @@
     "address": "台北市文山區興隆路三段222號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1802,45 +1802,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -1883,7 +1883,7 @@
     "address": "新北市新莊區公園路11號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -1922,45 +1922,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2003,7 +2003,7 @@
     "address": "新北市蘆洲區長樂路235-1號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2042,45 +2042,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2123,7 +2123,7 @@
     "address": "新北市淡水區中山北路二段381巷2號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2162,45 +2162,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2243,7 +2243,7 @@
     "address": "新北市三重區集美街55號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2282,45 +2282,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2363,7 +2363,7 @@
     "address": "新北市土城區金城路二段247-1號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2402,45 +2402,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2483,7 +2483,7 @@
     "address": "新北市中和區錦和路350-1、2號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2522,45 +2522,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2603,7 +2603,7 @@
     "address": "新北市泰山區全興路167號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2642,45 +2642,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2723,7 +2723,7 @@
     "address": "新北市汐止區汐科路321號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2762,45 +2762,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2843,7 +2843,7 @@
     "address": "新北市樹林區中正路188-6號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -2882,45 +2882,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -2963,7 +2963,7 @@
     "address": "新北市鶯歌區館前路250號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3002,45 +3002,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3083,7 +3083,7 @@
     "address": "新北市三峽區文化路210巷12號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3122,45 +3122,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3203,7 +3203,7 @@
     "address": "新北市林口區文化二路2段299號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3242,45 +3242,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3323,7 +3323,7 @@
     "address": "新北市五股區成泰路三段296號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3362,45 +3362,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3443,7 +3443,7 @@
     "address": "新北市新店區北新路一段88巷12號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3482,45 +3482,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3563,7 +3563,7 @@
     "address": "桃園市桃園區中山東路233號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3602,45 +3602,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3683,7 +3683,7 @@
     "address": "桃園市桃園區南平路22號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3722,45 +3722,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3803,7 +3803,7 @@
     "address": "桃園市中壢區三光路350號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3842,45 +3842,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -3923,7 +3923,7 @@
     "address": "桃園市平鎮區中庸路18號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -3962,45 +3962,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4043,7 +4043,7 @@
     "address": "桃園市蘆竹區仁愛路一段49號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4082,45 +4082,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4163,7 +4163,7 @@
     "address": "桃園市八德區廣福路230號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4202,45 +4202,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4283,7 +4283,7 @@
     "address": "桃園市中壢區中大路300號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4322,45 +4322,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4403,7 +4403,7 @@
     "address": "台中市西屯區朝貴路199號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4442,45 +4442,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4523,7 +4523,7 @@
     "address": "台中市北區崇德路一段55號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4562,45 +4562,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4643,7 +4643,7 @@
     "address": "台中市南屯區黎明路一段998號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4682,45 +4682,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4763,7 +4763,7 @@
     "address": "(A棟）台中市南區合作街46號 (B棟）台中市南區正義街99號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4810,45 +4810,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -4891,7 +4891,7 @@
     "address": "台中市大里區國光路一段258號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -4930,45 +4930,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5011,7 +5011,7 @@
     "address": "台中市潭子區勝利路140號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5050,45 +5050,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5131,7 +5131,7 @@
     "address": "台中市清水區體2用地",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5170,45 +5170,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5251,7 +5251,7 @@
     "address": "台中市豐原區豐原大道一段",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5290,45 +5290,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5371,7 +5371,7 @@
     "address": "台中市太平區坪林森林公園",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5418,45 +5418,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5499,7 +5499,7 @@
     "address": "台南市中西區中華西路二段30號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5538,45 +5538,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5619,7 +5619,7 @@
     "address": "高雄市鳳山區光華路68號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5658,45 +5658,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5739,7 +5739,7 @@
     "address": "高雄市苓雅區中正一路96號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5778,45 +5778,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5859,7 +5859,7 @@
     "address": "高雄市大寮區進學路151號 （輔英科技大學體育館）",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -5898,45 +5898,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -5979,7 +5979,7 @@
     "address": "高雄市左營區世運大道100號 （高雄世運主場館內）",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6018,45 +6018,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6099,7 +6099,7 @@
     "address": "高雄市美濃區中正路一段191號 （美濃國中體育館）",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6138,45 +6138,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6219,7 +6219,7 @@
     "address": "高雄市前鎮區班超路63號 （瑞祥高中活動中心）",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6258,45 +6258,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6339,7 +6339,7 @@
     "address": "高雄市鹽埕區新樂街46號 （鹽埕國中體育館）",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6378,45 +6378,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6459,7 +6459,7 @@
     "address": "高雄市前金區大同二路61號 （前金國小活動中心）",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6506,45 +6506,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6587,7 +6587,7 @@
     "address": "高雄市岡山區中山南路169號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6626,45 +6626,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6707,7 +6707,7 @@
     "address": "高雄市鼓山區桃子園路1號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6746,45 +6746,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6827,7 +6827,7 @@
     "address": "高雄市楠梓區旗楠路168號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6866,45 +6866,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -6947,7 +6947,7 @@
     "address": "基隆市仁愛區獅球路8-1號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -6986,45 +6986,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7067,7 +7067,7 @@
     "address": "新竹市東區光復路一段89巷90號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7106,45 +7106,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7187,7 +7187,7 @@
     "address": "新竹市北區竹光路325號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7226,45 +7226,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7307,7 +7307,7 @@
     "address": "新竹縣竹北市莊敬南路18號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7346,45 +7346,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7427,7 +7427,7 @@
     "address": "新竹縣竹東鎮至善路51號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7466,45 +7466,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7547,7 +7547,7 @@
     "address": "彰化縣彰化市建國東路2號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7586,45 +7586,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7667,7 +7667,7 @@
     "address": "彰化縣員林市員林大道二段235號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7706,45 +7706,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7787,7 +7787,7 @@
     "address": "彰化縣和美鎮西興路321號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7826,45 +7826,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -7907,7 +7907,7 @@
     "address": "雲林縣斗六市莊敬路353號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -7946,45 +7946,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -8027,7 +8027,7 @@
     "address": "嘉義市東區彌陀路327巷15號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -8066,45 +8066,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -8147,7 +8147,7 @@
     "address": "屏東縣屏東市勝利東路50號",
     "latitude": null,
     "longitude": null,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -8186,45 +8186,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -8306,45 +8306,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -8554,45 +8554,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -9154,45 +9154,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "09:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -10602,45 +10602,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -11450,45 +11450,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -11826,45 +11826,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -13882,45 +13882,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -14850,45 +14850,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -15474,45 +15474,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "08:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -18002,45 +18002,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -24010,45 +24010,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "07:00",
+        "closesAt": "23:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -29290,45 +29290,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -29890,45 +29890,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -30130,45 +30130,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -35170,45 +35170,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {

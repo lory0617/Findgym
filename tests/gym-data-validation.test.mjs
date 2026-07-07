@@ -197,6 +197,21 @@ test("current data/gyms.json is structurally valid", async () => {
   assert.equal(result.errors.length, 0);
 });
 
+test("current public sports-center records have operating status and real opening hours", async () => {
+  const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
+  const gyms = JSON.parse(raw);
+  const sportsCenters = gyms.filter((gym) =>
+    ["wikidata-taiwan-sports-centers", "wikipedia-taiwan-sports-centers"].includes(gym.source?.sourceId)
+  );
+  const placeholderHours = (gym) =>
+    gym.openingHours?.length === 7 &&
+    gym.openingHours.every((entry) => entry.isClosed === true && entry.opensAt === "00:00" && entry.closesAt === "00:00");
+
+  assert.equal(sportsCenters.length > 0, true);
+  assert.equal(sportsCenters.every((gym) => gym.status === "open"), true);
+  assert.deepEqual(sportsCenters.filter(placeholderHours).map((gym) => gym.name), []);
+});
+
 test("validation CLI prints a summary for the current dataset", async () => {
   const { stdout } = await execFileAsync("node", ["scripts/validate-data.mjs", "data/gyms.json"]);
   assert.equal(stdout.includes("Findgym data validation"), true);

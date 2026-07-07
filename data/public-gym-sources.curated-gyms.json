@@ -45,7 +45,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "MYWAY Fitness",
@@ -127,7 +171,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "Refine Fitness 松江南京店",
@@ -332,7 +420,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "09:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "給力健身 TDF Fitness 貳房",
@@ -865,7 +997,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "SelfRoom Workoutplace",
@@ -1152,7 +1328,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "Go走吧運動 新莊二館",
@@ -1316,7 +1536,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "三健客 3Musclers 永和店",
@@ -2054,7 +2318,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "GYMneration 健身時代",
@@ -2382,7 +2690,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "COASTLINE 科士力訓練",
@@ -2587,7 +2939,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "08:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "ONCE Fitness 單次健身 東海店",
@@ -3489,7 +3885,51 @@
           "免綁約",
           "出發前複核"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "前鎮運動中心",

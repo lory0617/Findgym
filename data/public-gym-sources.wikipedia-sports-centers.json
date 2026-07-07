@@ -42,7 +42,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "士林運動中心",
@@ -80,7 +125,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "內湖運動中心",
@@ -118,7 +208,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "南港運動中心",
@@ -156,7 +291,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "松山運動中心",
@@ -194,7 +374,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "信義運動中心",
@@ -232,7 +457,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "大同運動中心",
@@ -270,7 +540,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "中山運動中心",
@@ -308,7 +623,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "萬華運動中心",
@@ -346,7 +706,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "中正運動中心",
@@ -384,7 +789,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "大安運動中心",
@@ -422,7 +872,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "文山運動中心",
@@ -460,7 +955,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "新莊國民運動中心",
@@ -498,7 +1038,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "蘆洲國民運動中心",
@@ -536,7 +1121,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "淡水國民運動中心",
@@ -574,7 +1204,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "三重國民運動中心",
@@ -612,7 +1287,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "土城國民運動中心",
@@ -650,7 +1370,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "中和國民運動中心",
@@ -688,7 +1453,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "板橋國民運動中心",
@@ -726,7 +1536,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "泰山國民運動中心",
@@ -764,7 +1619,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "永和國民運動中心",
@@ -802,7 +1702,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "汐止國民運動中心",
@@ -840,7 +1785,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "樹林國民運動中心",
@@ -878,7 +1868,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "鶯歌國民運動中心",
@@ -916,7 +1951,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "三峽國民運動中心",
@@ -954,7 +2034,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "林口國民運動中心",
@@ -992,7 +2117,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "五股國民運動中心",
@@ -1030,7 +2200,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "新店國民運動中心",
@@ -1068,7 +2283,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "桃園國民運動中心",
@@ -1106,7 +2366,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "南平國民運動中心",
@@ -1144,7 +2449,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "中壢國民運動中心",
@@ -1182,7 +2532,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "平鎮國民運動中心",
@@ -1220,7 +2615,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "蘆竹國民運動中心",
@@ -1258,7 +2698,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "八德國民運動中心",
@@ -1296,7 +2781,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "中大國民運動中心",
@@ -1334,7 +2864,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "朝馬國民運動中心",
@@ -1372,7 +2947,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "北區國民運動中心",
@@ -1410,7 +3030,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "南屯國民運動中心",
@@ -1448,7 +3113,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "長春國民運動中心",
@@ -1486,7 +3196,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "大里國民運動中心",
@@ -1524,7 +3279,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "潭子國民運動中心",
@@ -1562,7 +3362,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "清水國民運動中心",
@@ -1600,7 +3445,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "豐原國民運動中心",
@@ -1638,7 +3528,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "太平國民運動中心",
@@ -1676,7 +3611,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "永華國民運動中心",
@@ -1714,7 +3694,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "鳳山運動園區 （鳳山國民運動中心）",
@@ -1752,7 +3777,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市苓雅運動中心",
@@ -1790,7 +3860,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市大寮運動中心",
@@ -1828,7 +3943,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市左營運動中心",
@@ -1866,7 +4026,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市美濃運動中心",
@@ -1904,7 +4109,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市前鎮運動中心",
@@ -1942,7 +4192,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市鹽埕運動中心",
@@ -1980,7 +4275,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市前金運動中心",
@@ -2018,7 +4358,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市岡山運動中心",
@@ -2056,7 +4441,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市鼓山運動中心",
@@ -2094,7 +4524,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "高雄市楠仔坑運動中心",
@@ -2132,7 +4607,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "基隆市國民運動中心",
@@ -2170,7 +4690,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "宜蘭國民運動中心",
@@ -2208,7 +4773,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "新科國民運動中心",
@@ -2246,7 +4856,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "竹光國民運動中心",
@@ -2284,7 +4939,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "竹北國民運動中心",
@@ -2322,7 +5022,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "竹東全民運動館",
@@ -2360,7 +5105,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "彰北國民運動中心",
@@ -2398,7 +5188,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "彰南國民運動中心",
@@ -2436,7 +5271,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "和美全民運動館",
@@ -2474,7 +5354,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "雲林國民運動中心",
@@ -2512,7 +5437,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "嘉義市國民運動中心",
@@ -2550,7 +5520,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "屏東市國民運動中心",
@@ -2588,7 +5603,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     }
   ]
 }

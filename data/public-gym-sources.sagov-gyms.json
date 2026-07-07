@@ -4120,7 +4120,51 @@
           "付費開放",
           "待查證"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "07:00",
+          "closesAt": "23:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "KAT Fitness",
@@ -8488,7 +8532,51 @@
           "付費開放",
           "待查證"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "X-LINE 10 埔心店(喫流壹館)",
@@ -8782,7 +8870,51 @@
           "付費開放",
           "待查證"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "Curves南崁中正店",
@@ -8950,7 +9082,51 @@
           "付費開放",
           "待查證"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "Curves中山",
@@ -11554,7 +11730,51 @@
           "付費開放",
           "待查證"
         ]
-      }
+      },
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "彰化市全民健身中心",

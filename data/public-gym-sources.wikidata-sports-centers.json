@@ -43,7 +43,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "信義運動中心",
@@ -82,7 +127,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "南港運動中心",
@@ -121,7 +211,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "大同運動中心",
@@ -160,7 +295,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "宜蘭國民運動中心",
@@ -199,7 +379,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     },
     {
       "name": "松山運動中心",
@@ -238,7 +463,52 @@
           "計時候選",
           "待查證"
         ]
-      }
+      },
+      "status": "open",
+      "openingHours": [
+        {
+          "weekday": 0,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 1,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 2,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 3,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 4,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 5,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        },
+        {
+          "weekday": 6,
+          "opensAt": "06:00",
+          "closesAt": "22:00",
+          "isClosed": false
+        }
+      ]
     }
   ]
 }

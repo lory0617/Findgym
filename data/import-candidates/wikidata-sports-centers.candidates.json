@@ -9,7 +9,7 @@
     "address": "台北市中山區中山北路二段44巷2號",
     "latitude": 25.05488889,
     "longitude": 121.52138889,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -48,45 +48,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -129,7 +129,7 @@
     "address": "台北市信義區松勤街100號",
     "latitude": 25.0317,
     "longitude": 121.5668,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -168,45 +168,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -249,7 +249,7 @@
     "address": "台北市南港區玉成街69號",
     "latitude": 25.04904,
     "longitude": 121.58055,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -288,45 +288,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -369,7 +369,7 @@
     "address": "台北市大同區大龍街51號",
     "latitude": 25.06486111,
     "longitude": 121.51613889,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -408,45 +408,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -489,7 +489,7 @@
     "address": "宜蘭縣宜蘭市公園路66號",
     "latitude": 24.738936,
     "longitude": 121.755786,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -528,45 +528,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
@@ -609,7 +609,7 @@
     "address": "台北市松山區敦化北路1號",
     "latitude": 25.04861111,
     "longitude": 121.55022222,
-    "status": "unknown",
+    "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
     "access": {
@@ -648,45 +648,45 @@
     "openingHours": [
       {
         "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       },
       {
         "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
+        "opensAt": "06:00",
+        "closesAt": "22:00",
+        "isClosed": false
       }
     ],
     "rating": {
