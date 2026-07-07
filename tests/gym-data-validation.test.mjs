@@ -3,7 +3,12 @@ import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { readFile } from "node:fs/promises";
 import { promisify } from "node:util";
-import { summarizeGymDataset, validateGymDataset, validateGymRecord } from "../src/gym-data-validation.js";
+import {
+  buildDatasetStatus,
+  summarizeGymDataset,
+  validateGymDataset,
+  validateGymRecord
+} from "../src/gym-data-validation.js";
 
 const execFileAsync = promisify(execFile);
 
@@ -133,6 +138,22 @@ test("summarizeGymDataset counts access, city, and confidence coverage", () => {
   assert.equal(summary.singleEntryCount, 2);
   assert.equal(summary.noContractCount, 1);
   assert.deepEqual(summary.byConfidence, { verified: 1, likely: 1 });
+});
+
+test("buildDatasetStatus warns when records are unverified", () => {
+  const status = buildDatasetStatus([
+    {
+      ...validGym,
+      verification: {
+        ...validGym.verification,
+        confidenceLevel: "unverified"
+      }
+    }
+  ]);
+  assert.equal(status.level, "warning");
+  assert.equal(status.total, 1);
+  assert.equal(status.headline.includes("1 間"), true);
+  assert.equal(status.detail.includes("尚未驗證"), true);
 });
 
 test("current data/gyms.json is structurally valid", async () => {

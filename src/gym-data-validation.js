@@ -137,6 +137,24 @@ export function summarizeGymDataset(gyms) {
   return summary;
 }
 
+export function buildDatasetStatus(gyms) {
+  const summary = summarizeGymDataset(gyms);
+  const level = summary.staleOrUnverifiedCount > 0 ? "warning" : "ready";
+  const cityCount = Object.keys(summary.byCity).length;
+  const cityLabel = cityCount > 0 ? `${cityCount} 個城市` : "尚無城市資料";
+
+  return {
+    level,
+    total: summary.total,
+    headline: `${summary.total} 間據點 · ${summary.singleEntryCount} 間可單次 · ${cityLabel}`,
+    detail:
+      level === "warning"
+        ? `${summary.staleOrUnverifiedCount} 間資料尚未驗證，正式上線前需重新查證價格、營業時間與設施。`
+        : "資料已通過結構檢查，且目前沒有 stale 或 unverified 標記。",
+    summary
+  };
+}
+
 function validateAccess(access, path, errors) {
   if (!isObject(access)) {
     errors.push(issue(path, "access must be an object"));

@@ -146,6 +146,37 @@ h2 {
   padding: 8px 10px;
 }
 
+.data-status {
+  align-items: start;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: var(--radius);
+  color: #7c2d12;
+  display: grid;
+  gap: 6px;
+  margin: 0 auto 14px;
+  max-width: 1180px;
+  padding: 10px 12px;
+}
+
+.data-status.is-ready {
+  background: #ecfdf5;
+  border-color: #bbf7d0;
+  color: #14532d;
+}
+
+.data-status strong {
+  display: block;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.data-status p {
+  font-size: 0.84rem;
+  line-height: 1.45;
+  margin-bottom: 0;
+}
+
 .workspace {
   display: grid;
   gap: 14px;

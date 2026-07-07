@@ -6,8 +6,10 @@ import {
   rankGyms,
   validateReport
 } from "./findgym-core.js";
+import { buildDatasetStatus } from "./gym-data-validation.js";
 
 const elements = {
+  dataStatus: document.querySelector("#dataStatus"),
   filterForm: document.querySelector("#filterForm"),
   gymList: document.querySelector("#gymList"),
   mapCanvas: document.querySelector("#mapCanvas"),
@@ -20,6 +22,7 @@ const elements = {
 
 const state = {
   gyms: [],
+  dataStatus: null,
   filteredGyms: [],
   selectedGymId: null,
   reportGymId: null,
@@ -50,6 +53,7 @@ async function init() {
     }
 
     state.gyms = await response.json();
+    state.dataStatus = buildDatasetStatus(state.gyms);
     updateFilteredGyms();
   } catch (error) {
     renderLoadError(error);
@@ -192,12 +196,29 @@ function updateFilteredGyms() {
 }
 
 function renderApp() {
+  renderDataStatus();
   renderMap();
   renderList();
   renderDetail();
   renderCompare();
   renderReport();
   renderStatus();
+}
+
+function renderDataStatus() {
+  if (!elements.dataStatus || !state.dataStatus) {
+    return;
+  }
+
+  const statusClass = state.dataStatus.level === "warning" ? "is-warning" : "is-ready";
+  elements.dataStatus.className = `data-status ${statusClass}`;
+  elements.dataStatus.innerHTML = `
+    <div>
+      <p class="eyebrow">資料狀態</p>
+      <strong>${escapeHtml(state.dataStatus.headline)}</strong>
+    </div>
+    <p>${escapeHtml(state.dataStatus.detail)}</p>
+  `;
 }
 
 function renderMap() {
