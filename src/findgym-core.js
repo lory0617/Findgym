@@ -55,6 +55,10 @@ export function getBestFlexiblePrice(gym) {
   })[0];
 }
 
+export function hasCoordinates(gym) {
+  return Number.isFinite(gym?.latitude) && Number.isFinite(gym?.longitude);
+}
+
 export function filterGyms(gyms, filters = {}, now = new Date()) {
   const query = normalizeQuery(filters.query);
 
@@ -206,7 +210,7 @@ function scoreGym(gym, userLocation, now) {
   score += Math.min(Number(gym.rating?.externalRatingCount ?? 0), 500) / 500;
   score += Number(gym.rating?.externalRating ?? 0);
 
-  if (userLocation && Number.isFinite(gym.latitude) && Number.isFinite(gym.longitude)) {
+  if (userLocation && hasCoordinates(gym)) {
     const distanceKm = calculateDistanceKm(userLocation, gym);
     score += Math.max(0, 20 - distanceKm);
   }

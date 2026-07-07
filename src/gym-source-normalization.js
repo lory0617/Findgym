@@ -177,8 +177,8 @@ function normalizeRecord(record, source, importedAt) {
     city: String(record.city ?? "").trim(),
     district: String(record.district ?? "").trim(),
     address: String(record.address ?? "").trim(),
-    latitude: Number(record.latitude),
-    longitude: Number(record.longitude),
+    latitude: normalizeCoordinate(record.latitude),
+    longitude: normalizeCoordinate(record.longitude),
     status: record.status || "unknown",
     isLargeContractFirstChain: false,
     isHiddenByDefault: false,
@@ -255,6 +255,15 @@ function normalizeOpeningHours(openingHours) {
     closesAt: "00:00",
     isClosed: true
   }));
+}
+
+function normalizeCoordinate(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  const numericValue = Number(value);
+  return Number.isFinite(numericValue) ? numericValue : null;
 }
 
 function buildStableGymId(record) {

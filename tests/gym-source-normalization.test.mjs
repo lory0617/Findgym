@@ -176,6 +176,29 @@ test("normalizeSourcePackage preserves null price amounts for pending verificati
   assert.equal(validateGymDataset(result.candidates).valid, true);
 });
 
+test("normalizeSourcePackage preserves unknown coordinates for address-only candidates", () => {
+  const result = normalizeSourcePackage(
+    {
+      ...sourcePackage,
+      records: [
+        {
+          ...sourcePackage.records[0],
+          latitude: null,
+          longitude: null
+        }
+      ]
+    },
+    {
+      chainPatterns,
+      importedAt: "2026-07-07"
+    }
+  );
+
+  assert.equal(result.candidates[0].latitude, null);
+  assert.equal(result.candidates[0].longitude, null);
+  assert.equal(validateGymDataset(result.candidates).valid, true);
+});
+
 test("import CLI writes candidates without large chain rows", async () => {
   const tempDir = await mkdtemp(join(tmpdir(), "findgym-import-"));
   const sourcePath = join(tempDir, "source.json");

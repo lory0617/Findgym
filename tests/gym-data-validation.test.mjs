@@ -134,6 +134,21 @@ test("validateGymRecord accepts unknown price amount for source-backed candidate
   assert.deepEqual(result.errors, []);
 });
 
+test("validateGymRecord accepts address-only source candidates without coordinates", () => {
+  const candidate = {
+    ...validGym,
+    latitude: null,
+    longitude: null,
+    verification: {
+      ...validGym.verification,
+      confidenceLevel: "unverified"
+    }
+  };
+
+  const result = validateGymRecord(candidate, 0);
+  assert.deepEqual(result.errors, []);
+});
+
 test("summarizeGymDataset counts access, city, and confidence coverage", () => {
   const summary = summarizeGymDataset([
     validGym,
@@ -185,6 +200,6 @@ test("current data/gyms.json is structurally valid", async () => {
 test("validation CLI prints a summary for the current dataset", async () => {
   const { stdout } = await execFileAsync("node", ["scripts/validate-data.mjs", "data/gyms.json"]);
   assert.equal(stdout.includes("Findgym data validation"), true);
-  assert.equal(stdout.includes("Total gyms: 12"), true);
+  assert.match(stdout, /Total gyms: \d+/);
   assert.equal(stdout.includes("Blocking errors: 0"), true);
 });

@@ -1,0 +1,2594 @@
+{
+  "sourceId": "wikipedia-taiwan-sports-centers",
+  "sourceName": "Wikipedia Taiwan sports center list seed",
+  "sourceType": "open_knowledge_base",
+  "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+  "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+  "fetchedAt": "2026-07-07",
+  "records": [
+    {
+      "name": "北投運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "北投",
+      "city": "台北市",
+      "district": "北投區",
+      "address": "台北市北投區石牌路一段39巷100號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%8C%97%E6%8A%95%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "士林運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "士林",
+      "city": "台北市",
+      "district": "士林區",
+      "address": "台北市士林區士商路一號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%A3%AB%E6%9E%97%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "內湖運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "內湖",
+      "city": "台北市",
+      "district": "內湖區",
+      "address": "台北市內湖區洲子街12號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%85%A7%E6%B9%96%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "南港運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "南港",
+      "city": "台北市",
+      "district": "南港區",
+      "address": "台北市南港區玉成街69號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%B8%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "松山運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "松山",
+      "city": "台北市",
+      "district": "松山區",
+      "address": "台北市松山區敦化北路1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "信義運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "信義",
+      "city": "台北市",
+      "district": "信義區",
+      "address": "台北市信義區松勤街100號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E7%BE%A9%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "大同運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "大同",
+      "city": "台北市",
+      "district": "大同區",
+      "address": "台北市大同區大龍街51號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%8C%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "中山運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "中山",
+      "city": "台北市",
+      "district": "中山區",
+      "address": "台北市中山區中山北路二段44巷2號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "萬華運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "萬華",
+      "city": "台北市",
+      "district": "萬華區",
+      "address": "台北市萬華區西寧南路6-1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E8%90%AC%E8%8F%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "中正運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "中正",
+      "city": "台北市",
+      "district": "中正區",
+      "address": "台北市中正區信義路一段1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%AD%A3%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83_(%E5%8F%B0%E5%8C%97%E5%B8%82)",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "大安運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "大安",
+      "city": "台北市",
+      "district": "大安區",
+      "address": "台北市大安區辛亥路三段55號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AE%89%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "文山運動中心",
+      "brandName": "台北市運動中心",
+      "branchName": "文山",
+      "city": "台北市",
+      "district": "文山區",
+      "address": "台北市文山區興隆路三段222號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "新莊國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "新莊",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區公園路11號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%96%B0%E8%8E%8A%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "蘆洲國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "蘆洲",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區長樂路235-1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E8%98%86%E6%B4%B2%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "淡水國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "淡水",
+      "city": "新北市",
+      "district": "淡水區",
+      "address": "新北市淡水區中山北路二段381巷2號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%B7%A1%E6%B0%B4%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "三重國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "三重",
+      "city": "新北市",
+      "district": "三重區",
+      "address": "新北市三重區集美街55號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%89%E9%87%8D%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "土城國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "土城",
+      "city": "新北市",
+      "district": "土城區",
+      "address": "新北市土城區金城路二段247-1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E5%9F%8E%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "中和國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "中和",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區錦和路350-1、2號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%92%8C%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "板橋國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "板橋",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區智樂路6號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%9D%BF%E6%A9%8B%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "泰山國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "泰山",
+      "city": "新北市",
+      "district": "泰山區",
+      "address": "新北市泰山區全興路167號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%B1%B1%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "永和國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "永和",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區永利路250號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "汐止國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "汐止",
+      "city": "新北市",
+      "district": "汐止區",
+      "address": "新北市汐止區汐科路321號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%B1%90%E6%AD%A2%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "樹林國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "樹林",
+      "city": "新北市",
+      "district": "樹林區",
+      "address": "新北市樹林區中正路188-6號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "鶯歌國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "鶯歌",
+      "city": "新北市",
+      "district": "鶯歌區",
+      "address": "新北市鶯歌區館前路250號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%B6%AF%E6%AD%8C%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "三峽國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "三峽",
+      "city": "新北市",
+      "district": "三峽區",
+      "address": "新北市三峽區文化路210巷12號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%B3%BD%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "林口國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "林口",
+      "city": "新北市",
+      "district": "林口區",
+      "address": "新北市林口區文化二路2段299號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "五股國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "五股",
+      "city": "新北市",
+      "district": "五股區",
+      "address": "新北市五股區成泰路三段296號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%BA%94%E8%82%A1%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "新店國民運動中心",
+      "brandName": "新北市國民運動中心",
+      "branchName": "新店",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區北新路一段88巷12號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "桃園國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "桃園",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區中山東路233號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "南平國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "南平",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區南平路22號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "中壢國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "中壢",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區三光路350號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A3%A2%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "平鎮國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "平鎮",
+      "city": "桃園市",
+      "district": "平鎮區",
+      "address": "桃園市平鎮區中庸路18號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "蘆竹國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "蘆竹",
+      "city": "桃園市",
+      "district": "蘆竹區",
+      "address": "桃園市蘆竹區仁愛路一段49號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E8%98%86%E7%AB%B9%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "八德國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "八德",
+      "city": "桃園市",
+      "district": "八德區",
+      "address": "桃園市八德區廣福路230號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "中大國民運動中心",
+      "brandName": "桃園市國民運動中心",
+      "branchName": "中大",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區中大路300號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%A7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "朝馬國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "朝馬",
+      "city": "台中市",
+      "district": "西屯區",
+      "address": "台中市西屯區朝貴路199號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%A6%AC%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "北區國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "北區",
+      "city": "台中市",
+      "district": "北區",
+      "address": "台中市北區崇德路一段55號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%8D%80%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "南屯國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "南屯",
+      "city": "台中市",
+      "district": "南屯區",
+      "address": "台中市南屯區黎明路一段998號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%B1%AF%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "長春國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "長春",
+      "city": "台中市",
+      "district": "南區",
+      "address": "(A棟）台中市南區合作街46號 (B棟）台中市南區正義街99號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%95%B7%E6%98%A5%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "大里國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "大里",
+      "city": "台中市",
+      "district": "大里區",
+      "address": "台中市大里區國光路一段258號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%87%8C%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "潭子國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "潭子",
+      "city": "台中市",
+      "district": "潭子區",
+      "address": "台中市潭子區勝利路140號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%BD%AD%E5%AD%90%E5%9C%8B%E6%B0%91%E6%9A%A8%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "清水國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "清水",
+      "city": "台中市",
+      "district": "清水區",
+      "address": "台中市清水區體2用地",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "豐原國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "豐原",
+      "city": "台中市",
+      "district": "豐原區",
+      "address": "台中市豐原區豐原大道一段",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "太平國民運動中心",
+      "brandName": "台中市國民運動中心",
+      "branchName": "太平",
+      "city": "台中市",
+      "district": "太平區",
+      "address": "台中市太平區坪林森林公園",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "永華國民運動中心",
+      "brandName": "台南市國民運動中心",
+      "branchName": "永華",
+      "city": "台南市",
+      "district": "中西區",
+      "address": "台南市中西區中華西路二段30號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%B0%B8%E8%8F%AF%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "鳳山運動園區 （鳳山國民運動中心）",
+      "brandName": "高雄市國民運動中心",
+      "branchName": "鳳山運動園區 （鳳山國民運動中心）",
+      "city": "高雄市",
+      "district": "鳳山區",
+      "address": "高雄市鳳山區光華路68號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E9%81%8B%E5%8B%95%E5%9C%92%E5%8D%80",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市苓雅運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市苓雅",
+      "city": "高雄市",
+      "district": "苓雅區",
+      "address": "高雄市苓雅區中正一路96號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E8%8B%93%E9%9B%85%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市大寮運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市大寮",
+      "city": "高雄市",
+      "district": "大寮區",
+      "address": "高雄市大寮區進學路151號 （輔英科技大學體育館）",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E5%A4%A7%E5%AF%AE%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市左營運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市左營",
+      "city": "高雄市",
+      "district": "左營區",
+      "address": "高雄市左營區世運大道100號 （高雄世運主場館內）",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市美濃運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市美濃",
+      "city": "高雄市",
+      "district": "美濃區",
+      "address": "高雄市美濃區中正路一段191號 （美濃國中體育館）",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E6%BF%83%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市前鎮運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市前鎮",
+      "city": "高雄市",
+      "district": "前鎮區",
+      "address": "高雄市前鎮區班超路63號 （瑞祥高中活動中心）",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%8E%AE%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市鹽埕運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市鹽埕",
+      "city": "高雄市",
+      "district": "鹽埕區",
+      "address": "高雄市鹽埕區新樂街46號 （鹽埕國中體育館）",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E9%B9%BD%E5%9F%95%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市前金運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市前金",
+      "city": "高雄市",
+      "district": "前金區",
+      "address": "高雄市前金區大同二路61號 （前金國小活動中心）",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市岡山運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市岡山",
+      "city": "高雄市",
+      "district": "岡山區",
+      "address": "高雄市岡山區中山南路169號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B2%A1%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市鼓山運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市鼓山",
+      "city": "高雄市",
+      "district": "鼓山區",
+      "address": "高雄市鼓山區桃子園路1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E9%BC%93%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "高雄市楠仔坑運動中心",
+      "brandName": "高雄市運動中心",
+      "branchName": "高雄市楠仔坑",
+      "city": "高雄市",
+      "district": "楠梓區",
+      "address": "高雄市楠梓區旗楠路168號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%A5%A0%E4%BB%94%E5%9D%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "基隆市國民運動中心",
+      "brandName": "基隆市國民運動中心",
+      "branchName": "基隆市",
+      "city": "基隆市",
+      "district": "仁愛區",
+      "address": "基隆市仁愛區獅球路8-1號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "宜蘭國民運動中心",
+      "brandName": "宜蘭縣國民運動中心",
+      "branchName": "宜蘭",
+      "city": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "宜蘭縣宜蘭市公園路66號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%AE%9C%E8%98%AD%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "新科國民運動中心",
+      "brandName": "新竹市國民運動中心",
+      "branchName": "新科",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區光復路一段89巷90號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%96%B0%E7%A7%91%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "竹光國民運動中心",
+      "brandName": "新竹市國民運動中心",
+      "branchName": "竹光",
+      "city": "新竹市",
+      "district": "北區",
+      "address": "新竹市北區竹光路325號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "竹北國民運動中心",
+      "brandName": "新竹縣國民運動中心",
+      "branchName": "竹北",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市莊敬南路18號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E7%AB%B9%E5%8C%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "竹東全民運動館",
+      "brandName": "新竹縣運動中心",
+      "branchName": "竹東",
+      "city": "新竹縣",
+      "district": "竹東鎮",
+      "address": "新竹縣竹東鎮至善路51號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "彰北國民運動中心",
+      "brandName": "彰化縣國民運動中心",
+      "branchName": "彰北",
+      "city": "彰化縣",
+      "district": "彰化市",
+      "address": "彰化縣彰化市建國東路2號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "彰南國民運動中心",
+      "brandName": "彰化縣國民運動中心",
+      "branchName": "彰南",
+      "city": "彰化縣",
+      "district": "員林市",
+      "address": "彰化縣員林市員林大道二段235號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8D%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "和美全民運動館",
+      "brandName": "彰化縣運動中心",
+      "branchName": "和美",
+      "city": "彰化縣",
+      "district": "和美鎮",
+      "address": "彰化縣和美鎮西興路321號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "雲林國民運動中心",
+      "brandName": "雲林縣國民運動中心",
+      "branchName": "雲林",
+      "city": "雲林縣",
+      "district": "斗六市",
+      "address": "雲林縣斗六市莊敬路353號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E9%9B%B2%E6%9E%97%E7%B8%A3%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "嘉義市國民運動中心",
+      "brandName": "嘉義市國民運動中心",
+      "branchName": "嘉義市",
+      "city": "嘉義市",
+      "district": "東區",
+      "address": "嘉義市東區彌陀路327巷15號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E5%B8%82%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    },
+    {
+      "name": "屏東市國民運動中心",
+      "brandName": "屏東縣國民運動中心",
+      "branchName": "屏東市",
+      "city": "屏東縣",
+      "district": "屏東市",
+      "address": "屏東縣屏東市勝利東路50號",
+      "latitude": null,
+      "longitude": null,
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%B1%8F%E6%9D%B1%E5%B8%82%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "access": {
+        "supportsSingleEntry": true,
+        "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      },
+      "pricing": [
+        {
+          "type": "hourly",
+          "amountTwd": null,
+          "unit": "per_hour",
+          "timeLimitMinutes": null,
+          "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+          "lastVerifiedAt": "2026-07-07"
+        }
+      ],
+      "facilities": {
+        "hasCardio": true
+      },
+      "rating": {
+        "externalRating": null,
+        "externalRatingCount": 0,
+        "externalSource": "none",
+        "summaryTags": [
+          "公立運動中心",
+          "計時候選",
+          "待查證"
+        ]
+      }
+    }
+  ]
+}

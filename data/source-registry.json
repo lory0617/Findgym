@@ -38,5 +38,13 @@
     "status": "allowed_as_seed",
     "importAllowed": true,
     "reason": "Allowed as an open knowledge base seed. Candidate venue rows still require official-source verification for price, hours, and facilities."
+  },
+  {
+    "sourceId": "wikipedia-taiwan-sports-centers",
+    "sourceName": "Wikipedia Taiwan sports center list seed",
+    "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+    "status": "allowed_as_seed_with_attribution",
+    "importAllowed": true,
+    "reason": "Allowed as an open knowledge base seed with attribution. Candidate venue rows still require official-source verification for price, hours, and facilities."
   }
 ]

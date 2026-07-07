@@ -1,1399 +1,5 @@
 [
   {
-    "id": "taipei-zhongzheng-sports-center",
-    "name": "臺北市中正運動中心",
-    "brandName": "臺北市運動中心",
-    "branchName": "中正",
-    "city": "台北市",
-    "district": "中正區",
-    "address": "台北市中正區信義路一段1號",
-    "latitude": 25.0375,
-    "longitude": 121.5199,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心，適合單次使用。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": 50,
-        "unit": "per_hour",
-        "timeLimitMinutes": 60,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": true,
-      "hasPowerRack": false,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": true,
-      "hasPersonalTraining": false,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4.2,
-      "externalRatingCount": 1200,
-      "externalSource": "manual",
-      "summaryTags": [
-        "公立",
-        "單次",
-        "交通方便"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=臺北市中正運動中心"
-    }
-  },
-  {
-    "id": "taipei-daan-sports-center",
-    "name": "臺北市大安運動中心",
-    "brandName": "臺北市運動中心",
-    "branchName": "大安",
-    "city": "台北市",
-    "district": "大安區",
-    "address": "台北市大安區辛亥路三段55號",
-    "latitude": 25.0206,
-    "longitude": 121.5434,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心，適合單次使用。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": 50,
-        "unit": "per_hour",
-        "timeLimitMinutes": 60,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": true,
-      "hasPowerRack": true,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": true,
-      "hasPersonalTraining": false,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": true,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4.1,
-      "externalRatingCount": 980,
-      "externalSource": "manual",
-      "summaryTags": [
-        "公立",
-        "自由重量",
-        "停車"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=臺北市大安運動中心"
-    }
-  },
-  {
-    "id": "taipei-wanhua-sports-center",
-    "name": "臺北市萬華運動中心",
-    "brandName": "臺北市運動中心",
-    "branchName": "萬華",
-    "city": "台北市",
-    "district": "萬華區",
-    "address": "台北市萬華區西寧南路6之1號",
-    "latitude": 25.0486,
-    "longitude": 121.5077,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心，適合單次使用。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": 50,
-        "unit": "per_hour",
-        "timeLimitMinutes": 60,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": true,
-      "hasPersonalTraining": false,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4,
-      "externalRatingCount": 760,
-      "externalSource": "manual",
-      "summaryTags": [
-        "公立",
-        "西門",
-        "單次"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=臺北市萬華運動中心"
-    }
-  },
-  {
-    "id": "newtaipei-banqiao-sports-center",
-    "name": "新北市板橋國民運動中心",
-    "brandName": "新北市國民運動中心",
-    "branchName": "板橋",
-    "city": "新北市",
-    "district": "板橋區",
-    "address": "新北市板橋區智樂路6號",
-    "latitude": 25.0236,
-    "longitude": 121.4579,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心，適合單次使用。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": 50,
-        "unit": "per_hour",
-        "timeLimitMinutes": 60,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": true,
-      "hasPowerRack": false,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": true,
-      "hasPersonalTraining": false,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": true,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4.1,
-      "externalRatingCount": 890,
-      "externalSource": "manual",
-      "summaryTags": [
-        "新北",
-        "單次",
-        "停車"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=新北市板橋國民運動中心"
-    }
-  },
-  {
-    "id": "newtaipei-yonghe-sports-center",
-    "name": "新北市永和國民運動中心",
-    "brandName": "新北市國民運動中心",
-    "branchName": "永和",
-    "city": "新北市",
-    "district": "永和區",
-    "address": "新北市永和區永利路250號",
-    "latitude": 25.0049,
-    "longitude": 121.5202,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心，適合單次使用。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": 50,
-        "unit": "per_hour",
-        "timeLimitMinutes": 60,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": true,
-      "hasPowerRack": true,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": true,
-      "hasPersonalTraining": false,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": true,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "06:00",
-        "closesAt": "22:00",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4,
-      "externalRatingCount": 820,
-      "externalSource": "manual",
-      "summaryTags": [
-        "新北",
-        "單次",
-        "自由重量"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=新北市永和國民運動中心"
-    }
-  },
-  {
-    "id": "taipei-no-contract-demo-gym",
-    "name": "自由重量示範健身房",
-    "brandName": "Independent",
-    "branchName": "台北示範",
-    "city": "台北市",
-    "district": "松山區",
-    "address": "台北市松山區示範路100號",
-    "latitude": 25.0503,
-    "longitude": 121.5637,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": true,
-      "supportsTrial": true,
-      "requiresMembershipCard": true,
-      "requiresReservation": false,
-      "contractNote": "示範獨立健身房，可單次或免綁月繳。"
-    },
-    "pricing": [
-      {
-        "type": "single_entry",
-        "amountTwd": 200,
-        "unit": "per_entry",
-        "timeLimitMinutes": 180,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      },
-      {
-        "type": "monthly_no_contract",
-        "amountTwd": 1380,
-        "unit": "per_month",
-        "timeLimitMinutes": null,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": true,
-      "hasPowerRack": true,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": true,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": true,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": false,
-      "is24Hours": true
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4.7,
-      "externalRatingCount": 168,
-      "externalSource": "manual",
-      "summaryTags": [
-        "24小時",
-        "免綁",
-        "硬舉平台"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=台北市松山區健身房"
-    }
-  },
-  {
-    "id": "taipei-gym-1uxy7w2",
-    "name": "中山運動中心",
-    "brandName": "台北市運動中心",
-    "branchName": "中山",
-    "city": "台北市",
-    "district": "中山區",
-    "address": "台北市中山區中山北路二段44巷2號",
-    "latitude": 25.05488889,
-    "longitude": 121.52138889,
-    "status": "unknown",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": null,
-        "unit": "per_hour",
-        "timeLimitMinutes": null,
-        "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": false,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "公立運動中心",
-        "計時候選",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "",
-      "website": "https://cssc.cyc.org.tw/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "wikidata-taiwan-sports-centers",
-      "sourceName": "Wikidata Taiwan sports center seed",
-      "sourceType": "open_knowledge_base",
-      "sourceUrl": "https://query.wikidata.org/",
-      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10875378",
-      "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
-    "id": "taipei-gym-1mot5fm",
-    "name": "信義運動中心",
-    "brandName": "台北市運動中心",
-    "branchName": "信義",
-    "city": "台北市",
-    "district": "信義區",
-    "address": "台北市信義區松勤街100號",
-    "latitude": 25.0317,
-    "longitude": 121.5668,
-    "status": "unknown",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": null,
-        "unit": "per_hour",
-        "timeLimitMinutes": null,
-        "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": false,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "公立運動中心",
-        "計時候選",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "",
-      "website": "https://xysc.teamxports.com/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "wikidata-taiwan-sports-centers",
-      "sourceName": "Wikidata Taiwan sports center seed",
-      "sourceType": "open_knowledge_base",
-      "sourceUrl": "https://query.wikidata.org/",
-      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10888039",
-      "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
-    "id": "taipei-gym-9npf8v",
-    "name": "南港運動中心",
-    "brandName": "台北市運動中心",
-    "branchName": "南港",
-    "city": "台北市",
-    "district": "南港區",
-    "address": "台北市南港區玉成街69號",
-    "latitude": 25.04904,
-    "longitude": 121.58055,
-    "status": "unknown",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": null,
-        "unit": "per_hour",
-        "timeLimitMinutes": null,
-        "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": false,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "公立運動中心",
-        "計時候選",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "",
-      "website": "https://ngsc.cyc.org.tw/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "wikidata-taiwan-sports-centers",
-      "sourceName": "Wikidata Taiwan sports center seed",
-      "sourceType": "open_knowledge_base",
-      "sourceUrl": "https://query.wikidata.org/",
-      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10908517",
-      "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
-    "id": "taipei-gym-1x5w1b8",
-    "name": "大同運動中心",
-    "brandName": "台北市運動中心",
-    "branchName": "大同",
-    "city": "台北市",
-    "district": "大同區",
-    "address": "台北市大同區大龍街51號",
-    "latitude": 25.06486111,
-    "longitude": 121.51613889,
-    "status": "unknown",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": null,
-        "unit": "per_hour",
-        "timeLimitMinutes": null,
-        "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": false,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "公立運動中心",
-        "計時候選",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "",
-      "website": "http://www.dtsc-wdyg.com.tw/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "wikidata-taiwan-sports-centers",
-      "sourceName": "Wikidata Taiwan sports center seed",
-      "sourceType": "open_knowledge_base",
-      "sourceUrl": "https://query.wikidata.org/",
-      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q10934204",
-      "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
-    "id": "yilan-gym-18i3hd8",
-    "name": "宜蘭國民運動中心",
-    "brandName": "宜蘭縣國民運動中心",
-    "branchName": "宜蘭",
-    "city": "宜蘭縣",
-    "district": "宜蘭市",
-    "address": "宜蘭縣宜蘭市公園路66號",
-    "latitude": 24.738936,
-    "longitude": 121.755786,
-    "status": "unknown",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": null,
-        "unit": "per_hour",
-        "timeLimitMinutes": null,
-        "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": false,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "公立運動中心",
-        "計時候選",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "",
-      "website": "https://yilansports.com.tw/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "wikidata-taiwan-sports-centers",
-      "sourceName": "Wikidata Taiwan sports center seed",
-      "sourceType": "open_knowledge_base",
-      "sourceUrl": "https://query.wikidata.org/",
-      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q48896688",
-      "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
-    "id": "taipei-gym-1mgk45c",
-    "name": "松山運動中心",
-    "brandName": "台北市運動中心",
-    "branchName": "松山",
-    "city": "台北市",
-    "district": "松山區",
-    "address": "台北市松山區敦化北路1號",
-    "latitude": 25.04861111,
-    "longitude": 121.55022222,
-    "status": "unknown",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": false,
-      "supportsTrial": false,
-      "requiresMembershipCard": false,
-      "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
-    },
-    "pricing": [
-      {
-        "type": "hourly",
-        "amountTwd": null,
-        "unit": "per_hour",
-        "timeLimitMinutes": null,
-        "sourceNote": "Wikidata seed identifies the venue; price requires official-source verification.",
-        "lastVerifiedAt": "2026-07-07"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": false,
-      "hasSquatRack": false,
-      "hasPowerRack": false,
-      "hasBenchPress": false,
-      "hasDeadliftPlatform": false,
-      "hasCableMachine": false,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": false,
-      "hasShower": false,
-      "hasLocker": false,
-      "hasParking": false,
-      "is24Hours": false
-    },
-    "openingHours": [
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "00:00",
-        "isClosed": true
-      }
-    ],
-    "rating": {
-      "externalRating": null,
-      "externalRatingCount": 0,
-      "externalSource": "none",
-      "summaryTags": [
-        "公立運動中心",
-        "計時候選",
-        "待查證"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
-      "verifiedAt": "2026-07-07"
-    },
-    "contact": {
-      "phone": "",
-      "website": "http://sssc.com.tw/",
-      "mapUrl": ""
-    },
-    "source": {
-      "sourceId": "wikidata-taiwan-sports-centers",
-      "sourceName": "Wikidata Taiwan sports center seed",
-      "sourceType": "open_knowledge_base",
-      "sourceUrl": "https://query.wikidata.org/",
-      "sourceRecordUrl": "https://www.wikidata.org/wiki/Q11104381",
-      "sourceLicense": "Wikidata CC0 1.0; candidate rows require official-source verification before launch",
-      "importedAt": "2026-07-07"
-    }
-  },
-  {
     "id": "taipei-gym-1s3otrx",
     "name": "北投運動中心",
     "brandName": "台北市運動中心",
@@ -1749,6 +355,606 @@
       "sourceType": "open_knowledge_base",
       "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
       "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%85%A7%E6%B9%96%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-gym-9npf8v",
+    "name": "南港運動中心",
+    "brandName": "台北市運動中心",
+    "branchName": "南港",
+    "city": "台北市",
+    "district": "南港區",
+    "address": "台北市南港區玉成街69號",
+    "latitude": null,
+    "longitude": null,
+    "status": "unknown",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+    },
+    "pricing": [
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "per_hour",
+        "timeLimitMinutes": null,
+        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": false,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": true,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": false,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "公立運動中心",
+        "計時候選",
+        "待查證"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "unverified",
+      "verificationSource": "open_knowledge_base",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "wikipedia-taiwan-sports-centers",
+      "sourceName": "Wikipedia Taiwan sports center list seed",
+      "sourceType": "open_knowledge_base",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%B8%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-gym-1mgk45c",
+    "name": "松山運動中心",
+    "brandName": "台北市運動中心",
+    "branchName": "松山",
+    "city": "台北市",
+    "district": "松山區",
+    "address": "台北市松山區敦化北路1號",
+    "latitude": null,
+    "longitude": null,
+    "status": "unknown",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+    },
+    "pricing": [
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "per_hour",
+        "timeLimitMinutes": null,
+        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": false,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": true,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": false,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "公立運動中心",
+        "計時候選",
+        "待查證"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "unverified",
+      "verificationSource": "open_knowledge_base",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "wikipedia-taiwan-sports-centers",
+      "sourceName": "Wikipedia Taiwan sports center list seed",
+      "sourceType": "open_knowledge_base",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-gym-1mot5fm",
+    "name": "信義運動中心",
+    "brandName": "台北市運動中心",
+    "branchName": "信義",
+    "city": "台北市",
+    "district": "信義區",
+    "address": "台北市信義區松勤街100號",
+    "latitude": null,
+    "longitude": null,
+    "status": "unknown",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+    },
+    "pricing": [
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "per_hour",
+        "timeLimitMinutes": null,
+        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": false,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": true,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": false,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "公立運動中心",
+        "計時候選",
+        "待查證"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "unverified",
+      "verificationSource": "open_knowledge_base",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "wikipedia-taiwan-sports-centers",
+      "sourceName": "Wikipedia Taiwan sports center list seed",
+      "sourceType": "open_knowledge_base",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E7%BE%A9%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-gym-1x5w1b8",
+    "name": "大同運動中心",
+    "brandName": "台北市運動中心",
+    "branchName": "大同",
+    "city": "台北市",
+    "district": "大同區",
+    "address": "台北市大同區大龍街51號",
+    "latitude": null,
+    "longitude": null,
+    "status": "unknown",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+    },
+    "pricing": [
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "per_hour",
+        "timeLimitMinutes": null,
+        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": false,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": true,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": false,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "公立運動中心",
+        "計時候選",
+        "待查證"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "unverified",
+      "verificationSource": "open_knowledge_base",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "wikipedia-taiwan-sports-centers",
+      "sourceName": "Wikipedia Taiwan sports center list seed",
+      "sourceType": "open_knowledge_base",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%8C%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+      "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "taipei-gym-1uxy7w2",
+    "name": "中山運動中心",
+    "brandName": "台北市運動中心",
+    "branchName": "中山",
+    "city": "台北市",
+    "district": "中山區",
+    "address": "台北市中山區中山北路二段44巷2號",
+    "latitude": null,
+    "longitude": null,
+    "status": "unknown",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+    },
+    "pricing": [
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "per_hour",
+        "timeLimitMinutes": null,
+        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": false,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": true,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": false,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "公立運動中心",
+        "計時候選",
+        "待查證"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "unverified",
+      "verificationSource": "open_knowledge_base",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "wikipedia-taiwan-sports-centers",
+      "sourceName": "Wikipedia Taiwan sports center list seed",
+      "sourceType": "open_knowledge_base",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
       "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
       "importedAt": "2026-07-07"
     }
@@ -7629,6 +6835,126 @@
       "sourceType": "open_knowledge_base",
       "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
       "sourceRecordUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
+      "importedAt": "2026-07-07"
+    }
+  },
+  {
+    "id": "yilan-gym-18i3hd8",
+    "name": "宜蘭國民運動中心",
+    "brandName": "宜蘭縣國民運動中心",
+    "branchName": "宜蘭",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "address": "宜蘭縣宜蘭市公園路66號",
+    "latitude": null,
+    "longitude": null,
+    "status": "unknown",
+    "isLargeContractFirstChain": false,
+    "isHiddenByDefault": false,
+    "access": {
+      "supportsSingleEntry": true,
+      "supportsNoContractMonthly": false,
+      "supportsTrial": false,
+      "requiresMembershipCard": false,
+      "requiresReservation": false,
+      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+    },
+    "pricing": [
+      {
+        "type": "hourly",
+        "amountTwd": null,
+        "unit": "per_hour",
+        "timeLimitMinutes": null,
+        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "lastVerifiedAt": "2026-07-07"
+      }
+    ],
+    "facilities": {
+      "hasFreeWeights": false,
+      "hasSquatRack": false,
+      "hasPowerRack": false,
+      "hasBenchPress": false,
+      "hasDeadliftPlatform": false,
+      "hasCableMachine": false,
+      "hasCardio": true,
+      "hasGroupClasses": false,
+      "hasPersonalTraining": false,
+      "hasShower": false,
+      "hasLocker": false,
+      "hasParking": false,
+      "is24Hours": false
+    },
+    "openingHours": [
+      {
+        "weekday": 0,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 1,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 2,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 3,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 4,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 5,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      },
+      {
+        "weekday": 6,
+        "opensAt": "00:00",
+        "closesAt": "00:00",
+        "isClosed": true
+      }
+    ],
+    "rating": {
+      "externalRating": null,
+      "externalRatingCount": 0,
+      "externalSource": "none",
+      "summaryTags": [
+        "公立運動中心",
+        "計時候選",
+        "待查證"
+      ]
+    },
+    "verification": {
+      "confidenceLevel": "unverified",
+      "verificationSource": "open_knowledge_base",
+      "verifiedAt": "2026-07-07"
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "mapUrl": ""
+    },
+    "source": {
+      "sourceId": "wikipedia-taiwan-sports-centers",
+      "sourceName": "Wikipedia Taiwan sports center list seed",
+      "sourceType": "open_knowledge_base",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/臺灣國民運動中心列表",
+      "sourceRecordUrl": "https://zh.wikipedia.org/wiki/%E5%AE%9C%E8%98%AD%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
       "sourceLicense": "Wikipedia table content under Creative Commons Attribution-ShareAlike; attribution and official-source verification required before launch",
       "importedAt": "2026-07-07"
     }

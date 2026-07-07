@@ -2,6 +2,7 @@ import {
   buildComparisonRows,
   filterGyms,
   getBestFlexiblePrice,
+  hasCoordinates,
   isGymOpenNow,
   rankGyms,
   validateReport
@@ -237,8 +238,15 @@ function renderMap() {
     return;
   }
 
-  const bounds = getBounds(state.filteredGyms);
-  const markers = state.filteredGyms
+  const mappableGyms = state.filteredGyms.filter(hasCoordinates);
+
+  if (mappableGyms.length === 0) {
+    elements.mapCanvas.innerHTML = '<p class="map-empty">符合條件的據點尚待補座標</p>';
+    return;
+  }
+
+  const bounds = getBounds(mappableGyms);
+  const markers = mappableGyms
     .map((gym) => {
       const point = projectGym(gym, bounds);
       const price = getBestFlexiblePrice(gym);
@@ -258,7 +266,7 @@ function renderMap() {
     .join("");
 
   elements.mapCanvas.innerHTML = `
-    <div class="map-compass">台北 / 新北示範資料</div>
+    <div class="map-compass">可定位據點 ${mappableGyms.length} / ${state.filteredGyms.length}</div>
     ${markers}
   `;
 }

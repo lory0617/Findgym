@@ -4,6 +4,7 @@ import {
   buildComparisonRows,
   filterGyms,
   getBestFlexiblePrice,
+  hasCoordinates,
   isGymOpenNow,
   normalizeQuery,
   rankGyms,
@@ -83,6 +84,12 @@ test("filterGyms applies city, hourly pricing, and 24-hour service filters", () 
 test("rankGyms puts nearby verified flexible gyms first", () => {
   const result = rankGyms(gyms, { latitude: 25.03, longitude: 121.52 }, new Date("2026-07-06T12:00:00+08:00"));
   assert.equal(result[0].id, "a");
+});
+
+test("hasCoordinates only accepts gyms with finite latitude and longitude", () => {
+  assert.equal(hasCoordinates(gyms[0]), true);
+  assert.equal(hasCoordinates({ ...gyms[0], latitude: null }), false);
+  assert.equal(hasCoordinates({ ...gyms[0], longitude: null }), false);
 });
 
 test("buildComparisonRows exposes decision fields", () => {

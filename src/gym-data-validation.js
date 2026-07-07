@@ -320,8 +320,12 @@ function validateBoolean(value, path, errors) {
 }
 
 function validateCoordinate(value, path, min, max, label, errors) {
+  if (value === null) {
+    return;
+  }
+
   if (!Number.isFinite(value) || value < min || value > max) {
-    errors.push(issue(path, `${label} must be within Taiwan bounds`));
+    errors.push(issue(path, `${label} must be within Taiwan bounds or null`));
   }
 }
 
