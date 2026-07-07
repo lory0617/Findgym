@@ -555,125 +555,6 @@
     }
   },
   {
-    "id": "taipei-no-contract-demo-gym",
-    "name": "自由重量示範健身房",
-    "brandName": "Independent",
-    "branchName": "台北示範",
-    "city": "台北市",
-    "district": "松山區",
-    "address": "台北市松山區示範路100號",
-    "latitude": 25.0503,
-    "longitude": 121.5637,
-    "status": "open",
-    "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
-    "access": {
-      "supportsSingleEntry": true,
-      "supportsNoContractMonthly": true,
-      "supportsTrial": true,
-      "requiresMembershipCard": true,
-      "requiresReservation": false,
-      "contractNote": "示範獨立健身房，可單次或免綁月繳。"
-    },
-    "pricing": [
-      {
-        "type": "single_entry",
-        "amountTwd": 200,
-        "unit": "per_entry",
-        "timeLimitMinutes": 180,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      },
-      {
-        "type": "monthly_no_contract",
-        "amountTwd": 1380,
-        "unit": "per_month",
-        "timeLimitMinutes": null,
-        "sourceNote": "示範資料，正式版需重新查證。",
-        "lastVerifiedAt": "2026-07-06"
-      }
-    ],
-    "facilities": {
-      "hasFreeWeights": true,
-      "hasSquatRack": true,
-      "hasPowerRack": true,
-      "hasBenchPress": true,
-      "hasDeadliftPlatform": true,
-      "hasCableMachine": true,
-      "hasCardio": true,
-      "hasGroupClasses": false,
-      "hasPersonalTraining": true,
-      "hasShower": true,
-      "hasLocker": true,
-      "hasParking": false,
-      "is24Hours": true
-    },
-    "openingHours": [
-      {
-        "weekday": 1,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 2,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 3,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 4,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 5,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 6,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      },
-      {
-        "weekday": 0,
-        "opensAt": "00:00",
-        "closesAt": "23:59",
-        "isClosed": false
-      }
-    ],
-    "rating": {
-      "externalRating": 4.7,
-      "externalRatingCount": 168,
-      "externalSource": "manual",
-      "summaryTags": [
-        "24小時",
-        "免綁",
-        "硬舉平台"
-      ]
-    },
-    "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "manual_research",
-      "verifiedAt": "2026-07-06"
-    },
-    "contact": {
-      "phone": "",
-      "website": "",
-      "mapUrl": "https://maps.google.com/?q=台北市松山區健身房"
-    }
-  },
-  {
     "id": "taipei-gym-1uxy7w2",
     "name": "中山運動中心",
     "brandName": "台北市運動中心",
@@ -5140,7 +5021,7 @@
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "體適能中心（健身房）每半小時50元；另售月卡（女性享40天使用期）；游泳池單次100元（2024年9月底啟用之海線首座國民運動中心；hourlyTwd 依每半小時50元換算為100元/時；月卡金額未載明；官網 qccscservice.com 未列費率明細）"
+      "contractNote": "清水國民暨兒童運動中心公開報導載明不用綁會員，可單次進場；健身房每半小時50元，正式費率仍以館方公告為準。"
     },
     "pricing": [
       {
@@ -5148,7 +5029,7 @@
         "amountTwd": 100,
         "unit": "per_hour",
         "timeLimitMinutes": null,
-        "sourceNote": "體適能中心（健身房）每半小時50元；另售月卡（女性享40天使用期）；游泳池單次100元（查證來源：https://udn.com/news/story/7325/9031298）",
+        "sourceNote": "聯合報 2025-09-26 報導：不用綁會員、可單次進場；健身房每半小時50元；游泳池單次100元。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5217,13 +5098,13 @@
       "externalSource": "none",
       "summaryTags": [
         "公立運動中心",
-        "計時候選",
-        "待查證"
+        "單次",
+        "新聞來源"
       ]
     },
     "verification": {
-      "confidenceLevel": "unverified",
-      "verificationSource": "open_knowledge_base",
+      "confidenceLevel": "likely",
+      "verificationSource": "news_report",
       "verifiedAt": "2026-07-07"
     },
     "contact": {
@@ -5253,22 +5134,22 @@
     "longitude": null,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
-      "supportsSingleEntry": true,
+      "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
       "supportsTrial": false,
       "requiresMembershipCard": false,
       "requiresReservation": false,
-      "contractNote": "公立運動中心候選資料；體適能中心單次或計時入場需以官方頁面複查。"
+      "contractNote": "豐原國民運動中心仍缺少官方單次或計時收費來源，先移出可單次主清單。"
     },
     "pricing": [
       {
-        "type": "hourly",
+        "type": "other",
         "amountTwd": null,
-        "unit": "per_hour",
+        "unit": "custom",
         "timeLimitMinutes": null,
-        "sourceNote": "Wikipedia list identifies the public sports center; price requires official-source verification.",
+        "sourceNote": "目前僅有公立運動中心候選資料，尚未找到官方單次或計時入場收費來源。",
         "lastVerifiedAt": "2026-07-07"
       }
     ],
@@ -5337,8 +5218,8 @@
       "externalSource": "none",
       "summaryTags": [
         "公立運動中心",
-        "計時候選",
-        "待查證"
+        "候選",
+        "待官方查證"
       ]
     },
     "verification": {
@@ -18325,7 +18206,7 @@
     "longitude": 121.7791568,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -18445,7 +18326,7 @@
     "longitude": 121.7446947,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -18565,7 +18446,7 @@
     "longitude": 121.7100942,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -18685,7 +18566,7 @@
     "longitude": 121.5464258,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -18805,7 +18686,7 @@
     "longitude": 121.5335083,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -18925,7 +18806,7 @@
     "longitude": 121.5230155,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19045,7 +18926,7 @@
     "longitude": 121.5100014,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19165,7 +19046,7 @@
     "longitude": 121.5332294,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19285,7 +19166,7 @@
     "longitude": 121.5239972,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19405,7 +19286,7 @@
     "longitude": 121.5160166,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19525,7 +19406,7 @@
     "longitude": 121.5171808,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19645,7 +19526,7 @@
     "longitude": 121.5340635,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19765,7 +19646,7 @@
     "longitude": 121.5242225,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -19885,7 +19766,7 @@
     "longitude": 121.533739,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20005,7 +19886,7 @@
     "longitude": 121.550417,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20125,7 +20006,7 @@
     "longitude": 121.5552235,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20245,7 +20126,7 @@
     "longitude": 121.5342164,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20365,7 +20246,7 @@
     "longitude": 121.5440165,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20605,7 +20486,7 @@
     "longitude": 121.5497732,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20725,7 +20606,7 @@
     "longitude": 121.5435483,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20845,7 +20726,7 @@
     "longitude": 121.5748298,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -20965,7 +20846,7 @@
     "longitude": 121.5232608,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21085,7 +20966,7 @@
     "longitude": 121.5229101,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21205,7 +21086,7 @@
     "longitude": 121.5378106,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21325,7 +21206,7 @@
     "longitude": 121.5413511,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21445,7 +21326,7 @@
     "longitude": 121.5246463,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21565,7 +21446,7 @@
     "longitude": 121.5424776,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21685,7 +21566,7 @@
     "longitude": 121.5456258,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21805,7 +21686,7 @@
     "longitude": 121.6106915,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -21925,7 +21806,7 @@
     "longitude": 121.5301904,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22045,7 +21926,7 @@
     "longitude": 121.5966475,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22165,7 +22046,7 @@
     "longitude": 121.576073,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22285,7 +22166,7 @@
     "longitude": 121.5926116,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22525,7 +22406,7 @@
     "longitude": 121.5435084,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22645,7 +22526,7 @@
     "longitude": 121.5364145,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22765,7 +22646,7 @@
     "longitude": 121.499573,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -22885,7 +22766,7 @@
     "longitude": 121.504747,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23005,7 +22886,7 @@
     "longitude": 121.5323871,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23125,7 +23006,7 @@
     "longitude": 121.4986986,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23245,7 +23126,7 @@
     "longitude": 121.5664052,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23365,7 +23246,7 @@
     "longitude": 121.5516828,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23485,7 +23366,7 @@
     "longitude": 121.5618968,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23605,7 +23486,7 @@
     "longitude": 121.5613496,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -23845,7 +23726,7 @@
     "longitude": 121.5521282,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24093,7 +23974,7 @@
     "longitude": 121.5745469,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24213,7 +24094,7 @@
     "longitude": 121.5069544,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24333,7 +24214,7 @@
     "longitude": 121.4910221,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24453,7 +24334,7 @@
     "longitude": 121.4959377,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24693,7 +24574,7 @@
     "longitude": 121.483013,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24813,7 +24694,7 @@
     "longitude": 121.5069063,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -24933,7 +24814,7 @@
     "longitude": 121.4796925,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25053,7 +24934,7 @@
     "longitude": 121.5104276,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25173,7 +25054,7 @@
     "longitude": 121.4995567,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25293,7 +25174,7 @@
     "longitude": 121.5155381,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25413,7 +25294,7 @@
     "longitude": 121.5069401,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25653,7 +25534,7 @@
     "longitude": 121.5175653,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25773,7 +25654,7 @@
     "longitude": 121.4632326,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -25893,7 +25774,7 @@
     "longitude": 121.4616913,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26013,7 +25894,7 @@
     "longitude": 121.4636546,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26133,7 +26014,7 @@
     "longitude": 121.4563465,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26253,7 +26134,7 @@
     "longitude": 121.4593555,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26373,7 +26254,7 @@
     "longitude": 121.3752807,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26493,7 +26374,7 @@
     "longitude": 121.4216495,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26613,7 +26494,7 @@
     "longitude": 121.423924,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26733,7 +26614,7 @@
     "longitude": 121.4514971,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -26853,7 +26734,7 @@
     "longitude": 121.4503437,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27213,7 +27094,7 @@
     "longitude": 121.4332766,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27333,7 +27214,7 @@
     "longitude": 121.4199597,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27453,7 +27334,7 @@
     "longitude": 121.4795548,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27573,7 +27454,7 @@
     "longitude": 121.2379539,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27693,7 +27574,7 @@
     "longitude": 121.2380809,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27813,7 +27694,7 @@
     "longitude": 121.220056,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -27933,7 +27814,7 @@
     "longitude": 121.2218678,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28053,7 +27934,7 @@
     "longitude": 121.2557387,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28173,7 +28054,7 @@
     "longitude": 121.2208836,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28293,7 +28174,7 @@
     "longitude": 121.314997,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28413,7 +28294,7 @@
     "longitude": 121.3128162,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28533,7 +28414,7 @@
     "longitude": 121.2949375,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28653,7 +28534,7 @@
     "longitude": 121.2834343,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -28893,7 +28774,7 @@
     "longitude": 121.292603,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29013,7 +28894,7 @@
     "longitude": 121.2943947,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29133,7 +29014,7 @@
     "longitude": 121.1458969,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29253,7 +29134,7 @@
     "longitude": 121.1503243,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29373,7 +29254,7 @@
     "longitude": 121.1839968,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29493,7 +29374,7 @@
     "longitude": 121.216638,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29613,7 +29494,7 @@
     "longitude": 121.2114624,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29733,7 +29614,7 @@
     "longitude": 121.3666252,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29853,7 +29734,7 @@
     "longitude": 121.3451126,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -29973,7 +29854,7 @@
     "longitude": 120.965658,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30093,7 +29974,7 @@
     "longitude": 120.9587538,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30213,7 +30094,7 @@
     "longitude": 120.9744759,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30333,7 +30214,7 @@
     "longitude": 120.9911871,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30453,7 +30334,7 @@
     "longitude": 120.9958454,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30573,7 +30454,7 @@
     "longitude": 120.9958943,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30693,7 +30574,7 @@
     "longitude": 120.9633082,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -30813,7 +30694,7 @@
     "longitude": 121.0115994,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31053,7 +30934,7 @@
     "longitude": 121.0184534,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31173,7 +31054,7 @@
     "longitude": 120.9741858,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31293,7 +31174,7 @@
     "longitude": 121.0092121,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31413,7 +31294,7 @@
     "longitude": 120.9795104,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31533,7 +31414,7 @@
     "longitude": 120.9875267,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31653,7 +31534,7 @@
     "longitude": 120.9511685,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31773,7 +31654,7 @@
     "longitude": 121.0210133,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -31893,7 +31774,7 @@
     "longitude": 121.0126019,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32013,7 +31894,7 @@
     "longitude": 121.0913998,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32133,7 +32014,7 @@
     "longitude": 121.0889611,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32253,7 +32134,7 @@
     "longitude": 120.8775419,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32373,7 +32254,7 @@
     "longitude": 120.8126271,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32493,7 +32374,7 @@
     "longitude": 120.7903862,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32613,7 +32494,7 @@
     "longitude": 120.8158296,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32733,7 +32614,7 @@
     "longitude": 120.939678,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32853,7 +32734,7 @@
     "longitude": 120.6835216,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -32973,7 +32854,7 @@
     "longitude": 120.6761295,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33093,7 +32974,7 @@
     "longitude": 120.6835152,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33213,7 +33094,7 @@
     "longitude": 120.648551,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33333,7 +33214,7 @@
     "longitude": 120.5810505,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33453,7 +33334,7 @@
     "longitude": 120.564217,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33573,7 +33454,7 @@
     "longitude": 120.5645281,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33693,7 +33574,7 @@
     "longitude": 120.7048237,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33813,7 +33694,7 @@
     "longitude": 120.6758398,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -33933,7 +33814,7 @@
     "longitude": 120.701133,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34053,7 +33934,7 @@
     "longitude": 120.3817597,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34173,7 +34054,7 @@
     "longitude": 120.5205131,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34293,7 +34174,7 @@
     "longitude": 120.4963423,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34413,7 +34294,7 @@
     "longitude": 120.4953969,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34533,7 +34414,7 @@
     "longitude": 120.5763781,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34653,7 +34534,7 @@
     "longitude": 120.5712748,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34773,7 +34654,7 @@
     "longitude": 120.5797809,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -34893,7 +34774,7 @@
     "longitude": 120.5428693,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35013,7 +34894,7 @@
     "longitude": 120.4638863,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35133,7 +35014,7 @@
     "longitude": 120.5388004,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35253,7 +35134,7 @@
     "longitude": 120.5387199,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35373,7 +35254,7 @@
     "longitude": 120.5558807,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35493,7 +35374,7 @@
     "longitude": 120.539479,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35613,7 +35494,7 @@
     "longitude": 120.5428372,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35733,7 +35614,7 @@
     "longitude": 120.5460175,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35853,7 +35734,7 @@
     "longitude": 120.5354335,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -35973,7 +35854,7 @@
     "longitude": 120.5443517,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36093,7 +35974,7 @@
     "longitude": 120.965521,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36333,7 +36214,7 @@
     "longitude": 120.5297452,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36453,7 +36334,7 @@
     "longitude": 120.3038892,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36573,7 +36454,7 @@
     "longitude": 120.4389471,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36693,7 +36574,7 @@
     "longitude": 120.4383713,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36813,7 +36694,7 @@
     "longitude": 120.446763,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -36933,7 +36814,7 @@
     "longitude": 120.4477608,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37053,7 +36934,7 @@
     "longitude": 120.4729777,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37173,7 +37054,7 @@
     "longitude": 120.4594874,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37293,7 +37174,7 @@
     "longitude": 120.4729319,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37413,7 +37294,7 @@
     "longitude": 120.2666366,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37533,7 +37414,7 @@
     "longitude": 120.2062333,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37653,7 +37534,7 @@
     "longitude": 120.2005533,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37773,7 +37654,7 @@
     "longitude": 120.2606992,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -37893,7 +37774,7 @@
     "longitude": 120.1854515,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38013,7 +37894,7 @@
     "longitude": 120.154928,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38133,7 +38014,7 @@
     "longitude": 120.1630926,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38253,7 +38134,7 @@
     "longitude": 120.2201442,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38373,7 +38254,7 @@
     "longitude": 120.2065744,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38493,7 +38374,7 @@
     "longitude": 120.2267146,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38613,7 +38494,7 @@
     "longitude": 120.2996653,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38733,7 +38614,7 @@
     "longitude": 120.3279412,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38853,7 +38734,7 @@
     "longitude": 120.3090903,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -38973,7 +38854,7 @@
     "longitude": 120.2875257,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39093,7 +38974,7 @@
     "longitude": 120.3346145,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39213,7 +39094,7 @@
     "longitude": 120.2925944,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39333,7 +39214,7 @@
     "longitude": 120.2782559,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39453,7 +39334,7 @@
     "longitude": 120.2663416,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39573,7 +39454,7 @@
     "longitude": 120.6140471,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39693,7 +39574,7 @@
     "longitude": 120.5114324,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39813,7 +39694,7 @@
     "longitude": 120.500419,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -39933,7 +39814,7 @@
     "longitude": 120.5463985,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -40053,7 +39934,7 @@
     "longitude": 121.1432469,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -40173,7 +40054,7 @@
     "longitude": 121.0674369,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -40293,7 +40174,7 @@
     "longitude": 121.1339792,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -40413,7 +40294,7 @@
     "longitude": 121.1436691,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -40653,7 +40534,7 @@
     "longitude": 121.5896349,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -40773,7 +40654,7 @@
     "longitude": 121.5950543,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41021,7 +40902,7 @@
     "longitude": 121.6015962,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41141,7 +41022,7 @@
     "longitude": 121.5954137,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41261,7 +41142,7 @@
     "longitude": 121.610257,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41381,7 +41262,7 @@
     "longitude": 121.6063569,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41501,7 +41382,7 @@
     "longitude": 121.6229447,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41621,7 +41502,7 @@
     "longitude": 121.7547745,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41741,7 +41622,7 @@
     "longitude": 121.756078,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41861,7 +41742,7 @@
     "longitude": 121.7600423,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -41981,7 +41862,7 @@
     "longitude": 121.7385274,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42101,7 +41982,7 @@
     "longitude": 121.7579985,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42221,7 +42102,7 @@
     "longitude": 121.8211512,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42341,7 +42222,7 @@
     "longitude": 121.7572492,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42461,7 +42342,7 @@
     "longitude": 121.7744887,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42581,7 +42462,7 @@
     "longitude": 119.5888531,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42701,7 +42582,7 @@
     "longitude": 119.5793279,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42821,7 +42702,7 @@
     "longitude": 118.3221531,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,
@@ -42941,7 +42822,7 @@
     "longitude": 119.949519,
     "status": "open",
     "isLargeContractFirstChain": false,
-    "isHiddenByDefault": false,
+    "isHiddenByDefault": true,
     "access": {
       "supportsSingleEntry": false,
       "supportsNoContractMonthly": false,

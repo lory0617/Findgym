@@ -9,6 +9,7 @@ import {
   validateGymDataset,
   validateGymRecord
 } from "../src/gym-data-validation.js";
+import { filterGyms } from "../src/findgym-core.js";
 
 const execFileAsync = promisify(execFile);
 
@@ -171,6 +172,8 @@ test("summarizeGymDataset counts access, city, and confidence coverage", () => {
   assert.equal(summary.singleEntryCount, 2);
   assert.equal(summary.noContractCount, 1);
   assert.deepEqual(summary.byConfidence, { verified: 1, likely: 1 });
+  assert.equal(summary.visibleStaleOrUnverifiedCount, 0);
+  assert.equal(summary.visibleFlexibleStaleOrUnverifiedCount, 0);
 });
 
 test("buildDatasetStatus warns when records are unverified", () => {
@@ -189,12 +192,68 @@ test("buildDatasetStatus warns when records are unverified", () => {
   assert.equal(status.detail.includes("尚未驗證"), true);
 });
 
+test("buildDatasetStatus treats hidden source candidates as pending instead of main-list warnings", () => {
+  const status = buildDatasetStatus([
+    {
+      ...validGym,
+      isHiddenByDefault: true,
+      access: {
+        ...validGym.access,
+        supportsSingleEntry: false,
+        supportsTrial: false
+      },
+      verification: {
+        ...validGym.verification,
+        confidenceLevel: "unverified"
+      }
+    }
+  ]);
+
+  assert.equal(status.level, "ready");
+  assert.equal(status.summary.staleOrUnverifiedCount, 1);
+  assert.equal(status.summary.visibleStaleOrUnverifiedCount, 0);
+  assert.equal(status.summary.visibleFlexibleStaleOrUnverifiedCount, 0);
+  assert.equal(status.detail.includes("候選資料"), true);
+});
+
 test("current data/gyms.json is structurally valid", async () => {
   const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
   const gyms = JSON.parse(raw);
   const result = validateGymDataset(gyms);
   assert.equal(result.valid, true);
   assert.equal(result.errors.length, 0);
+});
+
+test("current default single-entry data has no unverified records", async () => {
+  const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
+  const gyms = JSON.parse(raw);
+  const results = filterGyms(gyms, { singleEntry: true }, new Date("2026-07-07T12:00:00+08:00"));
+  const unverifiedNames = results
+    .filter((gym) => gym.verification?.confidenceLevel === "unverified")
+    .map((gym) => gym.name);
+
+  assert.deepEqual(unverifiedNames, []);
+});
+
+test("current default visible data has no unverified source candidates", async () => {
+  const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
+  const gyms = JSON.parse(raw);
+  const results = filterGyms(gyms, {}, new Date("2026-07-07T12:00:00+08:00"));
+  const unverifiedNames = results
+    .filter((gym) => ["stale", "unverified"].includes(gym.verification?.confidenceLevel))
+    .map((gym) => gym.name);
+
+  assert.deepEqual(unverifiedNames, []);
+});
+
+test("current data/gyms.json does not include demo placeholder gyms", async () => {
+  const raw = await readFile(new URL("../data/gyms.json", import.meta.url), "utf8");
+  const gyms = JSON.parse(raw);
+  const demoRecords = gyms
+    .filter((gym) => gym.id.includes("demo") || gym.name.includes("示範"))
+    .map((gym) => gym.name);
+
+  assert.deepEqual(demoRecords, []);
 });
 
 test("current public sports-center records have operating status and real opening hours", async () => {

@@ -106,12 +106,17 @@ export function summarizeGymDataset(gyms) {
     noContractCount: 0,
     flexibleAccessCount: 0,
     hiddenByDefaultCount: 0,
-    staleOrUnverifiedCount: 0
+    staleOrUnverifiedCount: 0,
+    visibleStaleOrUnverifiedCount: 0,
+    visibleFlexibleStaleOrUnverifiedCount: 0
   };
 
   rows.forEach((gym) => {
     increment(summary.byCity, gym.city || "unknown");
     increment(summary.byConfidence, gym.verification?.confidenceLevel || "unknown");
+    const hasFlexibleAccess =
+      gym.access?.supportsSingleEntry || gym.access?.supportsNoContractMonthly || gym.access?.supportsTrial;
+    const needsSourceReview = ["stale", "unverified"].includes(gym.verification?.confidenceLevel);
 
     if (gym.access?.supportsSingleEntry) {
       summary.singleEntryCount += 1;
@@ -121,7 +126,7 @@ export function summarizeGymDataset(gyms) {
       summary.noContractCount += 1;
     }
 
-    if (gym.access?.supportsSingleEntry || gym.access?.supportsNoContractMonthly || gym.access?.supportsTrial) {
+    if (hasFlexibleAccess) {
       summary.flexibleAccessCount += 1;
     }
 
@@ -129,8 +134,16 @@ export function summarizeGymDataset(gyms) {
       summary.hiddenByDefaultCount += 1;
     }
 
-    if (["stale", "unverified"].includes(gym.verification?.confidenceLevel)) {
+    if (needsSourceReview) {
       summary.staleOrUnverifiedCount += 1;
+    }
+
+    if (!gym.isHiddenByDefault && needsSourceReview) {
+      summary.visibleStaleOrUnverifiedCount += 1;
+    }
+
+    if (!gym.isHiddenByDefault && hasFlexibleAccess && needsSourceReview) {
+      summary.visibleFlexibleStaleOrUnverifiedCount += 1;
     }
   });
 
@@ -139,9 +152,10 @@ export function summarizeGymDataset(gyms) {
 
 export function buildDatasetStatus(gyms) {
   const summary = summarizeGymDataset(gyms);
-  const level = summary.staleOrUnverifiedCount > 0 ? "warning" : "ready";
+  const level = summary.visibleStaleOrUnverifiedCount > 0 ? "warning" : "ready";
   const cityCount = Object.keys(summary.byCity).length;
   const cityLabel = cityCount > 0 ? `${cityCount} 個城市` : "尚無城市資料";
+  const pendingCandidateCount = Math.max(0, summary.staleOrUnverifiedCount - summary.visibleStaleOrUnverifiedCount);
 
   return {
     level,
@@ -149,8 +163,10 @@ export function buildDatasetStatus(gyms) {
     headline: `${summary.total} 間據點 · ${summary.singleEntryCount} 間可單次 · ${cityLabel}`,
     detail:
       level === "warning"
-        ? `${summary.staleOrUnverifiedCount} 間資料尚未驗證，正式上線前需重新查證價格、營業時間與設施。`
-        : "資料已通過結構檢查，且目前沒有 stale 或 unverified 標記。",
+        ? `${summary.visibleStaleOrUnverifiedCount} 間公開清單資料尚未驗證，正式上線前需重新查證價格、營業時間與設施。`
+        : pendingCandidateCount > 0
+          ? `主清單已完成首輪覆核；${pendingCandidateCount} 間候選資料仍待官方來源補強。`
+          : "資料已通過結構檢查，且目前沒有 stale 或 unverified 標記。",
     summary
   };
 }
