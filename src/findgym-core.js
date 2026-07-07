@@ -303,10 +303,11 @@ function formatPrice(price) {
       per_entry: "次",
       per_hour: "小時",
       per_day: "日",
-      per_month: "月"
+      per_month: "月",
+      per_minute: "分鐘"
     }[price.unit] ?? "方案";
 
-  return `NT$${price.amountTwd}/${unitLabel}`;
+  return `$${price.amountTwd} / ${unitLabel}`;
 }
 
 function formatOpenStatus(gym) {

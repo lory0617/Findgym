@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Findgym icon">
-  <rect width="128" height="128" rx="24" fill="#145c55"/>
-  <path d="M64 18c-18.8 0-34 15.2-34 34 0 25.5 34 58 34 58s34-32.5 34-58c0-18.8-15.2-34-34-34Z" fill="#f6f2ea"/>
-  <circle cx="64" cy="52" r="15" fill="#d97706"/>
-  <path d="M43 88h42" stroke="#f6f2ea" stroke-width="10" stroke-linecap="round"/>
+  <rect width="128" height="128" rx="24" fill="#0B0B0D"/>
+  <rect x="12" y="12" width="104" height="104" rx="18" fill="#121418" stroke="#313741" stroke-width="2"/>
+  <path d="M64 23c-17.7 0-32 14.3-32 32 0 23.8 32 50 32 50s32-26.2 32-50c0-17.7-14.3-32-32-32Z" fill="#C0C7D1"/>
+  <path d="M47 55h34" stroke="#0B0B0D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M53 43v24M75 43v24" stroke="#0B0B0D" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="64" cy="55" r="8" fill="#7DD3FC"/>
 </svg>

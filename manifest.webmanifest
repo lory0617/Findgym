@@ -4,8 +4,8 @@
   "description": "Find no-contract and pay-per-use gyms in Taiwan.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f6f2ea",
-  "theme_color": "#145c55",
+  "background_color": "#0B0B0D",
+  "theme_color": "#0B0B0D",
   "icons": [
     {
       "src": "./assets/icon.svg",

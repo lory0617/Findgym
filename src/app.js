@@ -273,8 +273,11 @@ function renderMap() {
 
   mappableGyms.forEach((gym) => {
     const price = getBestFlexiblePrice(gym);
-    const priceLabel = price?.amountTwd === null || price?.amountTwd === undefined ? "價格待查證" : `NT$${price.amountTwd}`;
-    const marker = L.marker([gym.latitude, gym.longitude], { title: gym.name });
+    const priceLabel = price ? formatPrice(price) : "價格需複核";
+    const marker = L.marker([gym.latitude, gym.longitude], {
+      icon: buildMapIcon(gym),
+      title: gym.name
+    });
 
     marker.bindPopup(`
       <strong>${escapeHtml(gym.name)}</strong><br />
@@ -371,11 +374,12 @@ function renderPagination(page, totalPages) {
 
 function renderGymCard(gym) {
   const price = getBestFlexiblePrice(gym);
+  const priceLabel = price ? formatPrice(price) : "價格需複核";
   const compared = state.compareIds.includes(gym.id);
   const distance = formatDistance(distanceKm(state.userLocation, gym));
 
   return `
-    <article class="gym-card">
+    <article class="gym-card ${state.selectedGymId === gym.id ? "is-selected" : ""}">
       <div class="gym-thumb" aria-hidden="true">
         <img src="./assets/icon.svg" alt="" />
       </div>
@@ -383,16 +387,22 @@ function renderGymCard(gym) {
         <div class="gym-card-header">
           <div>
             <h3>${escapeHtml(gym.name)}</h3>
-            <p class="meta">營業時間：${escapeHtml(formatTodayHours(gym))}</p>
-            <p class="meta">${escapeHtml(gym.city)}${escapeHtml(gym.district)} · ${distance}</p>
+            <p class="meta">${escapeHtml(gym.city)}${escapeHtml(gym.district)} · ${escapeHtml(gym.address)}</p>
           </div>
-          ${renderOpenStatusChip(gym)}
+          <span class="distance-badge">${escapeHtml(distance)}</span>
         </div>
-        <p class="meta">${escapeHtml(gym.address)}</p>
+        <div class="status-row">
+          ${renderOpenStatusChip(gym)}
+          ${renderSourceChip(gym)}
+        </div>
+        <div class="price-row">
+          <span>最低彈性價格</span>
+          <strong>${escapeHtml(priceLabel)}</strong>
+        </div>
         <div class="service-tags">
           ${renderServiceTags(gym)}
-          ${price ? `<span>#${escapeHtml(formatPrice(price))}</span>` : "<span>#價格待查</span>"}
         </div>
+        <p class="source-line">營業時間：${escapeHtml(formatTodayHours(gym))} · 最後確認 ${escapeHtml(gym.verification?.verifiedAt ?? "待更新")}</p>
         ${gym.access?.contractNote ? `<p class="price-note">${escapeHtml(gym.access.contractNote)}</p>` : ""}
         <div class="card-actions">
           <button class="primary-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
@@ -420,6 +430,7 @@ function renderDetail() {
   }
 
   const price = getBestFlexiblePrice(gym);
+  const priceLabel = price ? formatPrice(price) : "價格需複核";
   const compared = state.compareIds.includes(gym.id);
 
   elements.detailPanel.classList.add("is-open");
@@ -437,15 +448,33 @@ function renderDetail() {
           <div class="chip-row">
             ${renderAccessChips(gym)}
             ${renderOpenStatusChip(gym, { includeCurrently: true })}
-            <span class="chip">${escapeHtml(confidenceLabel(gym.verification?.confidenceLevel))}</span>
+            ${renderSourceChip(gym)}
           </div>
           <p class="detail-address">${escapeHtml(gym.address)}</p>
           <div class="price-card">
-            <span>最低彈性價格</span>
-            <strong>${price ? escapeHtml(formatPrice(price)) : "尚未提供"}</strong>
-            <small>${price?.sourceNote ? escapeHtml(price.sourceNote) : "價格資料待補"}</small>
+            <span>收費</span>
+            <strong>${escapeHtml(priceLabel)}</strong>
+            <small>${price?.sourceNote ? escapeHtml(price.sourceNote) : "價格需複核，出發前建議查看官方資訊。"}</small>
           </div>
-          <div class="drawer-actions">
+          <div class="detail-summary-grid">
+            <div>
+              <span>入場方式</span>
+              <strong>${escapeHtml(summarizeEntryTypes(gym))}</strong>
+            </div>
+            <div>
+              <span>免綁約</span>
+              <strong>${gym.access?.supportsNoContractMonthly || gym.access?.supportsSingleEntry ? "是" : "需複核"}</strong>
+            </div>
+            <div>
+              <span>營業時間</span>
+              <strong>${escapeHtml(formatTodayHours(gym))}</strong>
+            </div>
+            <div>
+              <span>資料狀態</span>
+              <strong>${escapeHtml(sourceLabel(gym))}</strong>
+            </div>
+          </div>
+          <div class="drawer-actions detail-cta">
             ${gym.contact?.mapUrl ? `<a class="primary-button" href="${escapeAttribute(gym.contact.mapUrl)}" target="_blank" rel="noreferrer">導航</a>` : ""}
             ${gym.contact?.phone ? `<a class="secondary-button" href="tel:${escapeAttribute(gym.contact.phone)}">電話</a>` : ""}
             ${gym.contact?.website ? `<a class="secondary-button" href="${escapeAttribute(gym.contact.website)}" target="_blank" rel="noreferrer">網站</a>` : ""}
@@ -594,15 +623,35 @@ function toggleCompare(gymId) {
   state.compareIds = [...state.compareIds, gymId];
 }
 
+function buildMapIcon(gym) {
+  const status = getGymOpenStatus(gym);
+  const level = gym.verification?.confidenceLevel;
+  const statusClass =
+    {
+      open: "is-open",
+      closed: "is-closed",
+      unknown: "is-unknown"
+    }[status] ?? "is-unknown";
+  const verifiedClass = level === "verified" ? "is-verified" : "";
+
+  return L.divIcon({
+    className: `gym-map-pin ${statusClass} ${verifiedClass}`.trim(),
+    html: "<span></span>",
+    iconAnchor: [10, 20],
+    iconSize: [20, 20],
+    popupAnchor: [0, -18]
+  });
+}
+
 function renderAccessChips(gym) {
   const chips = [];
 
   if (gym.access?.supportsSingleEntry) {
-    chips.push('<span class="chip chip-strong">單次</span>');
+    chips.push('<span class="chip chip-strong">單次入場</span>');
   }
 
   if (gym.access?.supportsNoContractMonthly) {
-    chips.push('<span class="chip chip-strong">免綁月繳</span>');
+    chips.push('<span class="chip chip-strong">不用綁約</span>');
   }
 
   if (gym.access?.supportsTrial) {
@@ -616,14 +665,17 @@ function renderServiceTags(gym) {
   const tags = [];
 
   if (gym.access?.supportsSingleEntry) tags.push("單次入場");
-  if (gym.pricing?.some((price) => price.type === "hourly")) tags.push("以時計費");
-  if (gym.access?.supportsNoContractMonthly) tags.push("免綁月繳");
+  if (gym.pricing?.some((price) => price.type === "hourly")) tags.push("小時計費");
+  if (gym.pricing?.some((price) => price.type === "daily")) tags.push("日票");
+  if (gym.access?.supportsNoContractMonthly) tags.push("不用綁約");
   if (gym.facilities?.is24Hours) tags.push("24小時");
   if (gym.facilities?.hasSquatRack) tags.push("深蹲架");
   if (gym.facilities?.hasShower) tags.push("淋浴");
   if (gym.facilities?.hasParking) tags.push("停車");
 
-  return tags.map((tag) => `<span>#${escapeHtml(tag)}</span>`).join("");
+  return tags.length
+    ? tags.map((tag) => `<span class="tag tag-active">${escapeHtml(tag)}</span>`).join("")
+    : '<span class="tag tag-warning">入場方式需複核</span>';
 }
 
 function formatTodayHours(gym) {
@@ -645,14 +697,27 @@ function renderOpenStatusChip(gym, options = {}) {
   const includeCurrently = options.includeCurrently === true;
 
   if (status === "open") {
-    return `<span class="chip chip-strong">${includeCurrently ? "目前營業中" : "營業中"}</span>`;
+    return `<span class="tag tag-success">${includeCurrently ? "目前營業中" : "營業中"}</span>`;
   }
 
   if (status === "closed") {
-    return `<span class="chip chip-warn">${includeCurrently ? "目前未營業" : "未營業"}</span>`;
+    return `<span class="tag">${includeCurrently ? "目前未營業" : "未營業"}</span>`;
   }
 
-  return '<span class="chip">營業時間待查</span>';
+  return '<span class="tag tag-warning">營業時間待查</span>';
+}
+
+function renderSourceChip(gym) {
+  const level = gym.verification?.confidenceLevel;
+  const className =
+    {
+      verified: "tag tag-success",
+      likely: "tag",
+      unverified: "tag tag-warning",
+      stale: "tag"
+    }[level] ?? "tag tag-warning";
+
+  return `<span class="${className}">${escapeHtml(sourceLabel(gym))}</span>`;
 }
 
 function renderFact(label, value) {
@@ -677,6 +742,18 @@ function summarizeFacilities(gym) {
   return labels.length ? labels.join("、") : "設施待補";
 }
 
+function summarizeEntryTypes(gym) {
+  const labels = [];
+
+  if (gym.access?.supportsSingleEntry) labels.push("單次入場");
+  if (gym.pricing?.some((price) => price.type === "hourly")) labels.push("小時計費");
+  if (gym.pricing?.some((price) => price.type === "daily")) labels.push("日票");
+  if (gym.access?.supportsNoContractMonthly) labels.push("不用綁約");
+  if (gym.access?.requiresReservation) labels.push("需預約");
+
+  return labels.length ? labels.join(" / ") : "入場方式需複核";
+}
+
 function formatRating(gym) {
   const rating = gym.rating?.externalRating;
 
@@ -689,7 +766,7 @@ function formatRating(gym) {
 
 function formatPrice(price) {
   if (!price) {
-    return "價格待查";
+    return "價格需複核";
   }
 
   if (price.amountTwd === null || price.amountTwd === undefined) {
@@ -701,10 +778,11 @@ function formatPrice(price) {
       per_entry: "次",
       per_hour: "小時",
       per_day: "日",
-      per_month: "月"
+      per_month: "月",
+      per_minute: "分鐘"
     }[price.unit] ?? "方案";
 
-  return `NT$${price.amountTwd}/${unit}`;
+  return `$${price.amountTwd} / ${unit}`;
 }
 
 function confidenceLabel(value) {
@@ -716,6 +794,29 @@ function confidenceLabel(value) {
       stale: "可能過期"
     }[value] ?? "尚未驗證"
   );
+}
+
+function sourceLabel(gym) {
+  const level = gym.verification?.confidenceLevel;
+  const sourceName = gym.source?.sourceName ?? "";
+
+  if (level === "verified") {
+    return "官方明確";
+  }
+
+  if (sourceName.toLowerCase().includes("gymnomad")) {
+    return "GymNomad";
+  }
+
+  if (level === "likely") {
+    return "資料已整理";
+  }
+
+  if (level === "stale") {
+    return "待更新";
+  }
+
+  return "需複核";
 }
 
 function distanceKm(from, to) {
