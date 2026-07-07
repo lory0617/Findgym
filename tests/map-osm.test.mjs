@@ -42,3 +42,12 @@ test("map markers open the gym detail and reuse one Leaflet map instance", async
   assert.equal(app.includes("fitBounds"), true);
   assert.equal(/marker\.on\("click"/.test(app), true);
 });
+
+test("map notice is positioned away from Leaflet zoom controls", async () => {
+  const styles = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
+  const mapNoticeRule = /\.map-notice\s*\{(?<body>[^}]+)\}/.exec(styles)?.groups?.body ?? "";
+
+  assert.equal(mapNoticeRule.includes("right: var(--space-3);"), true);
+  assert.equal(mapNoticeRule.includes("left: auto;"), true);
+  assert.equal(mapNoticeRule.includes("max-width: calc(100% - 92px);"), true);
+});

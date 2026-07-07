@@ -589,9 +589,12 @@ h3 {
   color: var(--color-silver-mid);
   font-size: var(--font-xs);
   font-weight: 700;
-  left: var(--space-3);
+  left: auto;
+  max-width: calc(100% - 92px);
+  overflow-wrap: anywhere;
   padding: 7px 11px;
   position: absolute;
+  right: var(--space-3);
   top: var(--space-3);
   z-index: 1100;
 }
