@@ -139,7 +139,7 @@ function handleDocumentClick(event) {
   }
 
   if (action === "open-report") {
-    state.reportGymId = gymId ?? state.selectedGymId;
+    state.reportGymId = gymId ?? state.selectedGymId ?? "missing_gym";
     state.reportMessage = "";
     renderApp();
   }
@@ -410,6 +410,7 @@ function renderReport() {
   }
 
   const gym = state.gyms.find((item) => item.id === state.reportGymId);
+  const isMissingGymReport = state.reportGymId === "missing_gym";
 
   if (!state.reportGymId && !state.reportMessage) {
     elements.reportPanel.classList.remove("is-open");
@@ -438,7 +439,7 @@ function renderReport() {
           <option value="wrong_location">地點錯誤</option>
           <option value="closed">已歇業</option>
           <option value="facility_update">設施補充</option>
-          <option value="missing_gym">新增健身房</option>
+          <option value="missing_gym" ${isMissingGymReport ? "selected" : ""}>新增健身房</option>
           <option value="other">其他</option>
         </select>
       </label>

@@ -51,6 +51,13 @@ button {
   max-width: 1180px;
 }
 
+.topbar-actions {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+}
+
 .eyebrow {
   color: var(--brand);
   font-size: 0.78rem;
@@ -363,6 +370,11 @@ h2 {
   color: var(--brand);
   padding-left: 0;
   padding-right: 0;
+}
+
+.compact-button {
+  min-height: 40px;
+  white-space: nowrap;
 }
 
 .drawer {
