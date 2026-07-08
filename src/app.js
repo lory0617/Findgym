@@ -25,10 +25,11 @@ const elements = {
   locateButton: document.querySelector("#locateButton")
 };
 
+const NEIGHBORHOOD_ZOOM = 14;
 const mapView = {
   map: null,
   markerLayer: null,
-  lastBoundsSignature: ""
+  framedCity: null
 };
 
 const state = {
@@ -70,6 +71,7 @@ async function init() {
     state.gyms = await response.json();
     state.dataStatus = buildDatasetStatus(state.gyms);
     updateFilteredGyms();
+    autoLocateOnLoad();
   } catch (error) {
     renderLoadError(error);
   }
@@ -113,6 +115,7 @@ function handleLocate() {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude
       };
+      recenterMapOnUser();
       updateFilteredGyms();
     },
     () => {
@@ -120,6 +123,31 @@ function handleLocate() {
       renderApp();
     },
     { enableHighAccuracy: true, timeout: 6000 }
+  );
+}
+
+function recenterMapOnUser() {
+  if (mapView.map) {
+    mapView.map.setView([state.userLocation.latitude, state.userLocation.longitude], NEIGHBORHOOD_ZOOM);
+  }
+}
+
+function autoLocateOnLoad() {
+  if (!navigator.geolocation) {
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      state.userLocation = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude
+      };
+      recenterMapOnUser();
+      updateFilteredGyms();
+    },
+    () => {},
+    { enableHighAccuracy: false, timeout: 6000, maximumAge: 300000 }
   );
 }
 
@@ -252,7 +280,10 @@ function renderMap() {
   }
 
   if (!mapView.map) {
-    mapView.map = L.map(elements.mapCanvas).setView([23.7, 120.96], 7);
+    mapView.map = L.map(elements.mapCanvas).setView(
+      [state.userLocation.latitude, state.userLocation.longitude],
+      NEIGHBORHOOD_ZOOM
+    );
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution:
@@ -267,7 +298,6 @@ function renderMap() {
   mapView.markerLayer.clearLayers();
 
   if (mappableGyms.length === 0) {
-    mapView.lastBoundsSignature = "";
     return;
   }
 
@@ -292,16 +322,16 @@ function renderMap() {
     marker.addTo(mapView.markerLayer);
   });
 
-  const boundsSignature = mappableGyms
-    .map((gym) => gym.id)
-    .sort()
-    .join("|");
+  // Default view stays centered on the user; only reframe when the city filter
+  // changes, so a user browsing their neighbourhood keeps their own pan/zoom.
+  const city = state.filters.city;
 
-  if (boundsSignature !== mapView.lastBoundsSignature) {
-    mapView.lastBoundsSignature = boundsSignature;
+  if (city && city !== mapView.framedCity) {
     const bounds = L.latLngBounds(mappableGyms.map((gym) => [gym.latitude, gym.longitude]));
     mapView.map.fitBounds(bounds, { padding: [28, 28], maxZoom: 15 });
   }
+
+  mapView.framedCity = city || null;
 }
 
 function renderMapNotice(mappableCount, totalCount) {

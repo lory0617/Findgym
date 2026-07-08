@@ -43,6 +43,24 @@ test("map markers open the gym detail and reuse one Leaflet map instance", async
   assert.equal(/marker\.on\("click"/.test(app), true);
 });
 
+test("map opens centered on the user location at a neighborhood zoom", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("NEIGHBORHOOD_ZOOM"), true);
+  assert.equal(app.includes("state.userLocation.latitude"), true);
+  assert.equal(app.includes("state.userLocation.longitude"), true);
+  // must not hard-fit the whole-Taiwan view on load
+  assert.equal(app.includes("[23.7, 120.96], 7"), false);
+});
+
+test("map only reframes when the city filter changes, otherwise respects manual zoom", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("framedCity"), true);
+  // fitBounds must be gated behind the city filter, not the full marker set every render
+  assert.equal(app.includes("lastBoundsSignature"), false);
+});
+
 test("map notice is positioned away from Leaflet zoom controls", async () => {
   const styles = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
   const mapNoticeRule = /\.map-notice\s*\{(?<body>[^}]+)\}/.exec(styles)?.groups?.body ?? "";
