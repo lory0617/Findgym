@@ -1282,8 +1282,8 @@
     "city": "台北市",
     "district": "北投區",
     "address": "台北市北投區石牌路一段39巷100號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.113274,
+    "longitude": 121.510745,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -1371,7 +1371,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -1522,8 +1523,8 @@
     "city": "台北市",
     "district": "內湖區",
     "address": "台北市內湖區洲子街12號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.080622,
+    "longitude": 121.569663,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -1611,7 +1612,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -1642,8 +1644,8 @@
     "city": "台北市",
     "district": "文山區",
     "address": "台北市文山區興隆路三段222號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.991881,
+    "longitude": 121.558701,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -1731,7 +1733,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -1762,8 +1765,8 @@
     "city": "新北市",
     "district": "新莊區",
     "address": "新北市新莊區公園路11號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.039513,
+    "longitude": 121.449637,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -1851,7 +1854,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -1882,8 +1886,8 @@
     "city": "新北市",
     "district": "蘆洲區",
     "address": "新北市蘆洲區長樂路235-1號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.086788,
+    "longitude": 121.462701,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -1971,7 +1975,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2002,8 +2007,8 @@
     "city": "新北市",
     "district": "淡水區",
     "address": "新北市淡水區中山北路二段381巷2號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.188201,
+    "longitude": 121.44408,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2091,7 +2096,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2122,8 +2128,8 @@
     "city": "新北市",
     "district": "三重區",
     "address": "新北市三重區集美街55號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.054848,
+    "longitude": 121.488339,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2211,7 +2217,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2242,8 +2249,8 @@
     "city": "新北市",
     "district": "土城區",
     "address": "新北市土城區金城路二段247-1號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.983279,
+    "longitude": 121.457022,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2331,7 +2338,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2482,8 +2490,8 @@
     "city": "新北市",
     "district": "泰山區",
     "address": "新北市泰山區全興路167號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.057801,
+    "longitude": 121.433071,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2571,7 +2579,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2602,8 +2611,8 @@
     "city": "新北市",
     "district": "汐止區",
     "address": "新北市汐止區汐科路321號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.065931,
+    "longitude": 121.658181,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2691,7 +2700,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2722,8 +2732,8 @@
     "city": "新北市",
     "district": "樹林區",
     "address": "新北市樹林區中正路188-6號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.018282,
+    "longitude": 121.408917,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2811,7 +2821,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2842,8 +2853,8 @@
     "city": "新北市",
     "district": "鶯歌區",
     "address": "新北市鶯歌區館前路250號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.953057,
+    "longitude": 121.356741,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -2931,7 +2942,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -2962,8 +2974,8 @@
     "city": "新北市",
     "district": "三峽區",
     "address": "新北市三峽區文化路210巷12號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.936719,
+    "longitude": 121.368597,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3051,7 +3063,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3082,8 +3095,8 @@
     "city": "新北市",
     "district": "林口區",
     "address": "新北市林口區文化二路2段299號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.086857,
+    "longitude": 121.381559,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3171,7 +3184,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3202,8 +3216,8 @@
     "city": "新北市",
     "district": "五股區",
     "address": "新北市五股區成泰路三段296號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.092453,
+    "longitude": 121.445717,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3291,7 +3305,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3322,8 +3337,8 @@
     "city": "新北市",
     "district": "新店區",
     "address": "新北市新店區北新路一段88巷12號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.967378,
+    "longitude": 121.541757,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3411,7 +3426,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3442,8 +3458,8 @@
     "city": "桃園市",
     "district": "桃園區",
     "address": "桃園市桃園區中山東路233號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.995898,
+    "longitude": 121.314489,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3531,7 +3547,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3562,8 +3579,8 @@
     "city": "桃園市",
     "district": "桃園區",
     "address": "桃園市桃園區南平路22號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.020365,
+    "longitude": 121.303895,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3651,7 +3668,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3802,8 +3820,8 @@
     "city": "桃園市",
     "district": "平鎮區",
     "address": "桃園市平鎮區中庸路18號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.913369,
+    "longitude": 121.206497,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -3891,7 +3909,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -3922,8 +3941,8 @@
     "city": "桃園市",
     "district": "蘆竹區",
     "address": "桃園市蘆竹區仁愛路一段49號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.051067,
+    "longitude": 121.292757,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4011,7 +4030,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4042,8 +4062,8 @@
     "city": "桃園市",
     "district": "八德區",
     "address": "桃園市八德區廣福路230號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.96053,
+    "longitude": 121.282595,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4131,7 +4151,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4162,8 +4183,8 @@
     "city": "桃園市",
     "district": "中壢區",
     "address": "桃園市中壢區中大路300號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.968263,
+    "longitude": 121.197567,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4251,7 +4272,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4282,8 +4304,8 @@
     "city": "台中市",
     "district": "西屯區",
     "address": "台中市西屯區朝貴路199號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.168596,
+    "longitude": 120.634426,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4371,7 +4393,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4402,8 +4425,8 @@
     "city": "台中市",
     "district": "北區",
     "address": "台中市北區崇德路一段55號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.165961,
+    "longitude": 120.684583,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4491,7 +4514,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4522,8 +4546,8 @@
     "city": "台中市",
     "district": "南屯區",
     "address": "台中市南屯區黎明路一段998號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.117713,
+    "longitude": 120.627487,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4611,7 +4635,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4770,8 +4795,8 @@
     "city": "台中市",
     "district": "大里區",
     "address": "台中市大里區國光路一段258號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.09444,
+    "longitude": 120.688065,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4859,7 +4884,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -4890,8 +4916,8 @@
     "city": "台中市",
     "district": "潭子區",
     "address": "台中市潭子區勝利路140號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.210345,
+    "longitude": 120.700872,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -4979,7 +5005,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5130,8 +5157,8 @@
     "city": "台中市",
     "district": "豐原區",
     "address": "台中市豐原區豐原大道一段",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.24806,
+    "longitude": 120.703109,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": true,
@@ -5219,7 +5246,8 @@
       "summaryTags": [
         "公立運動中心",
         "候選",
-        "待官方查證"
+        "待官方查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5250,8 +5278,8 @@
     "city": "台中市",
     "district": "太平區",
     "address": "台中市太平區坪林森林公園",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.148559,
+    "longitude": 120.730402,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -5347,7 +5375,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5378,8 +5407,8 @@
     "city": "台南市",
     "district": "中西區",
     "address": "台南市中西區中華西路二段30號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.002817,
+    "longitude": 120.186896,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -5483,7 +5512,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5514,8 +5544,8 @@
     "city": "高雄市",
     "district": "鳳山區",
     "address": "高雄市鳳山區光華路68號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.620299,
+    "longitude": 120.353082,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -5611,7 +5641,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5642,8 +5673,8 @@
     "city": "高雄市",
     "district": "苓雅區",
     "address": "高雄市苓雅區中正一路96號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.626948,
+    "longitude": 120.338369,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -5731,7 +5762,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5762,8 +5794,8 @@
     "city": "高雄市",
     "district": "大寮區",
     "address": "高雄市大寮區進學路151號 （輔英科技大學體育館）",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.605445,
+    "longitude": 120.393787,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -5851,7 +5883,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -5882,8 +5915,8 @@
     "city": "高雄市",
     "district": "左營區",
     "address": "高雄市左營區世運大道100號 （高雄世運主場館內）",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.700877,
+    "longitude": 120.297482,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -5971,7 +6004,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6002,8 +6036,8 @@
     "city": "高雄市",
     "district": "美濃區",
     "address": "高雄市美濃區中正路一段191號 （美濃國中體育館）",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.893883,
+    "longitude": 120.543339,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6091,7 +6125,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6122,8 +6157,8 @@
     "city": "高雄市",
     "district": "前鎮區",
     "address": "高雄市前鎮區班超路63號 （瑞祥高中活動中心）",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.601664,
+    "longitude": 120.323956,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6211,7 +6246,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6242,8 +6278,8 @@
     "city": "高雄市",
     "district": "鹽埕區",
     "address": "高雄市鹽埕區新樂街46號 （鹽埕國中體育館）",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.623511,
+    "longitude": 120.288421,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6331,7 +6367,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6362,8 +6399,8 @@
     "city": "高雄市",
     "district": "前金區",
     "address": "高雄市前金區大同二路61號 （前金國小活動中心）",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.625964,
+    "longitude": 120.294074,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6459,7 +6496,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6490,8 +6528,8 @@
     "city": "高雄市",
     "district": "岡山區",
     "address": "高雄市岡山區中山南路169號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.78311,
+    "longitude": 120.29888,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6579,7 +6617,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6730,8 +6769,8 @@
     "city": "高雄市",
     "district": "楠梓區",
     "address": "高雄市楠梓區旗楠路168號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.734226,
+    "longitude": 120.331046,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6819,7 +6858,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6850,8 +6890,8 @@
     "city": "基隆市",
     "district": "仁愛區",
     "address": "基隆市仁愛區獅球路8-1號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.124844,
+    "longitude": 121.738131,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -6939,7 +6979,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -6970,8 +7011,8 @@
     "city": "新竹市",
     "district": "東區",
     "address": "新竹市東區光復路一段89巷90號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.781378,
+    "longitude": 121.019488,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7059,7 +7100,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7090,8 +7132,8 @@
     "city": "新竹市",
     "district": "北區",
     "address": "新竹市北區竹光路325號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.813138,
+    "longitude": 120.959419,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7179,7 +7221,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7210,8 +7253,8 @@
     "city": "新竹縣",
     "district": "竹北市",
     "address": "新竹縣竹北市莊敬南路18號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.820823,
+    "longitude": 121.022117,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7299,7 +7342,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7330,8 +7374,8 @@
     "city": "新竹縣",
     "district": "竹東鎮",
     "address": "新竹縣竹東鎮至善路51號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.717712,
+    "longitude": 121.092635,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7419,7 +7463,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7450,8 +7495,8 @@
     "city": "彰化縣",
     "district": "彰化市",
     "address": "彰化縣彰化市建國東路2號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.094931,
+    "longitude": 120.554401,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7539,7 +7584,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7570,8 +7616,8 @@
     "city": "彰化縣",
     "district": "員林市",
     "address": "彰化縣員林市員林大道二段235號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.949165,
+    "longitude": 120.583169,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7659,7 +7705,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7810,8 +7857,8 @@
     "city": "雲林縣",
     "district": "斗六市",
     "address": "雲林縣斗六市莊敬路353號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.703304,
+    "longitude": 120.543326,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -7899,7 +7946,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -7930,8 +7978,8 @@
     "city": "嘉義市",
     "district": "東區",
     "address": "嘉義市東區彌陀路327巷15號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.471965,
+    "longitude": 120.462642,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8019,7 +8067,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8050,8 +8099,8 @@
     "city": "屏東縣",
     "district": "屏東市",
     "address": "屏東縣屏東市勝利東路50號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.677778,
+    "longitude": 120.495952,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8139,7 +8188,8 @@
       "summaryTags": [
         "公立運動中心",
         "計時候選",
-        "待查證"
+        "待查證",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8170,8 +8220,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區松江路237號2F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.060915,
+    "longitude": 121.533082,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8259,7 +8309,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8290,8 +8341,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區復興南路一段2號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.046262,
+    "longitude": 121.54383,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8379,7 +8430,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8410,8 +8462,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區南京東路二段125號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.051943,
+    "longitude": 121.533935,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8507,7 +8559,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8538,8 +8591,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "台北市中山區南京東路二段97號B1F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.052148,
+    "longitude": 121.528975,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8635,7 +8688,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8666,8 +8720,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區南京東路二段8號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.051943,
+    "longitude": 121.533935,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -8755,7 +8809,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -8906,8 +8961,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區民生東路一段29號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.058058,
+    "longitude": 121.525266,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9003,7 +9058,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9034,8 +9090,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區中山北路一段33巷25號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.048975,
+    "longitude": 121.521325,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9123,7 +9179,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9154,8 +9211,8 @@
     "city": "台北市",
     "district": "中山區",
     "address": "臺北市中山區林森北路381號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.050598,
+    "longitude": 121.524944,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9243,7 +9300,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9274,8 +9332,8 @@
     "city": "台北市",
     "district": "中正區",
     "address": "臺北市中正區仁愛路一段38號1樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.038331,
+    "longitude": 121.520446,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9363,7 +9421,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9394,8 +9453,8 @@
     "city": "台北市",
     "district": "信義區",
     "address": "臺北市信義區松仁路89號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.023246,
+    "longitude": 121.57026,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9483,7 +9542,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9514,8 +9574,8 @@
     "city": "台北市",
     "district": "內湖區",
     "address": "台北市內湖區文德路108號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.078588,
+    "longitude": 121.581592,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9603,7 +9663,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9634,8 +9695,8 @@
     "city": "台北市",
     "district": "大同區",
     "address": "臺北市大同區南京西路76號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.05239,
+    "longitude": 121.521448,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9723,7 +9784,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9754,8 +9816,8 @@
     "city": "台北市",
     "district": "大同區",
     "address": "臺北市大同區鄭州路119號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.050463,
+    "longitude": 121.509362,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9843,7 +9905,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9874,8 +9937,8 @@
     "city": "台北市",
     "district": "大安區",
     "address": "台北市大安區和平東路一段91號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.027016,
+    "longitude": 121.524177,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -9963,7 +10026,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -9994,8 +10058,8 @@
     "city": "台北市",
     "district": "大安區",
     "address": "臺北市大安區復興南路一段380號B1,B2",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.043331,
+    "longitude": 121.543892,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10083,7 +10147,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10114,8 +10179,8 @@
     "city": "台北市",
     "district": "大安區",
     "address": "臺北市大安區光復南路549號1F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.043203,
+    "longitude": 121.557659,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10211,7 +10276,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10242,8 +10308,8 @@
     "city": "台北市",
     "district": "大安區",
     "address": "台北市大安區信義路二段186號6樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.034774,
+    "longitude": 121.525512,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10331,7 +10397,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10362,8 +10429,8 @@
     "city": "台北市",
     "district": "大安區",
     "address": "臺北市大安區敦化南路二段59號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.028922,
+    "longitude": 121.548515,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10451,7 +10518,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10482,8 +10550,8 @@
     "city": "台北市",
     "district": "文山區",
     "address": "臺北市文山區興隆路三段71號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.999984,
+    "longitude": 121.556322,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10579,7 +10647,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10610,8 +10679,8 @@
     "city": "台北市",
     "district": "松山區",
     "address": "臺北市松山區市民大道六段131號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.049356,
+    "longitude": 121.570579,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10707,7 +10776,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10738,8 +10808,8 @@
     "city": "台北市",
     "district": "松山區",
     "address": "臺北市松山區民生東路三段128號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.057649,
+    "longitude": 121.548898,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10827,7 +10897,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10858,8 +10929,8 @@
     "city": "台北市",
     "district": "松山區",
     "address": "台北市松山區民生東路四段45號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.058175,
+    "longitude": 121.553663,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -10947,7 +11018,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -10978,8 +11050,8 @@
     "city": "新北市",
     "district": "中和區",
     "address": "新北市中和區景平路690號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.990628,
+    "longitude": 121.521653,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11067,7 +11139,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11098,8 +11171,8 @@
     "city": "新北市",
     "district": "中和區",
     "address": "新北市中和區復興路268號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.989903,
+    "longitude": 121.505281,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11187,7 +11260,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11218,8 +11292,8 @@
     "city": "新北市",
     "district": "中和區",
     "address": "新北市中和區中山路二段122號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.003711,
+    "longitude": 121.502776,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11307,7 +11381,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11338,8 +11413,8 @@
     "city": "新北市",
     "district": "新店區",
     "address": "新北市新店區北新路二段128號4F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.962891,
+    "longitude": 121.512778,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11435,7 +11510,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11466,8 +11542,8 @@
     "city": "新北市",
     "district": "新莊區",
     "address": "新北市新莊區中正路347巷10號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.034541,
+    "longitude": 121.44714,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11555,7 +11631,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11714,8 +11791,8 @@
     "city": "新北市",
     "district": "板橋區",
     "address": "新北市板橋區雙十路三段31號3F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.030363,
+    "longitude": 121.471657,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11811,7 +11888,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11842,8 +11920,8 @@
     "city": "新北市",
     "district": "永和區",
     "address": "新北市永和區民權路80號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.99827,
+    "longitude": 121.52008,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -11931,7 +12009,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -11962,8 +12041,8 @@
     "city": "新北市",
     "district": "永和區",
     "address": "新北市永和區中正路316號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.994879,
+    "longitude": 121.51344,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12059,7 +12138,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12090,8 +12170,8 @@
     "city": "新北市",
     "district": "汐止區",
     "address": "新北市汐止區新台五路一段208號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.062745,
+    "longitude": 121.655396,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12179,7 +12259,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12210,8 +12291,8 @@
     "city": "新北市",
     "district": "蘆洲區",
     "address": "新北市蘆洲區中原路5巷9號一樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.083282,
+    "longitude": 121.461559,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12307,7 +12388,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12338,8 +12420,8 @@
     "city": "基隆市",
     "district": "中山區",
     "address": "基隆市中山區中山一路16-1號3樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.131201,
+    "longitude": 121.737605,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12427,7 +12509,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12458,8 +12541,8 @@
     "city": "基隆市",
     "district": "仁愛區",
     "address": "基隆市仁愛區愛三路62號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.128251,
+    "longitude": 121.742545,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12547,7 +12630,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12578,8 +12662,8 @@
     "city": "基隆市",
     "district": "信義區",
     "address": "基隆市信義區孝東路92號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.128055,
+    "longitude": 121.774995,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12667,7 +12751,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12698,8 +12783,8 @@
     "city": "桃園市",
     "district": "龜山區",
     "address": "桃園市龜山區文化二路52巷65號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.056388,
+    "longitude": 121.366212,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12787,7 +12872,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12818,8 +12904,8 @@
     "city": "新竹市",
     "district": "東區",
     "address": "新竹市東區食品路27號B1-2",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.798784,
+    "longitude": 120.978953,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -12915,7 +13001,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -12946,8 +13033,8 @@
     "city": "新竹市",
     "district": "東區",
     "address": "新竹市東區光復路一段270號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.781378,
+    "longitude": 121.019488,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13035,7 +13122,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13066,8 +13154,8 @@
     "city": "台中市",
     "district": "北區",
     "address": "臺中市北區漢口路四段35號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.166982,
+    "longitude": 120.675692,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": true,
@@ -13155,7 +13243,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13186,8 +13275,8 @@
     "city": "台中市",
     "district": "北區",
     "address": "臺中市北區中清路一段100號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.168332,
+    "longitude": 120.672891,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13275,7 +13364,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13306,8 +13396,8 @@
     "city": "台中市",
     "district": "北區",
     "address": "臺中市北區崇德路一段631號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.165961,
+    "longitude": 120.684583,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13395,7 +13485,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13426,8 +13517,8 @@
     "city": "台中市",
     "district": "北區",
     "address": "臺中市北區陝西路47號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.169869,
+    "longitude": 120.668308,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13515,7 +13606,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13546,8 +13638,8 @@
     "city": "台中市",
     "district": "北屯區",
     "address": "臺中市北屯區東山路一段50-18號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.170055,
+    "longitude": 120.700838,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13635,7 +13727,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13666,8 +13759,8 @@
     "city": "台中市",
     "district": "南區",
     "address": "臺中市南區學府路135巷6號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.128432,
+    "longitude": 120.673875,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13763,7 +13856,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13794,8 +13888,8 @@
     "city": "台中市",
     "district": "南區",
     "address": "臺中市南區合作街46號/正義街99號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.130255,
+    "longitude": 120.681166,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -13883,7 +13977,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -13914,8 +14009,8 @@
     "city": "台中市",
     "district": "大里區",
     "address": "臺中市大里區爽文路1128號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.115657,
+    "longitude": 120.674368,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14011,7 +14106,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14042,8 +14138,8 @@
     "city": "台中市",
     "district": "大里區",
     "address": "台中市大里區國光路二段405-2號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.102591,
+    "longitude": 120.681927,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14131,7 +14227,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14162,8 +14259,8 @@
     "city": "台中市",
     "district": "大里區",
     "address": "臺中市大里區仁化路585號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.094378,
+    "longitude": 120.715211,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14251,7 +14348,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14282,8 +14380,8 @@
     "city": "台中市",
     "district": "大里區",
     "address": "臺中市大里區科技路176號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.085211,
+    "longitude": 120.695346,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14379,7 +14477,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14410,8 +14509,8 @@
     "city": "台中市",
     "district": "太平區",
     "address": "臺中市太平區振福路599號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.154734,
+    "longitude": 120.710317,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14499,7 +14598,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14530,8 +14630,8 @@
     "city": "台中市",
     "district": "沙鹿區",
     "address": "臺中市沙鹿區鎮南路二段358號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.233541,
+    "longitude": 120.563636,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14619,7 +14719,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14650,8 +14751,8 @@
     "city": "台中市",
     "district": "沙鹿區",
     "address": "臺中市沙鹿區北中六街139號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.228349,
+    "longitude": 120.570714,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14747,7 +14848,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14778,8 +14880,8 @@
     "city": "台中市",
     "district": "西區",
     "address": "臺中市西區公益路126號2F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.150847,
+    "longitude": 120.660253,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14867,7 +14969,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -14898,8 +15001,8 @@
     "city": "台中市",
     "district": "西區",
     "address": "臺中市西區民生路195號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.138423,
+    "longitude": 120.676141,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -14995,7 +15098,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -15026,8 +15130,8 @@
     "city": "台中市",
     "district": "西區",
     "address": "臺中市西區民權路219號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.141379,
+    "longitude": 120.675917,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -15131,7 +15235,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -15410,8 +15515,8 @@
     "city": "台中市",
     "district": "西屯區",
     "address": "臺中市西屯區市政北七路175-2號2F",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.163423,
+    "longitude": 120.64397,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -15499,7 +15604,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -15530,8 +15636,8 @@
     "city": "台中市",
     "district": "西屯區",
     "address": "臺中市西屯區福順路829號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.185856,
+    "longitude": 120.611977,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -15619,7 +15725,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -15650,8 +15757,8 @@
     "city": "台中市",
     "district": "西屯區",
     "address": "臺中市西屯區福康路89號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.183018,
+    "longitude": 120.616626,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -15739,7 +15846,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -15770,8 +15878,8 @@
     "city": "台中市",
     "district": "西屯區",
     "address": "臺中市西屯區西屯路三段166-57號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.190045,
+    "longitude": 120.613124,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -15867,7 +15975,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -15898,8 +16007,8 @@
     "city": "台中市",
     "district": "豐原區",
     "address": "臺中市豐原區豐勢路一段139號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.25886,
+    "longitude": 120.732445,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -15987,7 +16096,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16018,8 +16128,8 @@
     "city": "彰化縣",
     "district": "員林市",
     "address": "彰化縣員林市育英路2號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.964093,
+    "longitude": 120.574045,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16107,7 +16217,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16138,8 +16249,8 @@
     "city": "彰化縣",
     "district": "員林市",
     "address": "彰化縣員林市員林大道一段42號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.949676,
+    "longitude": 120.570664,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16227,7 +16338,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16258,8 +16370,8 @@
     "city": "彰化縣",
     "district": "彰化市",
     "address": "彰化縣彰化市中正路二段117號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.072955,
+    "longitude": 120.53633,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16347,7 +16459,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16498,8 +16611,8 @@
     "city": "彰化縣",
     "district": "福興鄉",
     "address": "彰化縣福興鄉彰鹿路七段654號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.048967,
+    "longitude": 120.440391,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16587,7 +16700,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16618,8 +16732,8 @@
     "city": "彰化縣",
     "district": "秀水鄉",
     "address": "彰化縣秀水鄉彰水路一段22號2樓&3樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.051786,
+    "longitude": 120.512329,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16707,7 +16821,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16738,8 +16853,8 @@
     "city": "南投縣",
     "district": "埔里鎮",
     "address": "南投縣埔里鎮中正路633號2樓",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.925875,
+    "longitude": 120.985514,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16827,7 +16942,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16858,8 +16974,8 @@
     "city": "南投縣",
     "district": "埔里鎮",
     "address": "南投縣埔里鎮東榮路209號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.965628,
+    "longitude": 120.969771,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -16955,7 +17071,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -16986,8 +17103,8 @@
     "city": "南投縣",
     "district": "草屯鎮",
     "address": "南投縣草屯鎮博愛路339號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.982781,
+    "longitude": 120.690239,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17075,7 +17192,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17106,8 +17224,8 @@
     "city": "雲林縣",
     "district": "斗六市",
     "address": "雲林縣斗六市六合街61號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.704543,
+    "longitude": 120.541334,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17195,7 +17313,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17226,8 +17345,8 @@
     "city": "嘉義市",
     "district": "東區",
     "address": "嘉義市東區成仁街176號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.482866,
+    "longitude": 120.45113,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17315,7 +17434,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17346,8 +17466,8 @@
     "city": "嘉義市",
     "district": "西區",
     "address": "嘉義市西區仁愛路220號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.471076,
+    "longitude": 120.442655,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17435,7 +17555,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17466,8 +17587,8 @@
     "city": "嘉義縣",
     "district": "朴子市",
     "address": "嘉義縣朴子市大葛里大糠榔1318號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.464804,
+    "longitude": 120.263093,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17555,7 +17676,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17706,8 +17828,8 @@
     "city": "台南市",
     "district": "善化區",
     "address": "臺南市善化區文化路2號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 23.125831,
+    "longitude": 120.296243,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17795,7 +17917,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17826,8 +17949,8 @@
     "city": "台南市",
     "district": "東區",
     "address": "臺南市東區崇明路589-7號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.97773,
+    "longitude": 120.219989,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -17915,7 +18038,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -17946,8 +18070,8 @@
     "city": "高雄市",
     "district": "前金區",
     "address": "高雄市前金區大同二路61號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.625964,
+    "longitude": 120.294074,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -18035,7 +18159,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -18066,8 +18191,8 @@
     "city": "高雄市",
     "district": "左營區",
     "address": "高雄市左營區新庄仔路395號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.669106,
+    "longitude": 120.308854,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -18155,7 +18280,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -18186,8 +18312,8 @@
     "city": "高雄市",
     "district": "鳳山區",
     "address": "高雄市鳳山區維新路126號",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 22.791418,
+    "longitude": 120.289226,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -18275,7 +18401,8 @@
       "summaryTags": [
         "人工查核",
         "免綁約",
-        "出發前複核"
+        "出發前複核",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -43379,8 +43506,8 @@
     "city": "台北市",
     "district": "文山區",
     "address": "台北市文山區興隆路二段252號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 24.99891,
+    "longitude": 121.546127,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -43477,7 +43604,8 @@
         "官方社群",
         "單次",
         "計時收費",
-        "價格待查"
+        "價格待查",
+        "座標街區約略"
       ]
     },
     "verification": {
@@ -43508,8 +43636,8 @@
     "city": "台北市",
     "district": "萬華區",
     "address": "台北市萬華區漢口街二段73號B1",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 25.045421,
+    "longitude": 121.507868,
     "status": "open",
     "isLargeContractFirstChain": false,
     "isHiddenByDefault": false,
@@ -43606,7 +43734,8 @@
         "官方社群",
         "單次",
         "計時收費",
-        "價格待查"
+        "價格待查",
+        "座標街區約略"
       ]
     },
     "verification": {
