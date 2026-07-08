@@ -66,3 +66,10 @@ test("app uses clear timed-pricing labels in visible gym summaries", async () =>
   assert.equal(app.includes("計時收費"), true);
   assert.equal(app.includes("小時計費"), false);
 });
+
+test("opening a gym detail scrolls the detail panel into view", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("function openGymDetail"), true);
+  assert.equal(/detailPanel\?\.scrollIntoView/.test(app), true);
+});

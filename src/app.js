@@ -126,6 +126,12 @@ function handleLocate() {
   );
 }
 
+function openGymDetail(gymId) {
+  state.selectedGymId = gymId;
+  renderApp();
+  elements.detailPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function recenterMapOnUser() {
   if (mapView.map) {
     mapView.map.setView([state.userLocation.latitude, state.userLocation.longitude], NEIGHBORHOOD_ZOOM);
@@ -171,8 +177,7 @@ function handleDocumentClick(event) {
   }
 
   if (action === "open-detail") {
-    state.selectedGymId = gymId;
-    renderApp();
+    openGymDetail(gymId);
   }
 
   if (action === "close-detail") {
@@ -314,10 +319,11 @@ function renderMap() {
       ${escapeHtml(gym.district)}・${escapeHtml(priceLabel)}<br />
       <button class="map-popup-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
     `);
-    marker.on("click", () => {
-      state.selectedGymId = gym.id;
-      renderList();
-      renderDetail();
+    // Leaflet's popup calls disableClickPropagation, so a click on the popup
+    // button never bubbles to the document listener — wire it directly instead.
+    marker.on("popupopen", (event) => {
+      const button = event.popup.getElement()?.querySelector('[data-action="open-detail"]');
+      button?.addEventListener("click", () => openGymDetail(gym.id), { once: true });
     });
     marker.addTo(mapView.markerLayer);
   });

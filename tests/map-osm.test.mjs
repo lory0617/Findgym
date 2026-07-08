@@ -40,7 +40,7 @@ test("map markers open the gym detail and reuse one Leaflet map instance", async
 
   assert.equal(app.includes("L.map("), true);
   assert.equal(app.includes("fitBounds"), true);
-  assert.equal(/marker\.on\("click"/.test(app), true);
+  assert.equal(app.includes("marker.bindPopup"), true);
 });
 
 test("map opens centered on the user location at a neighborhood zoom", async () => {
@@ -59,6 +59,14 @@ test("map only reframes when the city filter changes, otherwise respects manual 
   assert.equal(app.includes("framedCity"), true);
   // fitBounds must be gated behind the city filter, not the full marker set every render
   assert.equal(app.includes("lastBoundsSignature"), false);
+});
+
+test("map popup detail button opens detail via a direct listener, not document bubbling", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  // Leaflet stops popup clicks from reaching document, so the button must be wired on popupopen
+  assert.equal(/marker\.on\("popupopen"/.test(app), true);
+  assert.equal(app.includes("openGymDetail"), true);
 });
 
 test("map notice is positioned away from Leaflet zoom controls", async () => {
