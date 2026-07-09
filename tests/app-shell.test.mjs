@@ -95,3 +95,18 @@ test("manifest declares an installable maskable icon", async () => {
 
   assert.equal(manifest.icons.some((icon) => String(icon.purpose).includes("maskable")), true);
 });
+
+test("app shell has a saved-gyms panel and nav entry", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  assert.equal(html.includes('id="savedPanel"'), true);
+  assert.equal(html.includes("找收藏"), true);
+});
+
+test("app supports saving gyms with localStorage persistence", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes("toggleSavedId"), true);
+  assert.equal(app.includes("findgymSaved"), true);
+  assert.equal(app.includes('data-action="toggle-saved"'), true);
+  assert.equal(app.includes('action === "open-saved"'), true);
+  assert.equal(app.includes("function renderSaved"), true);
+});

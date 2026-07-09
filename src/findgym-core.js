@@ -368,3 +368,13 @@ export function paginateItems(items, page = 1, pageSize = 10) {
     pageItems: list.slice((safePage - 1) * pageSize, safePage * pageSize)
   };
 }
+
+export function toggleSavedId(savedIds, gymId) {
+  const list = Array.isArray(savedIds) ? savedIds : [];
+
+  if (list.includes(gymId)) {
+    return list.filter((id) => id !== gymId);
+  }
+
+  return [...list, gymId];
+}

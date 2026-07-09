@@ -6,6 +6,7 @@ import {
   hasCoordinates,
   paginateItems,
   rankGyms,
+  toggleSavedId,
   validateReport
 } from "./findgym-core.js";
 
@@ -21,6 +22,7 @@ const elements = {
   resultCount: document.querySelector("#resultCount"),
   detailPanel: document.querySelector("#detailPanel"),
   comparePanel: document.querySelector("#comparePanel"),
+  savedPanel: document.querySelector("#savedPanel"),
   reportPanel: document.querySelector("#reportPanel"),
   locateButton: document.querySelector("#locateButton")
 };
@@ -40,6 +42,8 @@ const state = {
   selectedGymId: null,
   reportGymId: null,
   compareIds: [],
+  savedIds: [],
+  savedOpen: false,
   reportMessage: "",
   userLocation: { latitude: 25.0478, longitude: 121.517 },
   filters: {
@@ -76,6 +80,7 @@ async function init() {
 
     state.gyms = await response.json();
     state.dataStatus = buildDatasetStatus(state.gyms);
+    state.savedIds = getStoredSaved().filter((id) => state.gyms.some((gym) => gym.id === id));
     updateFilteredGyms();
     autoLocateOnLoad();
   } catch (error) {
@@ -201,6 +206,22 @@ function handleDocumentClick(event) {
     renderApp();
   }
 
+  if (action === "toggle-saved") {
+    toggleSaved(gymId);
+    renderApp();
+  }
+
+  if (action === "open-saved") {
+    state.savedOpen = true;
+    renderApp();
+    elements.savedPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  if (action === "close-saved") {
+    state.savedOpen = false;
+    renderApp();
+  }
+
   if (action === "open-report") {
     state.reportGymId = gymId ?? state.selectedGymId ?? "missing_gym";
     state.reportMessage = "";
@@ -264,6 +285,7 @@ function renderApp() {
   renderMap();
   renderList();
   renderDetail();
+  renderSaved();
   renderCompare();
   renderReport();
   renderStatus();
@@ -418,6 +440,7 @@ function renderGymCard(gym) {
   const price = getBestFlexiblePrice(gym);
   const priceLabel = price ? formatPrice(price) : "價格需複核";
   const compared = state.compareIds.includes(gym.id);
+  const saved = state.savedIds.includes(gym.id);
   const distance = formatDistance(distanceKm(state.userLocation, gym));
 
   return `
@@ -448,6 +471,9 @@ function renderGymCard(gym) {
         ${gym.access?.contractNote ? `<p class="price-note">${escapeHtml(gym.access.contractNote)}</p>` : ""}
         <div class="card-actions">
           <button class="primary-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
+          <button class="secondary-button ${saved ? "is-active" : ""}" type="button" data-action="toggle-saved" data-gym-id="${escapeHtml(gym.id)}" aria-pressed="${saved}">
+            ${saved ? "★ 已收藏" : "☆ 收藏"}
+          </button>
           <button class="secondary-button" type="button" data-action="toggle-compare" data-gym-id="${escapeHtml(gym.id)}">
             ${compared ? "移出比較" : "加入比較"}
           </button>
@@ -474,6 +500,7 @@ function renderDetail() {
   const price = getBestFlexiblePrice(gym);
   const priceLabel = price ? formatPrice(price) : "價格需複核";
   const compared = state.compareIds.includes(gym.id);
+  const saved = state.savedIds.includes(gym.id);
 
   elements.detailPanel.classList.add("is-open");
   elements.detailPanel.innerHTML = `
@@ -520,6 +547,9 @@ function renderDetail() {
             ${gym.contact?.mapUrl ? `<a class="primary-button" href="${escapeAttribute(gym.contact.mapUrl)}" target="_blank" rel="noreferrer">導航</a>` : ""}
             ${gym.contact?.phone ? `<a class="secondary-button" href="tel:${escapeAttribute(gym.contact.phone)}">電話</a>` : ""}
             ${gym.contact?.website ? `<a class="secondary-button" href="${escapeAttribute(gym.contact.website)}" target="_blank" rel="noreferrer">網站</a>` : ""}
+            <button class="secondary-button ${saved ? "is-active" : ""}" type="button" data-action="toggle-saved" data-gym-id="${escapeHtml(gym.id)}" aria-pressed="${saved}">
+              ${saved ? "★ 已收藏" : "☆ 收藏"}
+            </button>
             <button class="secondary-button" type="button" data-action="toggle-compare" data-gym-id="${escapeHtml(gym.id)}">
               ${compared ? "移出比較" : "加入比較"}
             </button>
@@ -663,6 +693,74 @@ function toggleCompare(gymId) {
   }
 
   state.compareIds = [...state.compareIds, gymId];
+}
+
+function toggleSaved(gymId) {
+  if (!gymId) {
+    return;
+  }
+
+  state.savedIds = toggleSavedId(state.savedIds, gymId);
+  localStorage.setItem("findgymSaved", JSON.stringify(state.savedIds));
+}
+
+function getStoredSaved() {
+  try {
+    const stored = JSON.parse(localStorage.getItem("findgymSaved") ?? "[]");
+    return Array.isArray(stored) ? stored : [];
+  } catch {
+    return [];
+  }
+}
+
+function renderSaved() {
+  if (!elements.savedPanel) {
+    return;
+  }
+
+  if (!state.savedOpen) {
+    elements.savedPanel.classList.remove("is-open");
+    elements.savedPanel.innerHTML = "";
+    return;
+  }
+
+  const gyms = state.savedIds
+    .map((id) => state.gyms.find((gym) => gym.id === id))
+    .filter(Boolean);
+
+  elements.savedPanel.classList.add("is-open");
+  elements.savedPanel.innerHTML = `
+    <div class="drawer-title-row">
+      <div>
+        <p class="eyebrow">收藏清單</p>
+        <h2>已收藏 ${gyms.length} 間</h2>
+      </div>
+      <button class="text-button" type="button" data-action="close-saved">關閉</button>
+    </div>
+    ${
+      gyms.length === 0
+        ? '<p class="empty-state">還沒有收藏。在健身房卡片上點「☆ 收藏」把備用據點存起來。</p>'
+        : `<div class="saved-list">${gyms.map(renderSavedRow).join("")}</div>`
+    }
+  `;
+}
+
+function renderSavedRow(gym) {
+  const price = getBestFlexiblePrice(gym);
+  const priceLabel = price ? formatPrice(price) : "價格需複核";
+
+  return `
+    <div class="saved-row">
+      <div class="saved-row-body">
+        <strong>${escapeHtml(gym.name)}</strong>
+        <p class="meta">${escapeHtml(gym.city)}${escapeHtml(gym.district)} · ${escapeHtml(priceLabel)}</p>
+      </div>
+      <div class="saved-row-actions">
+        <button class="secondary-button compact-button" type="button" data-action="open-detail" data-gym-id="${escapeHtml(gym.id)}">詳情</button>
+        <button class="text-button" type="button" data-action="toggle-saved" data-gym-id="${escapeHtml(gym.id)}">移除</button>
+      </div>
+    </div>
+  `;
 }
 
 function buildMapIcon(gym) {

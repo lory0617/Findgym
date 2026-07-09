@@ -9,6 +9,7 @@ import {
   isGymOpenNow,
   normalizeQuery,
   paginateItems,
+  toggleSavedId,
   rankGyms,
   validateReport
 } from "../src/findgym-core.js";
@@ -166,4 +167,12 @@ test("paginateItems slices items into pages and clamps the requested page", () =
   const empty = paginateItems([], 1, 10);
   assert.deepEqual(empty.pageItems, []);
   assert.equal(empty.totalPages, 1);
+});
+
+test("toggleSavedId adds a new id and removes an existing one without duplicates", () => {
+  assert.deepEqual(toggleSavedId([], "a"), ["a"]);
+  assert.deepEqual(toggleSavedId(["a", "b"], "c"), ["a", "b", "c"]);
+  assert.deepEqual(toggleSavedId(["a", "b"], "a"), ["b"]);
+  assert.deepEqual(toggleSavedId(["a", "a"], "a"), []);
+  assert.deepEqual(toggleSavedId(undefined, "a"), ["a"]);
 });
