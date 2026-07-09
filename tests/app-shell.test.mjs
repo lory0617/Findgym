@@ -144,3 +144,12 @@ test("app shell has a back-to-top button that scrolls to the top", async () => {
   assert.equal(app.includes("scrollTo"), true);
   assert.equal(app.includes("backToTop"), true);
 });
+
+test("report submit sends to the backend when configured, keeps local fallback", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes("createBackendClient"), true);
+  assert.equal(app.includes("isBackendConfigured"), true);
+  assert.equal(app.includes("backend?.insertReport"), true);
+  // local fallback write remains
+  assert.equal(app.includes('localStorage.setItem("findgymReports"'), true);
+});

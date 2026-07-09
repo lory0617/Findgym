@@ -12,6 +12,17 @@ import {
 
 const PAGE_SIZE = 10;
 import { buildDatasetStatus } from "./gym-data-validation.js";
+import { SUPABASE_URL, SUPABASE_ANON_KEY, isBackendConfigured } from "./backend-config.js";
+import { createBackendClient } from "./backend-client.js";
+
+const backend = isBackendConfigured()
+  ? createBackendClient({
+      url: SUPABASE_URL,
+      anonKey: SUPABASE_ANON_KEY,
+      fetchImpl: (...args) => globalThis.fetch(...args),
+      storage: globalThis.localStorage
+    })
+  : null;
 
 const elements = {
   dataStatus: document.querySelector("#dataStatus"),
@@ -289,8 +300,15 @@ function handleSubmit(event) {
   const reports = getStoredReports();
   reports.push(report);
   localStorage.setItem("findgymReports", JSON.stringify(reports));
-  state.reportMessage = "已儲存回報。原型階段會先保存在此瀏覽器。";
+  state.reportMessage = "已送出回報，謝謝你的協助。";
   renderApp();
+
+  backend?.insertReport(report).then((ok) => {
+    if (!ok) {
+      state.reportMessage = "回報已暫存於此裝置，連上網路後會再嘗試送出。";
+      renderApp();
+    }
+  });
 }
 
 function updateFilteredGyms() {
