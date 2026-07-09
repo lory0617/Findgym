@@ -34,20 +34,33 @@ checkout:
 npm install
 npm run build:web          # assemble the web bundle into www/
 npx cap add android        # generate the Android project
-npx cap add ios            # generate the iOS project (needs CocoaPods)
+npx cap add ios            # generate the iOS project (needs full Xcode + CocoaPods)
+npm run patch:ios          # inject the location Info.plist keys into ios/
 npm run sync               # rebuild www/ and copy into the native projects
 npm run open:android       # open in Android Studio
 npm run open:ios           # open in Xcode
 ```
 
 After any change to the web app, run `npm run sync` before building the native
-apps. Geolocation uses `@capacitor/geolocation`; its Android location
-permissions merge automatically, and iOS needs
-`NSLocationWhenInUseUsageDescription` added to `ios/App/App/Info.plist`.
+apps. Geolocation uses `@capacitor/geolocation`; Android location permissions
+merge automatically, and `npm run patch:ios` adds the iOS
+`NSLocationWhenInUseUsageDescription` string (rerun after regenerating `ios/`).
 
-**Prerequisites** you provide: Android Studio + SDK (Android), Xcode +
-CocoaPods (`brew install cocoapods`, iOS), and paid developer accounts to
-publish — Apple Developer ($99/yr) and Google Play ($25 one-time).
+### iOS prerequisites (you provide)
+
+`pod install` and building require **full Xcode**, not just Command Line
+Tools. After installing Xcode from the Mac App Store:
+
+```bash
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+cd ios/App && pod install    # or: npm run sync
+```
+
+Then open `ios/App/App.xcworkspace` in Xcode, set your signing team, and build.
+
+**Prerequisites** you provide: full Xcode + CocoaPods (`brew install
+cocoapods`) for iOS, Android Studio + SDK for Android, and paid developer
+accounts to publish — Apple Developer ($99/yr) and Google Play ($25 one-time).
 
 ## Local Prototype
 
