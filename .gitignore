@@ -1,2 +1,12 @@
 .DS_Store
 
+# Node / Capacitor
+node_modules/
+
+# Build artifacts
+www/
+
+# Native platform projects — regenerate with `npx cap add android` / `ios`
+# (see README → Native App). They are derived from capacitor.config.json.
+android/
+ios/

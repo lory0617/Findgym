@@ -22,6 +22,33 @@ data are cached, so it opens without a connection (live OpenStreetMap tiles
 still require network). Add it to a phone home screen from the browser's
 "Add to Home Screen" / install prompt.
 
+## Native App (Capacitor)
+
+The same web app is packaged into native iOS/Android apps with
+[Capacitor](https://capacitorjs.com/) — no rewrite; the native shell loads the
+bundled web assets. The native projects (`android/`, `ios/`) are generated from
+`capacitor.config.json` and are git-ignored; regenerate them from a clean
+checkout:
+
+```bash
+npm install
+npm run build:web          # assemble the web bundle into www/
+npx cap add android        # generate the Android project
+npx cap add ios            # generate the iOS project (needs CocoaPods)
+npm run sync               # rebuild www/ and copy into the native projects
+npm run open:android       # open in Android Studio
+npm run open:ios           # open in Xcode
+```
+
+After any change to the web app, run `npm run sync` before building the native
+apps. Geolocation uses `@capacitor/geolocation`; its Android location
+permissions merge automatically, and iOS needs
+`NSLocationWhenInUseUsageDescription` added to `ios/App/App/Info.plist`.
+
+**Prerequisites** you provide: Android Studio + SDK (Android), Xcode +
+CocoaPods (`brew install cocoapods`, iOS), and paid developer accounts to
+publish — Apple Developer ($99/yr) and Google Play ($25 one-time).
+
 ## Local Prototype
 
 Run a static server from the repo root:
