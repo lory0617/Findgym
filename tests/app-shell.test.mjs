@@ -73,3 +73,25 @@ test("opening a gym detail scrolls the detail panel into view", async () => {
   assert.equal(app.includes("function openGymDetail"), true);
   assert.equal(/detailPanel\?\.scrollIntoView/.test(app), true);
 });
+
+test("app registers a service worker so the PWA is installable and works offline", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.equal(app.includes("serviceWorker"), true);
+  assert.equal(/register\((["'])\.\/sw\.js\1\)/.test(app), true);
+});
+
+test("service worker precaches the app shell, map assets, and gym data", async () => {
+  const sw = await readFile(new URL("../sw.js", import.meta.url), "utf8");
+
+  assert.equal(/addEventListener\((["'])install\1/.test(sw), true);
+  assert.equal(/addEventListener\((["'])fetch\1/.test(sw), true);
+  assert.equal(sw.includes("data/gyms.json"), true);
+  assert.equal(sw.includes("leaflet.js"), true);
+});
+
+test("manifest declares an installable maskable icon", async () => {
+  const manifest = JSON.parse(await readFile(new URL("../manifest.webmanifest", import.meta.url), "utf8"));
+
+  assert.equal(manifest.icons.some((icon) => String(icon.purpose).includes("maskable")), true);
+});
