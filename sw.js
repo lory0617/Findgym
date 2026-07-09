@@ -1,7 +1,11 @@
-// Findgym service worker — makes the PWA installable and usable offline.
-// App shell and map assets are cache-first; gym data is network-first so
-// fresh data shows when online but the app still opens offline.
-const CACHE = "findgym-v1";
+// Findgym service worker — installable + offline-capable.
+//
+// The app shell (HTML / JS / CSS / manifest) and gym data are network-first so
+// code and data updates always reach online users; the cache is the offline
+// fallback. Large vendored map assets (Leaflet, marker images) are cache-first
+// since they're versioned and rarely change. Bump CACHE on any change to this
+// strategy to purge stale entries on activate.
+const CACHE = "findgym-v2";
 const CORE = [
   "./",
   "./index.html",
@@ -48,30 +52,35 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Gym data: network-first, fall back to the cached copy offline.
-  if (url.pathname.endsWith("/data/gyms.json")) {
-    event.respondWith(
-      fetch(request)
-        .then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE).then((cache) => cache.put(request, copy));
-          return response;
-        })
-        .catch(() => caches.match(request, { ignoreSearch: true }))
-    );
+  // Vendored map library + images: cache-first (versioned, rarely change).
+  if (url.pathname.includes("/assets/vendor/")) {
+    event.respondWith(cacheFirst(request));
     return;
   }
 
-  // App shell / static assets: cache-first, populate on first network fetch.
-  event.respondWith(
-    caches.match(request, { ignoreSearch: true }).then(
-      (hit) =>
-        hit ||
-        fetch(request).then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE).then((cache) => cache.put(request, copy));
-          return response;
-        })
-    )
-  );
+  // Everything else same-origin — app shell (HTML/JS/CSS) and gym data:
+  // network-first so updates always show online, cache is the offline fallback.
+  event.respondWith(networkFirst(request));
 });
+
+function cacheFirst(request) {
+  return caches.match(request, { ignoreSearch: true }).then(
+    (hit) =>
+      hit ||
+      fetch(request).then((response) => {
+        const copy = response.clone();
+        caches.open(CACHE).then((cache) => cache.put(request, copy));
+        return response;
+      })
+  );
+}
+
+function networkFirst(request) {
+  return fetch(request)
+    .then((response) => {
+      const copy = response.clone();
+      caches.open(CACHE).then((cache) => cache.put(request, copy));
+      return response;
+    })
+    .catch(() => caches.match(request, { ignoreSearch: true }));
+}

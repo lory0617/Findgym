@@ -124,3 +124,12 @@ test("compare and report nav entries open their panels via actions, not bare anc
   assert.equal(/comparePanel\?\.scrollIntoView/.test(app), true);
   assert.equal(/reportPanel\?\.scrollIntoView/.test(app), true);
 });
+
+test("service worker serves the app shell network-first so code updates reach users", async () => {
+  const sw = await readFile(new URL("../sw.js", import.meta.url), "utf8");
+
+  assert.equal(sw.includes("function networkFirst"), true);
+  // vendored map assets stay cache-first; everything else is network-first
+  assert.equal(sw.includes("/assets/vendor/"), true);
+  assert.equal(/CACHE = "findgym-v[2-9]"/.test(sw), true);
+});
