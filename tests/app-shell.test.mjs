@@ -133,3 +133,14 @@ test("service worker serves the app shell network-first so code updates reach us
   assert.equal(sw.includes("/assets/vendor/"), true);
   assert.equal(/CACHE = "findgym-v[2-9]"/.test(sw), true);
 });
+
+test("app shell has a back-to-top button that scrolls to the top", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  assert.equal(html.includes('id="backToTop"'), true);
+  assert.equal(html.includes("回上方"), true);
+
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes('action === "scroll-top"'), true);
+  assert.equal(app.includes("scrollTo"), true);
+  assert.equal(app.includes("backToTop"), true);
+});

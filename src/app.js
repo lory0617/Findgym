@@ -24,7 +24,8 @@ const elements = {
   comparePanel: document.querySelector("#comparePanel"),
   savedPanel: document.querySelector("#savedPanel"),
   reportPanel: document.querySelector("#reportPanel"),
-  locateButton: document.querySelector("#locateButton")
+  locateButton: document.querySelector("#locateButton"),
+  backToTop: document.querySelector("#backToTop")
 };
 
 const NEIGHBORHOOD_ZOOM = 14;
@@ -95,6 +96,14 @@ function bindEvents() {
   elements.locateButton?.addEventListener("click", handleLocate);
   document.addEventListener("click", handleDocumentClick);
   document.addEventListener("submit", handleSubmit);
+  window.addEventListener("scroll", toggleBackToTop, { passive: true });
+  toggleBackToTop();
+}
+
+function toggleBackToTop() {
+  if (elements.backToTop) {
+    elements.backToTop.hidden = window.scrollY < 400;
+  }
 }
 
 function handleFilterChange() {
@@ -181,6 +190,10 @@ function handleDocumentClick(event) {
   }
 
   const { action, gymId } = actionButton.dataset;
+
+  if (action === "scroll-top") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 
   if (action === "set-page") {
     state.page = Number(actionButton.dataset.page);
