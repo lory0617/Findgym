@@ -110,3 +110,17 @@ test("app supports saving gyms with localStorage persistence", async () => {
   assert.equal(app.includes('action === "open-saved"'), true);
   assert.equal(app.includes("function renderSaved"), true);
 });
+
+test("compare and report nav entries open their panels via actions, not bare anchors", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  assert.equal(html.includes('data-action="open-compare"'), true);
+  // the report nav entry triggers the report action instead of only anchoring
+  assert.equal(/找比較/.test(html) && /資料回報/.test(html), true);
+
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes('action === "open-compare"'), true);
+  assert.equal(app.includes("state.compareOpen"), true);
+  // opening a panel from the nav scrolls it into view
+  assert.equal(/comparePanel\?\.scrollIntoView/.test(app), true);
+  assert.equal(/reportPanel\?\.scrollIntoView/.test(app), true);
+});

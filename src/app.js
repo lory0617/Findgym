@@ -42,6 +42,7 @@ const state = {
   selectedGymId: null,
   reportGymId: null,
   compareIds: [],
+  compareOpen: false,
   savedIds: [],
   savedOpen: false,
   reportMessage: "",
@@ -198,11 +199,23 @@ function handleDocumentClick(event) {
 
   if (action === "toggle-compare") {
     toggleCompare(gymId);
+    state.compareOpen = true;
     renderApp();
+  }
+
+  if (action === "open-compare") {
+    state.compareOpen = true;
+    renderApp();
+    elements.comparePanel?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   if (action === "clear-compare") {
     state.compareIds = [];
+    renderApp();
+  }
+
+  if (action === "close-compare") {
+    state.compareOpen = false;
     renderApp();
   }
 
@@ -226,6 +239,7 @@ function handleDocumentClick(event) {
     state.reportGymId = gymId ?? state.selectedGymId ?? "missing_gym";
     state.reportMessage = "";
     renderApp();
+    elements.reportPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   if (action === "close-report") {
@@ -574,14 +588,29 @@ function renderCompare() {
 
   const gyms = state.compareIds.map((id) => state.gyms.find((gym) => gym.id === id)).filter(Boolean);
 
-  if (gyms.length === 0) {
+  if (gyms.length === 0 && !state.compareOpen) {
     elements.comparePanel.classList.remove("is-open");
     elements.comparePanel.innerHTML = "";
     return;
   }
 
-  const rows = buildComparisonRows(gyms);
   elements.comparePanel.classList.add("is-open");
+
+  if (gyms.length === 0) {
+    elements.comparePanel.innerHTML = `
+      <div class="drawer-title-row">
+        <div>
+          <p class="eyebrow">最多比較 3 間</p>
+          <h2>比較清單</h2>
+        </div>
+        <button class="text-button" type="button" data-action="close-compare">關閉</button>
+      </div>
+      <p class="empty-state">還沒有加入比較的健身房。在卡片上點「加入比較」，最多挑 3 間並排比較。</p>
+    `;
+    return;
+  }
+
+  const rows = buildComparisonRows(gyms);
   elements.comparePanel.innerHTML = `
     <div class="drawer-title-row">
       <div>
