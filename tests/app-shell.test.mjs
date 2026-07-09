@@ -153,3 +153,13 @@ test("report submit sends to the backend when configured, keeps local fallback",
   // local fallback write remains
   assert.equal(app.includes('localStorage.setItem("findgymReports"'), true);
 });
+
+test("saved toggle syncs to the backend and load merges cloud saves", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes("mergeSavedIds"), true);
+  assert.equal(app.includes("backend?.addSaved"), true);
+  assert.equal(app.includes("backend?.removeSaved"), true);
+  assert.equal(app.includes("backend?.listSaved"), true);
+  // local persistence remains the source of truth for instant UI
+  assert.equal(app.includes('localStorage.setItem("findgymSaved"'), true);
+});

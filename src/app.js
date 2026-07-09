@@ -14,6 +14,7 @@ const PAGE_SIZE = 10;
 import { buildDatasetStatus } from "./gym-data-validation.js";
 import { SUPABASE_URL, SUPABASE_ANON_KEY, isBackendConfigured } from "./backend-config.js";
 import { createBackendClient } from "./backend-client.js";
+import { mergeSavedIds } from "./saved-store.js";
 
 const backend = isBackendConfigured()
   ? createBackendClient({
@@ -94,6 +95,20 @@ async function init() {
     state.gyms = await response.json();
     state.dataStatus = buildDatasetStatus(state.gyms);
     state.savedIds = getStoredSaved().filter((id) => state.gyms.some((gym) => gym.id === id));
+
+    if (backend) {
+      backend?.listSaved().then((cloudIds) => {
+        const valid = mergeSavedIds(state.savedIds, cloudIds).filter((id) =>
+          state.gyms.some((gym) => gym.id === id)
+        );
+        if (valid.length !== state.savedIds.length) {
+          state.savedIds = valid;
+          localStorage.setItem("findgymSaved", JSON.stringify(state.savedIds));
+          renderApp();
+        }
+      });
+    }
+
     updateFilteredGyms();
     autoLocateOnLoad();
   } catch (error) {
@@ -760,8 +775,15 @@ function toggleSaved(gymId) {
     return;
   }
 
+  const willSave = !state.savedIds.includes(gymId);
   state.savedIds = toggleSavedId(state.savedIds, gymId);
   localStorage.setItem("findgymSaved", JSON.stringify(state.savedIds));
+
+  if (willSave) {
+    backend?.addSaved(gymId);
+  } else {
+    backend?.removeSaved(gymId);
+  }
 }
 
 function getStoredSaved() {
