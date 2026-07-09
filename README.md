@@ -13,6 +13,15 @@ The initial product design is documented in:
 
 - `docs/superpowers/specs/2026-07-06-findgym-mvp-design.md`
 
+## Live Demo
+
+Deployed as an installable PWA on GitHub Pages: **https://lory0617.github.io/Findgym/**
+
+The app is offline-capable via `sw.js` — the app shell, map assets, and gym
+data are cached, so it opens without a connection (live OpenStreetMap tiles
+still require network). Add it to a phone home screen from the browser's
+"Add to Home Screen" / install prompt.
+
 ## Local Prototype
 
 Run a static server from the repo root:
