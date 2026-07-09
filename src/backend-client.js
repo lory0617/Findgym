@@ -64,5 +64,58 @@ export function createBackendClient({ url, anonKey, fetchImpl, storage }) {
     }
   }
 
-  return { ensureSession, insertReport };
+  async function listSaved() {
+    try {
+      const headers = await authHeaders();
+      if (!headers) {
+        return [];
+      }
+      const response = await fetchImpl(`${url}/rest/v1/saved?select=gym_id`, {
+        method: "GET",
+        headers: headers
+      });
+      if (!response.ok) {
+        return [];
+      }
+      const rows = await response.json();
+      return rows.map((row) => row.gym_id);
+    } catch {
+      return [];
+    }
+  }
+
+  async function addSaved(gymId) {
+    try {
+      const headers = await authHeaders();
+      if (!headers) {
+        return false;
+      }
+      const response = await fetchImpl(`${url}/rest/v1/saved`, {
+        method: "POST",
+        headers: { ...headers, Prefer: "resolution=ignore-duplicates,return=minimal" },
+        body: JSON.stringify({ gym_id: gymId })
+      });
+      return response.ok;
+    } catch {
+      return false;
+    }
+  }
+
+  async function removeSaved(gymId) {
+    try {
+      const headers = await authHeaders();
+      if (!headers) {
+        return false;
+      }
+      const response = await fetchImpl(`${url}/rest/v1/saved?gym_id=eq.${encodeURIComponent(gymId)}`, {
+        method: "DELETE",
+        headers: headers
+      });
+      return response.ok;
+    } catch {
+      return false;
+    }
+  }
+
+  return { ensureSession, insertReport, listSaved, addSaved, removeSaved };
 }

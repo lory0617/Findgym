@@ -81,3 +81,33 @@ test("ensureSession returns null on failure without throwing", async () => {
   const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage: makeStorage() });
   assert.equal(await client.ensureSession(), null);
 });
+
+test("listSaved returns gym ids and addSaved/removeSaved hit the saved table", async () => {
+  const calls = [];
+  const fetchImpl = async (url, options) => {
+    calls.push({ url, method: options.method ?? "GET", options });
+    if (url.endsWith("/auth/v1/signup")) return { ok: true, json: async () => ({ access_token: "t" }) };
+    if (url.includes("/rest/v1/saved") && (options.method ?? "GET") === "GET") {
+      return { ok: true, json: async () => [{ gym_id: "a" }, { gym_id: "b" }] };
+    }
+    return { ok: true, json: async () => ({}) };
+  };
+  const storage = makeStorage();
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage });
+
+  assert.deepEqual(await client.listSaved(), ["a", "b"]);
+  assert.equal(await client.addSaved("c"), true);
+  assert.equal(await client.removeSaved("a"), true);
+
+  const del = calls.find((c) => c.method === "DELETE");
+  assert.ok(del.url.includes("gym_id=eq.a"));
+});
+
+test("listSaved returns [] on failure without throwing", async () => {
+  const fetchImpl = async (url) => {
+    if (url.endsWith("/auth/v1/signup")) return { ok: true, json: async () => ({ access_token: "t" }) };
+    throw new Error("offline");
+  };
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage: makeStorage() });
+  assert.deepEqual(await client.listSaved(), []);
+});
