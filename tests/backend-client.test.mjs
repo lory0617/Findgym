@@ -73,3 +73,11 @@ test("insertReport returns false on network error without throwing", async () =>
   const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage: makeStorage() });
   assert.equal(await client.insertReport({ reportType: "other" }), false);
 });
+
+test("ensureSession returns null on failure without throwing", async () => {
+  const fetchImpl = async () => {
+    throw new Error("offline");
+  };
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage: makeStorage() });
+  assert.equal(await client.ensureSession(), null);
+});

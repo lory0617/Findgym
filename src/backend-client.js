@@ -10,21 +10,31 @@ export function createBackendClient({ url, anonKey, fetchImpl, storage }) {
     if (cached) {
       return cached;
     }
-    const response = await fetchImpl(`${url}/auth/v1/signup`, {
-      method: "POST",
-      headers: { apikey: anonKey, "Content-Type": "application/json" },
-      body: JSON.stringify({})
-    });
-    if (!response.ok) {
-      throw new Error("anonymous sign-in failed");
+    try {
+      const response = await fetchImpl(`${url}/auth/v1/signup`, {
+        method: "POST",
+        headers: { apikey: anonKey, "Content-Type": "application/json" },
+        body: JSON.stringify({})
+      });
+      if (!response.ok) {
+        return null;
+      }
+      const data = await response.json();
+      if (!data.access_token) {
+        return null;
+      }
+      storage.setItem(SESSION_KEY, data.access_token);
+      return data.access_token;
+    } catch {
+      return null;
     }
-    const data = await response.json();
-    storage.setItem(SESSION_KEY, data.access_token);
-    return data.access_token;
   }
 
   async function authHeaders() {
     const token = await ensureSession();
+    if (!token) {
+      return null;
+    }
     return {
       apikey: anonKey,
       Authorization: `Bearer ${token}`,
@@ -34,9 +44,13 @@ export function createBackendClient({ url, anonKey, fetchImpl, storage }) {
 
   async function insertReport(report) {
     try {
+      const headers = await authHeaders();
+      if (!headers) {
+        return false;
+      }
       const response = await fetchImpl(`${url}/rest/v1/reports`, {
         method: "POST",
-        headers: { ...(await authHeaders()), Prefer: "return=minimal" },
+        headers: { ...headers, Prefer: "return=minimal" },
         body: JSON.stringify({
           gym_id: report.gymId ?? null,
           report_type: report.reportType,
