@@ -321,6 +321,16 @@ function validateContact(contact, path, errors) {
       errors.push(issue(`${path}.${key}`, `${key} must be a string`));
     }
   });
+
+  ["website", "mapUrl"].forEach((key) => {
+    if (typeof contact[key] === "string" && contact[key].trim() && !/^https?:\/\//i.test(contact[key].trim())) {
+      errors.push(issue(`${path}.${key}`, `${key} must be an http(s) URL`));
+    }
+  });
+
+  if (typeof contact.phone === "string" && contact.phone.trim() && !/^[0-9+#*() -]+$/.test(contact.phone)) {
+    errors.push(issue(`${path}.phone`, "phone contains unsupported characters"));
+  }
 }
 
 function requireString(record, key, basePath, errors) {

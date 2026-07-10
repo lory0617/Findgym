@@ -89,6 +89,45 @@ test("validateGymRecord accepts a complete flexible-access gym", () => {
   assert.deepEqual(result.warnings, []);
 });
 
+test("validateGymRecord rejects a non-http(s) contact website (XSS-by-url defense)", () => {
+  const badWebsite = {
+    ...validGym,
+    id: "taipei-badurl-gym",
+    contact: { ...validGym.contact, website: "javascript:alert(1)" }
+  };
+  const result = validateGymRecord(badWebsite, 0);
+  assert.equal(result.errors.some((issue) => issue.path === "[0].contact.website"), true);
+});
+
+test("validateGymRecord accepts an https contact website", () => {
+  const okWebsite = {
+    ...validGym,
+    id: "taipei-okurl-gym",
+    contact: { ...validGym.contact, website: "https://ok.example" }
+  };
+  const result = validateGymRecord(okWebsite, 0);
+  assert.deepEqual(result.errors, []);
+});
+
+test("validateGymRecord accepts a tel-safe phone but rejects markup in phone", () => {
+  const okPhone = {
+    ...validGym,
+    id: "taipei-okphone-gym",
+    contact: { ...validGym.contact, phone: "02-1234-5678#123" }
+  };
+  assert.deepEqual(validateGymRecord(okPhone, 0).errors, []);
+
+  const badPhone = {
+    ...validGym,
+    id: "taipei-badphone-gym",
+    contact: { ...validGym.contact, phone: "<script>" }
+  };
+  assert.equal(
+    validateGymRecord(badPhone, 0).errors.some((issue) => issue.path === "[0].contact.phone"),
+    true
+  );
+});
+
 test("validateGymDataset rejects duplicate ids and invalid Taiwan coordinates", () => {
   const invalid = {
     ...validGym,

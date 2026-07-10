@@ -193,6 +193,13 @@ test("saved toggle syncs to the backend and load merges cloud saves", async () =
   assert.equal(app.includes("backend?.listSaved"), true);
   // local persistence remains the source of truth for instant UI
   assert.equal(app.includes('localStorage.setItem("findgymSaved"'), true);
+  // session removals are tracked so an in-flight cloud merge cannot resurrect them
+  assert.equal(app.includes("removedSavedIds"), true);
+});
+
+test("detail-panel external links are sanitized against non-http(s) URL schemes", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes("safeExternalUrl"), true);
 });
 
 test("privacy policy page exists and is linked", async () => {

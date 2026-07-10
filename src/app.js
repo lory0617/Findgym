@@ -40,6 +40,10 @@ const elements = {
   backToTop: document.querySelector("#backToTop")
 };
 
+// Gyms the user un-saved during this session. Tracked so an in-flight cloud
+// listSaved() merge cannot resurrect a just-removed save.
+const removedSavedIds = new Set();
+
 const NEIGHBORHOOD_ZOOM = 14;
 const mapView = {
   map: null,
@@ -98,7 +102,7 @@ async function init() {
 
     if (backend) {
       backend?.listSaved().then((cloudIds) => {
-        const valid = mergeSavedIds(state.savedIds, cloudIds).filter((id) =>
+        const valid = mergeSavedIds(state.savedIds, cloudIds, [...removedSavedIds]).filter((id) =>
           state.gyms.some((gym) => gym.id === id)
         );
         if (valid.length !== state.savedIds.length) {
@@ -379,7 +383,10 @@ function handleSubmit(event) {
   renderApp();
 
   backend?.insertReport(report).then((ok) => {
-    if (!ok) {
+    // Only surface the failure if the report context is still open. If the user
+    // closed the panel (close-report clears both fields) the failure is dropped
+    // silently — the report is already saved in localStorage.
+    if (!ok && (state.reportGymId || state.reportMessage)) {
       state.reportMessage = "已在此裝置保存回報；目前無法連上伺服器，請稍後再送出一次。";
       renderApp();
     }
@@ -621,6 +628,9 @@ function renderDetail() {
   const priceLabel = price ? formatPrice(price) : "價格需複核";
   const compared = state.compareIds.includes(gym.id);
   const saved = state.savedIds.includes(gym.id);
+  const mapUrl = safeExternalUrl(gym.contact?.mapUrl ?? "");
+  const websiteUrl = safeExternalUrl(gym.contact?.website ?? "");
+  const telHref = (gym.contact?.phone ?? "").replace(/[^0-9+#*()-]/g, "");
 
   elements.detailPanel.classList.add("is-open");
   elements.detailPanel.innerHTML = `
@@ -664,9 +674,9 @@ function renderDetail() {
             </div>
           </div>
           <div class="drawer-actions detail-cta">
-            ${gym.contact?.mapUrl ? `<a class="primary-button" href="${escapeAttribute(gym.contact.mapUrl)}" target="_blank" rel="noreferrer">導航</a>` : ""}
-            ${gym.contact?.phone ? `<a class="secondary-button" href="tel:${escapeAttribute(gym.contact.phone)}">電話</a>` : ""}
-            ${gym.contact?.website ? `<a class="secondary-button" href="${escapeAttribute(gym.contact.website)}" target="_blank" rel="noreferrer">網站</a>` : ""}
+            ${mapUrl ? `<a class="primary-button" href="${escapeAttribute(mapUrl)}" target="_blank" rel="noreferrer">導航</a>` : ""}
+            ${telHref ? `<a class="secondary-button" href="tel:${escapeAttribute(telHref)}">電話</a>` : ""}
+            ${websiteUrl ? `<a class="secondary-button" href="${escapeAttribute(websiteUrl)}" target="_blank" rel="noreferrer">網站</a>` : ""}
             <button class="secondary-button ${saved ? "is-active" : ""}" type="button" data-action="toggle-saved" data-gym-id="${escapeHtml(gym.id)}" aria-pressed="${saved}">
               ${saved ? "★ 已收藏" : "☆ 收藏"}
             </button>
@@ -840,8 +850,10 @@ function toggleSaved(gymId) {
   localStorage.setItem("findgymSaved", JSON.stringify(state.savedIds));
 
   if (willSave) {
+    removedSavedIds.delete(gymId);
     backend?.addSaved(gymId);
   } else {
+    removedSavedIds.add(gymId);
     backend?.removeSaved(gymId);
   }
 }
@@ -1176,4 +1188,10 @@ function escapeHtml(value) {
 
 function escapeAttribute(value) {
   return escapeHtml(value).replaceAll("`", "&#096;");
+}
+
+// Only allow http(s) URLs through to href attributes — blocks javascript:,
+// data:, and other schemes that would otherwise become stored XSS via a link.
+function safeExternalUrl(value) {
+  return typeof value === "string" && /^https?:\/\//i.test(value.trim()) ? value.trim() : "";
 }

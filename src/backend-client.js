@@ -47,9 +47,20 @@ export function createBackendClient({ url, anonKey, fetchImpl, storage }) {
             writeSession(storage, data);
             return data.access_token;
           }
+          return null;
+        }
+        // Only mint a fresh anonymous identity when the endpoint gave a definitive
+        // auth rejection. On transient failures (5xx/429) keep the stored refresh
+        // token so a later retry can recover this user's cloud saves.
+        if (response.status === 400 || response.status === 401 || response.status === 403) {
+          // fall through to a fresh anonymous sign-in
+        } else {
+          return null;
         }
       } catch {
-        // fall through to a fresh anonymous sign-in
+        // Network error: do not touch the stored session — retry later instead of
+        // orphaning cloud saves behind a brand-new anonymous user.
+        return null;
       }
     }
     try {

@@ -134,3 +134,63 @@ test("ensureSession refreshes an expired token without minting a new anonymous u
   assert.ok(calls.some((u) => u.includes("/auth/v1/token?grant_type=refresh_token")));
   assert.ok(!calls.some((u) => u.endsWith("/auth/v1/signup")));
 });
+
+test("ensureSession keeps the stored refresh token when refresh throws (network blip)", async () => {
+  const calls = [];
+  const fetchImpl = async (url) => {
+    calls.push(url);
+    if (url.includes("/auth/v1/token")) {
+      throw new Error("offline");
+    }
+    return { ok: true, json: async () => ({ access_token: "tok_signup", refresh_token: "r2", expires_in: 3600 }) };
+  };
+  const storage = makeStorage({
+    findgymSession: JSON.stringify({ access_token: "tok_old", refresh_token: "r1", expires_at: 1 })
+  });
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage });
+
+  const token = await client.ensureSession();
+  assert.equal(token, null);
+  assert.ok(!calls.some((u) => u.endsWith("/auth/v1/signup")));
+  assert.equal(JSON.parse(storage.getItem("findgymSession")).refresh_token, "r1");
+});
+
+test("ensureSession keeps the stored refresh token when refresh returns a 5xx", async () => {
+  const calls = [];
+  const fetchImpl = async (url) => {
+    calls.push(url);
+    if (url.includes("/auth/v1/token")) {
+      return { ok: false, status: 503, json: async () => ({}) };
+    }
+    return { ok: true, json: async () => ({ access_token: "tok_signup", refresh_token: "r2", expires_in: 3600 }) };
+  };
+  const storage = makeStorage({
+    findgymSession: JSON.stringify({ access_token: "tok_old", refresh_token: "r1", expires_at: 1 })
+  });
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage });
+
+  const token = await client.ensureSession();
+  assert.equal(token, null);
+  assert.ok(!calls.some((u) => u.endsWith("/auth/v1/signup")));
+  assert.equal(JSON.parse(storage.getItem("findgymSession")).refresh_token, "r1");
+});
+
+test("ensureSession falls through to signup when refresh is definitively rejected (401)", async () => {
+  const calls = [];
+  const fetchImpl = async (url) => {
+    calls.push(url);
+    if (url.includes("/auth/v1/token")) {
+      return { ok: false, status: 401, json: async () => ({}) };
+    }
+    return { ok: true, json: async () => ({ access_token: "tok_signup", refresh_token: "r2", expires_in: 3600 }) };
+  };
+  const storage = makeStorage({
+    findgymSession: JSON.stringify({ access_token: "tok_old", refresh_token: "r1", expires_at: 1 })
+  });
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage });
+
+  const token = await client.ensureSession();
+  assert.equal(token, "tok_signup");
+  assert.ok(calls.some((u) => u.endsWith("/auth/v1/signup")));
+  assert.equal(JSON.parse(storage.getItem("findgymSession")).refresh_token, "r2");
+});
