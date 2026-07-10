@@ -36,15 +36,21 @@ npm run build:web          # assemble the web bundle into www/
 npx cap add android        # generate the Android project
 npx cap add ios            # generate the iOS project (needs full Xcode + CocoaPods)
 npm run patch:ios          # inject the location Info.plist keys into ios/
+npm run patch:android      # inject the location permissions into android/
 npm run sync               # rebuild www/ and copy into the native projects
 npm run open:android       # open in Android Studio
 npm run open:ios           # open in Xcode
 ```
 
 After any change to the web app, run `npm run sync` before building the native
-apps. Geolocation uses `@capacitor/geolocation`; Android location permissions
-merge automatically, and `npm run patch:ios` adds the iOS
-`NSLocationWhenInUseUsageDescription` string (rerun after regenerating `ios/`).
+apps. Geolocation uses `@capacitor/geolocation` via the Capacitor bridge on
+native. The plugin's native permissions are **not** merged automatically, so
+after generating the platform projects you must run `npm run patch:android`
+(adds `ACCESS_COARSE_LOCATION` / `ACCESS_FINE_LOCATION` to
+`AndroidManifest.xml`) and `npm run patch:ios` (adds the iOS
+`NSLocationWhenInUseUsageDescription` string). Rerun both after regenerating
+`android/` or `ios/`. `npm run sync` also runs both patches (skipping any
+platform that is not present).
 
 ### iOS prerequisites (you provide)
 

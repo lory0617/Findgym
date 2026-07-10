@@ -149,14 +149,35 @@ function handleFilterChange() {
   updateFilteredGyms();
 }
 
-function handleLocate() {
+function getCurrentPositionCompat(onSuccess, onError, options) {
+  const native = globalThis.Capacitor?.isNativePlatform?.()
+    ? globalThis.Capacitor?.Plugins?.Geolocation
+    : null;
+
+  if (native) {
+    native
+      .getCurrentPosition({ enableHighAccuracy: options?.enableHighAccuracy ?? false, timeout: options?.timeout ?? 6000 })
+      .then((position) => onSuccess(position))
+      .catch((error) => onError?.(error));
+    return;
+  }
+
   if (!navigator.geolocation) {
+    onError?.(new Error("geolocation unavailable"));
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(onSuccess, (error) => onError?.(error), options);
+}
+
+function handleLocate() {
+  if (!navigator.geolocation && !(globalThis.Capacitor?.isNativePlatform?.() && globalThis.Capacitor?.Plugins?.Geolocation)) {
     state.reportMessage = "此瀏覽器不支援定位，先使用台北車站作為預設位置。";
     renderApp();
     return;
   }
 
-  navigator.geolocation.getCurrentPosition(
+  getCurrentPositionCompat(
     (position) => {
       state.userLocation = {
         latitude: position.coords.latitude,
@@ -190,7 +211,7 @@ function autoLocateOnLoad() {
     return;
   }
 
-  navigator.geolocation.getCurrentPosition(
+  getCurrentPositionCompat(
     (position) => {
       state.userLocation = {
         latitude: position.coords.latitude,

@@ -9,7 +9,9 @@
     "validate": "node scripts/validate-data.mjs data/gyms.json",
     "build:web": "node scripts/build-web.mjs",
     "patch:ios": "node scripts/patch-ios.mjs",
-    "sync": "npm run build:web && cap sync",
+    "patch:android": "node scripts/patch-android.mjs",
+    "patch:native": "node scripts/patch-ios.mjs || true; node scripts/patch-android.mjs || true",
+    "sync": "npm run build:web && cap sync && npm run patch:native",
     "open:ios": "cap open ios",
     "open:android": "cap open android"
   },
