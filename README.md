@@ -62,6 +62,20 @@ Then open `ios/App/App.xcworkspace` in Xcode, set your signing team, and build.
 cocoapods`) for iOS, Android Studio + SDK for Android, and paid developer
 accounts to publish — Apple Developer ($99/yr) and Google Play ($25 one-time).
 
+## Backend (Supabase)
+
+Reports and saved gyms sync to Supabase when configured; the app runs
+local-only until then. To enable:
+
+1. Create a free Supabase project; copy the Project URL and anon key.
+2. In the SQL editor, run `supabase/schema.sql`.
+3. Auth → Providers → enable **Anonymous sign-ins**.
+4. Put the URL + anon key in `src/backend-config.js` (the anon key is public;
+   RLS is the security boundary), then `npm run build:web` and redeploy.
+
+Reports appear in the Supabase table editor under `public.reports`. Until
+step 4, everything falls back to browser `localStorage`.
+
 ## Local Prototype
 
 Run a static server from the repo root:
