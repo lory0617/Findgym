@@ -37,6 +37,7 @@ npx cap add android        # generate the Android project
 npx cap add ios            # generate the iOS project (needs full Xcode + CocoaPods)
 npm run patch:ios          # inject the location Info.plist keys into ios/
 npm run patch:android      # inject the location permissions into android/
+npm run assets:native      # replace the placeholder app icons with the real icon set (from assets-src/)
 npm run sync               # rebuild www/ and copy into the native projects
 npm run open:android       # open in Android Studio
 npm run open:ios           # open in Xcode
@@ -51,6 +52,14 @@ after generating the platform projects you must run `npm run patch:android`
 `NSLocationWhenInUseUsageDescription` string). Rerun both after regenerating
 `android/` or `ios/`. `npm run sync` also runs both patches (skipping any
 platform that is not present).
+
+Freshly generated native projects ship with Capacitor's placeholder logo, so
+after regenerating `android/` or `ios/` you must also run `npm run
+assets:native` (uses [`@capacitor/assets`](https://github.com/ionic-team/capacitor-assets)).
+It rebuilds the iOS `AppIcon.appiconset` and the Android launcher icons
+(including the API-26+ adaptive foreground/background layers) from the master
+art in `assets-src/`. Regenerate that master by re-rasterizing `assets/icon.svg`
+to `assets-src/icon-1024.png` (see `assets-src/`).
 
 ### iOS prerequisites (you provide)
 

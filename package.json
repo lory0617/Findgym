@@ -11,17 +11,19 @@
     "patch:ios": "node scripts/patch-ios.mjs",
     "patch:android": "node scripts/patch-android.mjs",
     "patch:native": "node scripts/patch-ios.mjs || true; node scripts/patch-android.mjs || true",
+    "assets:native": "capacitor-assets generate --assetPath assets-src --ios --android",
     "sync": "npm run build:web && cap sync && npm run patch:native",
     "open:ios": "cap open ios",
     "open:android": "cap open android"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "^7.0.0"
   },
   "dependencies": {
-    "@capacitor/core": "^7.0.0",
     "@capacitor/android": "^7.0.0",
-    "@capacitor/ios": "^7.0.0",
-    "@capacitor/geolocation": "^7.0.0"
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/geolocation": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
   }
 }

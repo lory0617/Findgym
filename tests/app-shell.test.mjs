@@ -93,7 +93,29 @@ test("service worker precaches the app shell, map assets, and gym data", async (
 test("manifest declares an installable maskable icon", async () => {
   const manifest = JSON.parse(await readFile(new URL("../manifest.webmanifest", import.meta.url), "utf8"));
 
+  // a separate entry whose purpose includes "maskable"
   assert.equal(manifest.icons.some((icon) => String(icon.purpose).includes("maskable")), true);
+
+  // raster PNG "any" icons at the sizes Android/Lighthouse expect
+  const png = (size) =>
+    manifest.icons.some(
+      (icon) =>
+        icon.type === "image/png" &&
+        String(icon.sizes) === size &&
+        String(icon.purpose).includes("any")
+    );
+  assert.equal(png("192x192"), true);
+  assert.equal(png("512x512"), true);
+
+  // the maskable entry is its own PNG, not the combined "any maskable" anti-pattern
+  const maskable = manifest.icons.find((icon) => String(icon.purpose).includes("maskable"));
+  assert.equal(maskable.type, "image/png");
+  assert.equal(maskable.purpose, "maskable");
+
+  // iOS "Add to Home Screen" needs a raster apple-touch-icon link
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  assert.equal(/<link[^>]+rel=["']apple-touch-icon["'][^>]*>/.test(html), true);
+  assert.equal(html.includes("./assets/icons/apple-touch-icon.png"), true);
 });
 
 test("app shell has a saved-gyms panel and nav entry", async () => {
