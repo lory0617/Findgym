@@ -320,7 +320,7 @@ function handleSubmit(event) {
 
   backend?.insertReport(report).then((ok) => {
     if (!ok) {
-      state.reportMessage = "回報已暫存於此裝置，連上網路後會再嘗試送出。";
+      state.reportMessage = "已在此裝置保存回報；目前無法連上伺服器，請稍後再送出一次。";
       renderApp();
     }
   });

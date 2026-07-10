@@ -111,3 +111,26 @@ test("listSaved returns [] on failure without throwing", async () => {
   const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage: makeStorage() });
   assert.deepEqual(await client.listSaved(), []);
 });
+
+test("ensureSession refreshes an expired token without minting a new anonymous user", async () => {
+  const calls = [];
+  const fetchImpl = async (url) => {
+    calls.push(url);
+    if (url.includes("/auth/v1/token")) {
+      return { ok: true, json: async () => ({ access_token: "tok_new", refresh_token: "r2", expires_in: 3600 }) };
+    }
+    if (url.endsWith("/auth/v1/signup")) {
+      return { ok: true, json: async () => ({ access_token: "tok_signup", refresh_token: "r1", expires_in: 3600 }) };
+    }
+    return { ok: true, json: async () => ({}) };
+  };
+  const storage = makeStorage({
+    findgymSession: JSON.stringify({ access_token: "tok_old", refresh_token: "r1", expires_at: 1 })
+  });
+  const client = createBackendClient({ url: "https://x.supabase.co", anonKey: "k", fetchImpl, storage });
+
+  const token = await client.ensureSession();
+  assert.equal(token, "tok_new");
+  assert.ok(calls.some((u) => u.includes("/auth/v1/token?grant_type=refresh_token")));
+  assert.ok(!calls.some((u) => u.endsWith("/auth/v1/signup")));
+});

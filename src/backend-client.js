@@ -3,12 +3,54 @@
 // treat the backend as optional. `fetchImpl` and `storage` are injected for
 // testability; the app passes globalThis.fetch and localStorage.
 const SESSION_KEY = "findgymSession";
+const EXPIRY_SKEW_MS = 60000;
+
+function readSession(storage) {
+  try {
+    const raw = storage.getItem(SESSION_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed.access_token === "string" ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeSession(storage, data) {
+  const expiresInMs = (Number(data.expires_in) || 3600) * 1000;
+  storage.setItem(
+    SESSION_KEY,
+    JSON.stringify({
+      access_token: data.access_token,
+      refresh_token: data.refresh_token ?? null,
+      expires_at: Date.now() + expiresInMs
+    })
+  );
+}
 
 export function createBackendClient({ url, anonKey, fetchImpl, storage }) {
   async function ensureSession() {
-    const cached = storage.getItem(SESSION_KEY);
-    if (cached) {
-      return cached;
+    const session = readSession(storage);
+    if (session && session.expires_at && Date.now() < session.expires_at - EXPIRY_SKEW_MS) {
+      return session.access_token;
+    }
+    if (session && session.refresh_token) {
+      try {
+        const response = await fetchImpl(`${url}/auth/v1/token?grant_type=refresh_token`, {
+          method: "POST",
+          headers: { apikey: anonKey, "Content-Type": "application/json" },
+          body: JSON.stringify({ refresh_token: session.refresh_token })
+        });
+        if (response.ok) {
+          const data = await response.json();
+          if (data.access_token) {
+            writeSession(storage, data);
+            return data.access_token;
+          }
+        }
+      } catch {
+        // fall through to a fresh anonymous sign-in
+      }
     }
     try {
       const response = await fetchImpl(`${url}/auth/v1/signup`, {
@@ -23,7 +65,7 @@ export function createBackendClient({ url, anonKey, fetchImpl, storage }) {
       if (!data.access_token) {
         return null;
       }
-      storage.setItem(SESSION_KEY, data.access_token);
+      writeSession(storage, data);
       return data.access_token;
     } catch {
       return null;
