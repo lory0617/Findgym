@@ -5,7 +5,7 @@
 // fallback. Large vendored map assets (Leaflet, marker images) are cache-first
 // since they're versioned and rarely change. Bump CACHE on any change to this
 // strategy to purge stale entries on activate.
-const CACHE = "findgym-v2";
+const CACHE = "findgym-v3";
 const CORE = [
   "./",
   "./index.html",
@@ -68,8 +68,10 @@ function cacheFirst(request) {
     (hit) =>
       hit ||
       fetch(request).then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE).then((cache) => cache.put(request, copy));
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE).then((cache) => cache.put(request, copy));
+        }
         return response;
       })
   );
@@ -78,8 +80,10 @@ function cacheFirst(request) {
 function networkFirst(request) {
   return fetch(request)
     .then((response) => {
-      const copy = response.clone();
-      caches.open(CACHE).then((cache) => cache.put(request, copy));
+      if (response.ok) {
+        const copy = response.clone();
+        caches.open(CACHE).then((cache) => cache.put(request, copy));
+      }
       return response;
     })
     .catch(() => caches.match(request, { ignoreSearch: true }));

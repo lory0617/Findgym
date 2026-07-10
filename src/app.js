@@ -86,7 +86,7 @@ async function init() {
   bindEvents();
 
   try {
-    const response = await fetch("./data/gyms.json", { cache: "no-store" });
+    const response = await fetch("./data/gyms.json");
 
     if (!response.ok) {
       throw new Error(`Failed to load gyms: ${response.status}`);

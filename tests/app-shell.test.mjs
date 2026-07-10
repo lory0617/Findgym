@@ -24,9 +24,10 @@ test("app shell includes directory-style navigation and search controls", async 
   assert.equal(html.includes('name="is24Hours"'), true);
 });
 
-test("app fetches gym data without browser cache during prototype data updates", async () => {
+test("app fetches gym data without forcing no-store so HTTP revalidation works", async () => {
   const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
-  assert.equal(app.includes('fetch("./data/gyms.json", { cache: "no-store" })'), true);
+  assert.equal(app.includes('fetch("./data/gyms.json")'), true);
+  assert.equal(app.includes('cache: "no-store"'), false);
 });
 
 test("app card formatter does not render null price amounts", async () => {
@@ -154,6 +155,14 @@ test("service worker serves the app shell network-first so code updates reach us
   // vendored map assets stay cache-first; everything else is network-first
   assert.equal(sw.includes("/assets/vendor/"), true);
   assert.equal(/CACHE = "findgym-v[2-9]"/.test(sw), true);
+});
+
+test("service worker only caches ok responses", async () => {
+  const sw = await readFile(new URL("../sw.js", import.meta.url), "utf8");
+
+  // both cacheFirst and networkFirst must gate cache.put on response.ok
+  assert.equal((sw.match(/response\.ok/g) ?? []).length >= 2, true);
+  assert.equal(sw.includes("findgym-v3"), true);
 });
 
 test("app shell has a back-to-top button that scrolls to the top", async () => {
