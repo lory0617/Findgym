@@ -124,6 +124,45 @@ function bindEvents() {
   document.addEventListener("submit", handleSubmit);
   window.addEventListener("scroll", toggleBackToTop, { passive: true });
   toggleBackToTop();
+  bindNativeBackButton();
+}
+
+function bindNativeBackButton() {
+  const appPlugin = globalThis.Capacitor?.isNativePlatform?.() ? globalThis.Capacitor?.Plugins?.App : null;
+  if (!appPlugin?.addListener) {
+    return;
+  }
+  appPlugin.addListener("backButton", () => {
+    if (closeTopDrawer()) {
+      return;
+    }
+    appPlugin.exitApp();
+  });
+}
+
+function closeTopDrawer() {
+  if (state.reportGymId || state.reportMessage) {
+    state.reportGymId = null;
+    state.reportMessage = "";
+    renderApp();
+    return true;
+  }
+  if (state.savedOpen) {
+    state.savedOpen = false;
+    renderApp();
+    return true;
+  }
+  if (state.compareOpen) {
+    state.compareOpen = false;
+    renderApp();
+    return true;
+  }
+  if (state.selectedGymId) {
+    state.selectedGymId = null;
+    renderApp();
+    return true;
+  }
+  return false;
 }
 
 function toggleBackToTop() {

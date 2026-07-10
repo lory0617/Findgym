@@ -112,7 +112,20 @@ a {
 
 .app-shell {
   min-height: 100vh;
+  padding: calc(var(--space-4) + env(safe-area-inset-top, 0px)) var(--space-4)
+    calc(var(--space-4) + env(safe-area-inset-bottom, 0px));
+}
+
+.app-footer {
+  margin-top: var(--space-6);
   padding: var(--space-4);
+  text-align: center;
+  font-size: var(--font-sm);
+  color: var(--muted);
+}
+
+.app-footer a {
+  color: var(--muted);
 }
 
 .topbar {
@@ -654,7 +667,7 @@ h3 {
   background: var(--color-card);
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-pill);
-  bottom: 20px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
   box-shadow: var(--shadow-card);
   color: var(--color-text-primary);
   cursor: pointer;
@@ -665,7 +678,7 @@ h3 {
   min-height: 44px;
   padding: 0 16px;
   position: fixed;
-  right: 20px;
+  right: calc(20px + env(safe-area-inset-right, 0px));
   z-index: 1200;
 }
 
@@ -1209,7 +1222,8 @@ h3 {
 
 @media (min-width: 760px) {
   .app-shell {
-    padding: var(--space-6);
+    padding: calc(var(--space-6) + env(safe-area-inset-top, 0px)) var(--space-6)
+      calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
   }
 
   .main-nav {

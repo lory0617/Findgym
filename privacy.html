@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B0B0D" />
+    <title>Findgym 隱私權政策</title>
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --bg: #0B0B0D;
+        --text: #F3F4F6;
+        --muted: #9CA3AF;
+        --accent: #7DD3FC;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, -apple-system, sans-serif;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: calc(40px + env(safe-area-inset-top, 0px)) 20px calc(64px + env(safe-area-inset-bottom, 0px));
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 1.3;
+        margin: 0 0 8px;
+      }
+
+      h2 {
+        font-size: 19px;
+        margin: 40px 0 8px;
+      }
+
+      p {
+        margin: 12px 0;
+      }
+
+      .effective {
+        color: var(--muted);
+        font-size: 14px;
+        margin: 0 0 8px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      .back {
+        display: inline-block;
+        margin-top: 48px;
+        font-size: 14px;
+      }
+
+      footer {
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Findgym 隱私權政策</h1>
+      <p class="effective">生效日期：2026 年 7 月 10 日</p>
+
+      <h2>前言</h2>
+      <p>
+        Findgym 是一款協助你查詢免綁約健身房的工具，讓你更容易找到可以單次入場、計時付費或不需長期合約的場館。本政策說明我們在你使用
+        Findgym（網頁版與 App）時會蒐集哪些資料、如何使用這些資料，以及你可以如何管理它們。
+      </p>
+
+      <h2>位置資訊</h2>
+      <p>
+        只有在你主動允許時，Findgym 才會透過你的裝置取得目前位置，用來顯示附近的健身房並依距離由近到遠排序。你的位置資訊
+        <strong>只會在你的裝置上使用，不會上傳或儲存到我們的伺服器</strong>。你可以隨時在瀏覽器或系統設定中拒絕或撤回定位權限；未授權時，App
+        會改用預設地點運作。
+      </p>
+
+      <h2>收藏與回報資料</h2>
+      <p>
+        你的收藏清單與資料回報預設儲存在你自己的裝置上（瀏覽器或 App 的本地儲存空間）。
+      </p>
+      <p>
+        若你啟用雲端同步功能，回報內容與收藏清單會以<strong>匿名帳號</strong>的形式儲存於我們使用的 Supabase
+        資料庫。這個匿名帳號<strong>不包含姓名、Email 或電話等可辨識個人身分的資訊</strong>。我們僅用這些資料來改善健身房資料的正確性與品質，
+        <strong>不會用於廣告，也不會轉售給第三方</strong>。
+      </p>
+
+      <h2>第三方服務</h2>
+      <p>
+        地圖圖磚由 <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
+        提供。當你的裝置載入地圖圖磚時，你的 IP 位址會傳送至 OpenStreetMap 的伺服器，這部分受其隱私政策約束。
+      </p>
+      <p>
+        雲端同步（若啟用）由 <a href="https://supabase.com/privacy" target="_blank" rel="noreferrer">Supabase</a> 提供。
+      </p>
+      <p>
+        Findgym <strong>沒有廣告、沒有第三方追蹤 SDK，也沒有使用任何分析工具</strong>。
+      </p>
+
+      <h2>資料保留與刪除</h2>
+      <p>
+        儲存在裝置上的本地資料，可以隨時透過清除瀏覽資料或解除安裝 App 來刪除。若你曾啟用雲端同步而在
+        Supabase 留有匿名資料，也可以透過下方聯絡方式與我們聯繫，要求刪除。
+      </p>
+
+      <h2>聯絡方式</h2>
+      <p>
+        對本政策或你的資料有任何疑問，歡迎透過
+        <a href="https://github.com/lory0617/Findgym/issues" target="_blank" rel="noreferrer">GitHub Issues</a>
+        與我們聯繫。
+      </p>
+
+      <h2>政策變更</h2>
+      <p>
+        若本政策有重大變更，我們會更新本頁內容並調整上方的生效日期，建議你不定期回來查看。
+      </p>
+
+      <a class="back" href="./index.html">← 回到 Findgym</a>
+
+      <footer>Findgym · 免綁約健身房查詢工具</footer>
+    </div>
+  </body>
+</html>

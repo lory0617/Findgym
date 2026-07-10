@@ -194,3 +194,31 @@ test("saved toggle syncs to the backend and load merges cloud saves", async () =
   // local persistence remains the source of truth for instant UI
   assert.equal(app.includes('localStorage.setItem("findgymSaved"'), true);
 });
+
+test("privacy policy page exists and is linked", async () => {
+  const privacy = await readFile(new URL("../privacy.html", import.meta.url), "utf8");
+  assert.equal(privacy.includes("隱私權政策"), true);
+  assert.equal(privacy.includes("Supabase"), true);
+  assert.equal(privacy.includes("OpenStreetMap"), true);
+
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  assert.equal(html.includes('href="./privacy.html"'), true);
+
+  const build = await readFile(new URL("../scripts/build-web.mjs", import.meta.url), "utf8");
+  assert.equal(build.includes("privacy.html"), true);
+});
+
+test("native back button closes drawers before exiting", async () => {
+  const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  assert.equal(app.includes("backButton"), true);
+  assert.equal(app.includes("closeTopDrawer"), true);
+  assert.equal(app.includes("exitApp"), true);
+});
+
+test("viewport and fixed chrome respect iOS safe areas", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  assert.equal(html.includes("viewport-fit=cover"), true);
+
+  const styles = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
+  assert.equal((styles.match(/env\(safe-area-inset/g) ?? []).length >= 2, true);
+});

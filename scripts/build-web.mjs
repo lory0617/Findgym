@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 // bundles into the native apps. The repo root stays the GitHub Pages source.
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const out = resolve(root, "www");
-const ASSETS = ["index.html", "manifest.webmanifest", "sw.js", "src", "assets", "data"];
+const ASSETS = ["index.html", "privacy.html", "manifest.webmanifest", "sw.js", "src", "assets", "data"];
 
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });

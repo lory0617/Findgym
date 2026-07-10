@@ -77,6 +77,11 @@ Then open `ios/App/App.xcworkspace` in Xcode, set your signing team, and build.
 cocoapods`) for iOS, Android Studio + SDK for Android, and paid developer
 accounts to publish — Apple Developer ($99/yr) and Google Play ($25 one-time).
 
+Both stores require a public privacy policy URL. Enter
+**https://lory0617.github.io/Findgym/privacy.html** in the privacy-policy field
+in App Store Connect and Google Play Console (the page ships in this repo as
+`privacy.html`).
+
 ## Backend (Supabase)
 
 Reports and saved gyms sync to Supabase when configured; the app runs
