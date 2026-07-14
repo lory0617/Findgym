@@ -112,8 +112,9 @@ a {
 
 .app-shell {
   min-height: 100vh;
+  /* extra bottom padding clears the fixed mobile tab bar */
   padding: calc(var(--space-4) + env(safe-area-inset-top, 0px)) var(--space-4)
-    calc(var(--space-4) + env(safe-area-inset-bottom, 0px));
+    calc(72px + env(safe-area-inset-bottom, 0px));
 }
 
 .app-footer {
@@ -169,20 +170,34 @@ a {
   grid-column: 2;
 }
 
+/* Mobile-first: the four sections live in a fixed bottom tab bar so they are
+   always reachable by thumb. At ≥760px the nav moves back into the topbar. */
 .main-nav {
-  align-items: center;
-  display: none;
-  gap: var(--space-2);
+  align-items: stretch;
+  backdrop-filter: blur(12px);
+  background: rgba(18, 20, 24, 0.94);
+  border-top: 1px solid var(--color-border);
+  bottom: 0;
+  display: flex;
+  gap: 0;
+  justify-content: space-around;
+  left: 0;
+  padding: 6px var(--space-2) calc(6px + env(safe-area-inset-bottom, 0px));
+  position: fixed;
+  right: 0;
+  z-index: 1300;
 }
 
 .main-nav a {
   border: 1px solid transparent;
   border-radius: var(--radius-pill);
   color: var(--color-silver-mid);
+  flex: 1 1 0;
   font-size: var(--font-sm);
   font-weight: 700;
-  min-height: 34px;
-  padding: 8px 12px;
+  min-height: 44px;
+  padding: 10px 4px;
+  text-align: center;
   text-decoration: none;
   transition:
     background var(--duration-fast) var(--ease-standard),
@@ -667,7 +682,8 @@ h3 {
   background: var(--color-card);
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-pill);
-  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  /* clears the fixed mobile tab bar; desktop override below */
+  bottom: calc(76px + env(safe-area-inset-bottom, 0px));
   box-shadow: var(--shadow-card);
   color: var(--color-text-primary);
   cursor: pointer;
@@ -1179,7 +1195,6 @@ h3 {
     align-items: start;
   }
 
-  .main-nav,
   .topbar-actions .compact-button {
     display: none;
   }
@@ -1227,7 +1242,25 @@ h3 {
   }
 
   .main-nav {
-    display: flex;
+    backdrop-filter: none;
+    background: none;
+    border-top: 0;
+    bottom: auto;
+    gap: var(--space-2);
+    left: auto;
+    padding: 0;
+    position: static;
+    right: auto;
+  }
+
+  .main-nav a {
+    flex: 0 0 auto;
+    min-height: 34px;
+    padding: 8px 12px;
+  }
+
+  .back-to-top {
+    bottom: calc(20px + env(safe-area-inset-bottom, 0px));
   }
 
   .filter-panel {

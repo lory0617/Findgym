@@ -229,3 +229,17 @@ test("viewport and fixed chrome respect iOS safe areas", async () => {
   const styles = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
   assert.equal((styles.match(/env\(safe-area-inset/g) ?? []).length >= 2, true);
 });
+
+test("mobile gets a fixed bottom tab bar so all four sections are reachable", async () => {
+  const styles = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
+  const mainNavRule = /\.main-nav\s*\{(?<body>[^}]+)\}/.exec(styles)?.groups?.body ?? "";
+
+  // base (mobile-first) nav is a fixed bottom bar, not hidden
+  assert.equal(mainNavRule.includes("position: fixed"), true);
+  assert.equal(mainNavRule.includes("bottom: 0"), true);
+  assert.equal(mainNavRule.includes("display: none"), false);
+
+  // the small-screen media block must no longer hide .main-nav
+  const smallBlock = styles.slice(styles.indexOf("@media (max-width: 520px)"), styles.indexOf("@media (min-width: 760px)"));
+  assert.equal(smallBlock.includes(".main-nav"), false);
+});
